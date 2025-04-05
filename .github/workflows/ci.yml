@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  pull_request:
+  merge_group:
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  ci:
+    name: CI
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the source code
+        uses: actions/checkout@v4
+
+      - name: Check formatting
+        run: cargo fmt --check
+
+      - name: Authenticate with AWS
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-region: us-west-1
+          role-to-assume: arn:aws:iam::890664054962:role/ci--rust-lang--ci-mirrors
+        if: github.event_name != 'pull_request'
+
+      - name: Run the tool
+        run: "cargo run -- ${{ github.event_name == 'pull_request' && '--skip-upload' || '' }}"
