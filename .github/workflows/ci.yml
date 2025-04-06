@@ -42,7 +42,7 @@ jobs:
     name: Apply to production
     runs-on: ubuntu-latest
     needs: [build]
-    if: github.event_name == 'merge_queue'
+    if: github.event_name == 'merge_group'
 
     permissions:
       id-token: write
