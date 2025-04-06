@@ -28,17 +28,8 @@ impl Storage {
     pub(crate) fn upload_file(&self, path: &str, file: &Path) -> Result<(), Error> {
         match self {
             Storage::ReadOnly(_) => panic!("unsupported in read-only mode"),
-            Storage::ReadWrite(storage) => {
-                storage.runtime.block_on(
-                    storage
-                        .s3
-                        .put_object()
-                        .bucket(&storage.s3_bucket)
-                        .key(path)
-                        .body(storage.runtime.block_on(ByteStream::from_path(file))?)
-                        .send(),
-                )?;
-                Ok(())
+            Storage::ReadWrite(s3) => {
+                s3.put_object(path, s3.runtime.block_on(ByteStream::from_path(file))?)
             }
         }
     }
@@ -46,18 +37,7 @@ impl Storage {
     pub(crate) fn write_contents(&self, path: &str, content: &[u8]) -> Result<(), Error> {
         match self {
             Storage::ReadOnly(_) => panic!("unsupported in read-only mode"),
-            Storage::ReadWrite(storage) => {
-                storage.runtime.block_on(
-                    storage
-                        .s3
-                        .put_object()
-                        .bucket(&storage.s3_bucket)
-                        .key(path)
-                        .body(ByteStream::from(content.to_vec()))
-                        .send(),
-                )?;
-                Ok(())
-            }
+            Storage::ReadWrite(s3) => s3.put_object(path, ByteStream::from(content.to_vec())),
         }
     }
 
@@ -165,6 +145,22 @@ impl S3Storage {
             s3: aws_sdk_s3::Client::new(&config),
             s3_bucket,
         })
+    }
+
+    fn put_object(&self, key: &str, body: ByteStream) -> Result<(), Error> {
+        self.runtime.block_on(
+            self.s3
+                .put_object()
+                .bucket(&self.s3_bucket)
+                .key(key)
+                .body(body)
+                // Prevent overriding an existing file. Note that the IAM policy used to upload
+                // objects in CI *enforces* the present of this line. If you remove it without
+                // first changing the policy, the request will fail.
+                .if_none_match("*")
+                .send(),
+        )?;
+        Ok(())
     }
 }
 
