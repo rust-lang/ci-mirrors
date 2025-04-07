@@ -4,6 +4,9 @@ use crate::storage::{CdnReader, FileStatus, S3Storage, Storage};
 use anyhow::Error;
 use clap::Parser;
 use std::path::PathBuf;
+use std::sync::Arc;
+use tokio::sync::Semaphore;
+use tokio::task::JoinSet;
 
 mod downloader;
 mod manifest;
@@ -26,6 +29,9 @@ struct Cli {
     /// Name of the S3 bucket containing the files.
     #[arg(long, default_value = "rust-lang-ci-mirrors")]
     s3_bucket: String,
+
+    #[arg(short, long, default_value = "100")]
+    jobs: usize,
 }
 
 #[tokio::main]
@@ -33,21 +39,39 @@ async fn main() -> Result<(), Error> {
     let args = Cli::parse();
     let manifest = Manifest::load(&args.manifest)?;
 
-    let storage = if args.skip_upload {
+    let storage = Arc::new(if args.skip_upload {
         Storage::ReadOnly(CdnReader::new(args.cdn_url))
     } else {
         Storage::ReadWrite(S3Storage::new(args.s3_bucket).await?)
-    };
+    });
 
     // Collect all errors that happen during the check phase and show them at the end. This way, if
     // there are multiple errors in CI users won't have to retry the build multiple times.
     let mut errors = Vec::new();
 
-    eprintln!("calculating the changes to execute...");
+    eprintln!(
+        "calculating the changes to execute ({} files, {} parallelism)...",
+        manifest.files.len(),
+        args.jobs
+    );
+
+    // Check the status of all files in parallel.
+    let concurrency_limiter = Arc::new(Semaphore::new(args.jobs));
+    let mut taskset = JoinSet::new();
+    for file in manifest.files {
+        let storage = storage.clone();
+        let concurrency_limiter = concurrency_limiter.clone();
+        taskset.spawn(async move {
+            let _permit = concurrency_limiter.acquire().await.unwrap();
+            let status = storage.file_status(&file.name).await;
+            (file, status)
+        });
+    }
+
     let mut to_upload = Vec::new();
-    for file in &manifest.files {
+    for (file, status) in taskset.join_all().await {
         let name = &file.name;
-        match storage.file_status(&file.name).await? {
+        match status? {
             FileStatus::Legacy => errors.push(format!(
                 "file {name} was already uploaded without this tool"
             )),
