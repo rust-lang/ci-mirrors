@@ -1,4 +1,4 @@
-use crate::manifest::ManifestFile;
+use crate::manifest::{MirrorFile, Source};
 use anyhow::{Error, bail};
 use futures::TryStreamExt as _;
 use reqwest::Client;
@@ -24,10 +24,16 @@ impl Downloader {
         })
     }
 
-    pub(crate) async fn download(&self, file: &ManifestFile) -> Result<(), Error> {
+    pub(crate) async fn download(&self, file: &MirrorFile) -> Result<(), Error> {
+        let url = match &file.source {
+            Source::Url(url) => url,
+            Source::Legacy => bail!("cannot download legacy file {}", file.name),
+        };
+        eprintln!("downloading {url}...");
+
         let mut reader = StreamReader::new(
             self.http
-                .get(file.source.clone())
+                .get(url.clone())
                 .send()
                 .await?
                 .error_for_status()?
@@ -43,7 +49,7 @@ impl Downloader {
         if sha256 != file.sha256 {
             bail!(
                 "the hash of {} doesn't match (expected {}, downloaded {})",
-                file.source,
+                url,
                 file.sha256,
                 sha256
             );
@@ -52,7 +58,7 @@ impl Downloader {
         Ok(())
     }
 
-    pub(crate) fn path_for(&self, file: &ManifestFile) -> PathBuf {
+    pub(crate) fn path_for(&self, file: &MirrorFile) -> PathBuf {
         self.storage.path().join(&file.sha256)
     }
 }
