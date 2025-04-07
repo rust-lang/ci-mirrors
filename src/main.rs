@@ -28,14 +28,15 @@ struct Cli {
     s3_bucket: String,
 }
 
-fn main() -> Result<(), Error> {
+#[tokio::main]
+async fn main() -> Result<(), Error> {
     let args = Cli::parse();
     let manifest = Manifest::load(&args.manifest)?;
 
     let storage = if args.skip_upload {
         Storage::ReadOnly(CdnReader::new(args.cdn_url))
     } else {
-        Storage::ReadWrite(S3Storage::new(args.s3_bucket)?)
+        Storage::ReadWrite(S3Storage::new(args.s3_bucket).await?)
     };
 
     // Collect all errors that happen during the check phase and show them at the end. This way, if
@@ -46,7 +47,7 @@ fn main() -> Result<(), Error> {
     let mut to_upload = Vec::new();
     for file in &manifest.files {
         let name = &file.name;
-        match storage.file_status(&file.name)? {
+        match storage.file_status(&file.name).await? {
             FileStatus::Legacy => errors.push(format!(
                 "file {name} was already uploaded without this tool"
             )),
@@ -62,7 +63,7 @@ fn main() -> Result<(), Error> {
     let downloader = Downloader::new()?;
     for file in &to_upload {
         eprintln!("downloading {}...", file.source);
-        if let Err(err) = downloader.download(&file) {
+        if let Err(err) = downloader.download(&file).await {
             errors.push(format!("{err:?}"));
         }
     }
@@ -82,8 +83,12 @@ fn main() -> Result<(), Error> {
 
     for file in &to_upload {
         eprintln!("uploading {}...", file.name);
-        storage.upload_file(&file.name, &downloader.path_for(file))?;
-        storage.write_contents(&format!("{}.sha256", &file.name), file.sha256.as_bytes())?;
+        storage
+            .upload_file(&file.name, &downloader.path_for(file))
+            .await?;
+        storage
+            .write_contents(&format!("{}.sha256", &file.name), file.sha256.as_bytes())
+            .await?;
     }
 
     Ok(())
