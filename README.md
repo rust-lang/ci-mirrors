@@ -27,6 +27,10 @@ the TOML files in the `files/` directory. Each entry has the following schema:
 * **`sha256`**: the SHA256 of the file to mirror. The upload will fail if the
   mirrored file doesn't match the hash.
 
+* **`license`**: the licensing of the file. This is a *freeform* field: for
+  artifacts built from open source code you should put the license identifier,
+  for everything else you should put a link to the licensing terms.
+
 Once the PR is merged, the file will be available at:
 
 ```

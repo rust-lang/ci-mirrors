@@ -49,6 +49,10 @@ struct ManifestFile {
     #[serde(deserialize_with = "deserialize_url")]
     source: Url,
     sha256: String,
+    // This field is not considered at all by the automation, we just enforce its presence so that
+    // people adding new entries think about the licensing implications.
+    #[expect(unused)]
+    license: String,
 }
 
 fn deserialize_url<'de, D: Deserializer<'de>>(de: D) -> Result<Url, D::Error> {
