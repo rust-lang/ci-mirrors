@@ -1,5 +1,5 @@
 use crate::downloader::Downloader;
-use crate::manifest::Manifest;
+use crate::manifest::load_manifests;
 use crate::storage::{CdnReader, FileStatus, S3Storage, Storage};
 use anyhow::Error;
 use clap::Parser;
@@ -15,8 +15,8 @@ mod storage;
 #[derive(Debug, Parser)]
 struct Cli {
     /// Path to the manifest to synchronize.
-    #[arg(default_value = "files.toml")]
-    manifest: PathBuf,
+    #[arg(default_value = "files/")]
+    manifests_dir: PathBuf,
 
     /// Only check which changes are needed (no credentials required).
     #[arg(long)]
@@ -37,7 +37,7 @@ struct Cli {
 #[tokio::main]
 async fn main() -> Result<(), Error> {
     let args = Cli::parse();
-    let manifest = Manifest::load(&args.manifest)?;
+    let files = load_manifests(&args.manifests_dir)?;
 
     let storage = Arc::new(if args.skip_upload {
         Storage::ReadOnly(CdnReader::new(args.cdn_url))
@@ -51,14 +51,14 @@ async fn main() -> Result<(), Error> {
 
     eprintln!(
         "calculating the changes to execute ({} files, {} parallelism)...",
-        manifest.files.len(),
+        files.len(),
         args.jobs
     );
 
     // Check the status of all files in parallel.
     let concurrency_limiter = Arc::new(Semaphore::new(args.jobs));
     let mut taskset = JoinSet::new();
-    for file in manifest.files {
+    for file in files {
         let storage = storage.clone();
         let concurrency_limiter = concurrency_limiter.clone();
         taskset.spawn(async move {

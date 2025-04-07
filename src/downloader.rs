@@ -1,4 +1,4 @@
-use crate::manifest::ManifestFile;
+use crate::manifest::MirrorFile;
 use anyhow::{Error, bail};
 use futures::TryStreamExt as _;
 use reqwest::Client;
@@ -24,7 +24,7 @@ impl Downloader {
         })
     }
 
-    pub(crate) async fn download(&self, file: &ManifestFile) -> Result<(), Error> {
+    pub(crate) async fn download(&self, file: &MirrorFile) -> Result<(), Error> {
         let mut reader = StreamReader::new(
             self.http
                 .get(file.source.clone())
@@ -52,7 +52,7 @@ impl Downloader {
         Ok(())
     }
 
-    pub(crate) fn path_for(&self, file: &ManifestFile) -> PathBuf {
+    pub(crate) fn path_for(&self, file: &MirrorFile) -> PathBuf {
         self.storage.path().join(&file.sha256)
     }
 }

@@ -34,8 +34,8 @@ jobs:
       - name: Upload files.toml to artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: files-manifest
-          path: files.toml
+          name: files-manifests
+          path: files/
           if-no-files-found: error
 
   apply:

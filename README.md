@@ -13,8 +13,8 @@ The contents of this repository are licensed under either the MIT or the Apache
 
 ## Uploading new files
 
-To upload a new file to ci-mirrors, open a new PR adding a new entry to
-`files.toml`. The new entry must contain:
+To upload a new file to ci-mirrors, open a new PR adding a new entry to one of
+the TOML files in the `files/` directory. Each entry has the following schema:
 
 * **`name`**: the name the file will have on ci-mirrors. It's possible to use
   slashes to define an hierarchy, for example prefixing the name of the file
