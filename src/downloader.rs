@@ -1,11 +1,15 @@
 use crate::manifest::ManifestFile;
 use anyhow::{Error, bail};
-use reqwest::blocking::Client;
+use futures::TryStreamExt as _;
+use reqwest::Client;
 use sha2::{Digest as _, Sha256};
-use std::fs::File;
-use std::io::{BufWriter, Write};
 use std::path::PathBuf;
+use std::pin::Pin;
+use std::task::{Context, Poll};
 use tempfile::TempDir;
+use tokio::fs::File;
+use tokio::io::{AsyncWrite, BufWriter};
+use tokio_util::io::StreamReader;
 
 pub(crate) struct Downloader {
     storage: TempDir,
@@ -20,15 +24,20 @@ impl Downloader {
         })
     }
 
-    pub(crate) fn download(&self, file: &ManifestFile) -> Result<(), Error> {
-        let mut response = self
-            .http
-            .get(file.source.clone())
-            .send()?
-            .error_for_status()?;
+    pub(crate) async fn download(&self, file: &ManifestFile) -> Result<(), Error> {
+        let mut reader = StreamReader::new(
+            self.http
+                .get(file.source.clone())
+                .send()
+                .await?
+                .error_for_status()?
+                .bytes_stream()
+                .map_err(std::io::Error::other),
+        );
 
-        let mut writer = Sha256Writer::new(BufWriter::new(File::create(self.path_for(&file))?));
-        std::io::copy(&mut response, &mut writer)?;
+        let dest = File::create(self.path_for(&file)).await?;
+        let mut writer = Sha256Writer::new(BufWriter::new(dest));
+        tokio::io::copy(&mut reader, &mut writer).await?;
 
         let sha256 = to_hex(writer.sha256.finalize().as_slice());
         if sha256 != file.sha256 {
@@ -56,28 +65,46 @@ fn to_hex(bytes: &[u8]) -> String {
     result
 }
 
-struct Sha256Writer<W: Write> {
+struct Sha256Writer<W: AsyncWrite> {
     sha256: Sha256,
-    writer: W,
+    writer: Pin<Box<W>>,
 }
 
-impl<W: Write> Sha256Writer<W> {
+impl<W: AsyncWrite> Sha256Writer<W> {
     fn new(writer: W) -> Self {
         Self {
             sha256: Sha256::new(),
-            writer,
+            writer: Box::pin(writer),
         }
     }
 }
 
-impl<W: Write> Write for Sha256Writer<W> {
-    fn write(&mut self, buf: &[u8]) -> std::io::Result<usize> {
-        let written = self.writer.write(buf)?;
-        self.sha256.update(&buf[..written]);
-        Ok(written)
+impl<W: AsyncWrite> AsyncWrite for Sha256Writer<W> {
+    fn poll_write(
+        mut self: Pin<&mut Self>,
+        cx: &mut Context<'_>,
+        buf: &[u8],
+    ) -> Poll<Result<usize, std::io::Error>> {
+        match self.writer.as_mut().poll_write(cx, buf) {
+            Poll::Ready(Ok(written)) => {
+                self.sha256.update(&buf[..written]);
+                Poll::Ready(Ok(written))
+            }
+            other => other,
+        }
     }
 
-    fn flush(&mut self) -> std::io::Result<()> {
-        self.writer.flush()
+    fn poll_flush(
+        mut self: Pin<&mut Self>,
+        cx: &mut Context<'_>,
+    ) -> Poll<Result<(), std::io::Error>> {
+        self.writer.as_mut().poll_flush(cx)
+    }
+
+    fn poll_shutdown(
+        mut self: Pin<&mut Self>,
+        cx: &mut Context<'_>,
+    ) -> Poll<Result<(), std::io::Error>> {
+        self.writer.as_mut().poll_shutdown(cx)
     }
 }
