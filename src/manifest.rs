@@ -16,10 +16,17 @@ pub(crate) fn load_manifests(load_from: &Path) -> Result<Vec<MirrorFile>, Error>
                 .with_context(|| format!("failed to read {}", path.display()))?;
 
             for file in manifest.files {
-                result.push(MirrorFile {
-                    name: file.name,
-                    sha256: file.sha256,
-                    source: file.source,
+                result.push(match file {
+                    ManifestFile::Legacy(legacy) => MirrorFile {
+                        name: legacy.name,
+                        sha256: legacy.sha256,
+                        source: Source::Legacy,
+                    },
+                    ManifestFile::Managed(managed) => MirrorFile {
+                        name: managed.name,
+                        sha256: managed.sha256,
+                        source: Source::Url(managed.source),
+                    },
                 });
             }
         } else if path.is_dir() {
@@ -33,7 +40,12 @@ pub(crate) fn load_manifests(load_from: &Path) -> Result<Vec<MirrorFile>, Error>
 pub(crate) struct MirrorFile {
     pub(crate) name: String,
     pub(crate) sha256: String,
-    pub(crate) source: Url,
+    pub(crate) source: Source,
+}
+
+pub(crate) enum Source {
+    Url(Url),
+    Legacy,
 }
 
 #[derive(Debug, Deserialize)]
@@ -43,12 +55,29 @@ struct Manifest {
 }
 
 #[derive(Debug, Deserialize)]
+#[serde(untagged)]
+enum ManifestFile {
+    Legacy(ManifestFileLegacy),
+    Managed(ManifestFileManaged),
+}
+
+#[derive(Debug, Deserialize)]
 #[serde(deny_unknown_fields)]
-struct ManifestFile {
+struct ManifestFileLegacy {
     name: String,
+    sha256: String,
+    #[serde(deserialize_with = "deserialize_true")]
+    #[expect(unused)]
+    legacy: (),
+}
+
+#[derive(Debug, Deserialize)]
+#[serde(deny_unknown_fields)]
+struct ManifestFileManaged {
+    name: String,
+    sha256: String,
     #[serde(deserialize_with = "deserialize_url")]
     source: Url,
-    sha256: String,
     // This field is not considered at all by the automation, we just enforce its presence so that
     // people adding new entries think about the licensing implications.
     #[expect(unused)]
@@ -58,4 +87,13 @@ struct ManifestFile {
 fn deserialize_url<'de, D: Deserializer<'de>>(de: D) -> Result<Url, D::Error> {
     let raw = String::deserialize(de)?;
     Url::parse(&raw).map_err(|e| D::Error::custom(format!("{e:?}")))
+}
+
+fn deserialize_true<'de, D: Deserializer<'de>>(de: D) -> Result<(), D::Error> {
+    let raw = bool::deserialize(de)?;
+    if raw {
+        Ok(())
+    } else {
+        Err(D::Error::custom("must be true"))
+    }
 }

@@ -37,6 +37,12 @@ Once the PR is merged, the file will be available at:
 https://ci-mirrors.rust-lang.org/${name}
 ```
 
+> [!NOTE]
+>
+> Some files are marked with `legacy = true`, and don't have a source nor a
+> license. Those files were added to ci-mirrors before this tool was introduced.
+> No new files should be marked with it.
+
 ## Modifying or deleting an uploaded file
 
 It is not currently supported to modify or delete an uploaded file. Doing so

@@ -86,7 +86,6 @@ async fn main() -> Result<(), Error> {
     // We download eagerly to be able to detect errors during the check phase.
     let downloader = Downloader::new()?;
     for file in &to_upload {
-        eprintln!("downloading {}...", file.source);
         if let Err(err) = downloader.download(&file).await {
             errors.push(format!("{err:?}"));
         }
