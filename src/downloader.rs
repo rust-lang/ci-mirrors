@@ -45,6 +45,8 @@ impl Downloader {
         let mut writer = Sha256Writer::new(BufWriter::new(dest));
         tokio::io::copy(&mut reader, &mut writer).await?;
 
+        eprintln!("  -> success! the size is {}", format_size(writer.len));
+
         let sha256 = to_hex(writer.sha256.finalize().as_slice());
         if sha256 != file.sha256 {
             bail!(
@@ -71,8 +73,20 @@ fn to_hex(bytes: &[u8]) -> String {
     result
 }
 
+fn format_size(size: usize) -> String {
+    let mut size = size as f64;
+    for unit in ["bytes", "kB", "MB", "GB"] {
+        if size / 1000.0 < 1.0 {
+            return format!("{size:.2} {unit}");
+        }
+        size /= 1000.0;
+    }
+    format!("{size:.2} TB")
+}
+
 struct Sha256Writer<W: AsyncWrite> {
     sha256: Sha256,
+    len: usize,
     writer: Pin<Box<W>>,
 }
 
@@ -80,6 +94,7 @@ impl<W: AsyncWrite> Sha256Writer<W> {
     fn new(writer: W) -> Self {
         Self {
             sha256: Sha256::new(),
+            len: 0,
             writer: Box::pin(writer),
         }
     }
@@ -94,6 +109,7 @@ impl<W: AsyncWrite> AsyncWrite for Sha256Writer<W> {
         match self.writer.as_mut().poll_write(cx, buf) {
             Poll::Ready(Ok(written)) => {
                 self.sha256.update(&buf[..written]);
+                self.len += written;
                 Poll::Ready(Ok(written))
             }
             other => other,
