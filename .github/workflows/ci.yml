@@ -31,7 +31,7 @@ jobs:
           path: target/debug/ci-mirrors
           if-no-files-found: error
 
-      - name: Upload files.toml to artifacts
+      - name: Upload TOML files to artifacts
         uses: actions/upload-artifact@v4
         with:
           name: files-manifests
@@ -51,10 +51,16 @@ jobs:
       url: https://ci-mirrors.rust-lang.org
 
     steps:
-      - name: Download artifacts
+      - name: Download the tool
         uses: actions/download-artifact@v4
         with:
-          merge-multiple: true
+          name: tool
+
+      - name: Download TOML files
+        uses: actions/download-artifact@v4
+        with:
+          name: files-manifests
+          path: files/
 
       - name: Authenticate with AWS
         uses: aws-actions/configure-aws-credentials@v4
