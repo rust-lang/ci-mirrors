@@ -1,4 +1,4 @@
-use crate::manifest::ManifestFile;
+use crate::manifest::{MirrorFile, Source};
 use anyhow::{Error, bail};
 use futures::TryStreamExt as _;
 use reqwest::Client;
@@ -24,10 +24,16 @@ impl Downloader {
         })
     }
 
-    pub(crate) async fn download(&self, file: &ManifestFile) -> Result<(), Error> {
+    pub(crate) async fn download(&self, file: &MirrorFile) -> Result<(), Error> {
+        let url = match &file.source {
+            Source::Url(url) => url,
+            Source::Legacy => bail!("cannot download legacy file {}", file.name),
+        };
+        eprintln!("downloading {url}...");
+
         let mut reader = StreamReader::new(
             self.http
-                .get(file.source.clone())
+                .get(url.clone())
                 .send()
                 .await?
                 .error_for_status()?
@@ -39,11 +45,13 @@ impl Downloader {
         let mut writer = Sha256Writer::new(BufWriter::new(dest));
         tokio::io::copy(&mut reader, &mut writer).await?;
 
+        eprintln!("  -> success! the size is {}", format_size(writer.len));
+
         let sha256 = to_hex(writer.sha256.finalize().as_slice());
         if sha256 != file.sha256 {
             bail!(
                 "the hash of {} doesn't match (expected {}, downloaded {})",
-                file.source,
+                url,
                 file.sha256,
                 sha256
             );
@@ -52,7 +60,7 @@ impl Downloader {
         Ok(())
     }
 
-    pub(crate) fn path_for(&self, file: &ManifestFile) -> PathBuf {
+    pub(crate) fn path_for(&self, file: &MirrorFile) -> PathBuf {
         self.storage.path().join(&file.sha256)
     }
 }
@@ -65,8 +73,20 @@ fn to_hex(bytes: &[u8]) -> String {
     result
 }
 
+fn format_size(size: usize) -> String {
+    let mut size = size as f64;
+    for unit in ["bytes", "kB", "MB", "GB"] {
+        if size / 1000.0 < 1.0 {
+            return format!("{size:.2} {unit}");
+        }
+        size /= 1000.0;
+    }
+    format!("{size:.2} TB")
+}
+
 struct Sha256Writer<W: AsyncWrite> {
     sha256: Sha256,
+    len: usize,
     writer: Pin<Box<W>>,
 }
 
@@ -74,6 +94,7 @@ impl<W: AsyncWrite> Sha256Writer<W> {
     fn new(writer: W) -> Self {
         Self {
             sha256: Sha256::new(),
+            len: 0,
             writer: Box::pin(writer),
         }
     }
@@ -88,6 +109,7 @@ impl<W: AsyncWrite> AsyncWrite for Sha256Writer<W> {
         match self.writer.as_mut().poll_write(cx, buf) {
             Poll::Ready(Ok(written)) => {
                 self.sha256.update(&buf[..written]);
+                self.len += written;
                 Poll::Ready(Ok(written))
             }
             other => other,

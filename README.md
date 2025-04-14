@@ -13,8 +13,8 @@ The contents of this repository are licensed under either the MIT or the Apache
 
 ## Uploading new files
 
-To upload a new file to ci-mirrors, open a new PR adding a new entry to
-`files.toml`. The new entry must contain:
+To upload a new file to ci-mirrors, open a new PR adding a new entry to one of
+the TOML files in the `files/` directory. Each entry has the following schema:
 
 * **`name`**: the name the file will have on ci-mirrors. It's possible to use
   slashes to define an hierarchy, for example prefixing the name of the file
@@ -27,11 +27,21 @@ To upload a new file to ci-mirrors, open a new PR adding a new entry to
 * **`sha256`**: the SHA256 of the file to mirror. The upload will fail if the
   mirrored file doesn't match the hash.
 
+* **`license`**: the licensing of the file. This is a *freeform* field: for
+  artifacts built from open source code you should put the license identifier,
+  for everything else you should put a link to the licensing terms.
+
 Once the PR is merged, the file will be available at:
 
 ```
 https://ci-mirrors.rust-lang.org/${name}
 ```
+
+> [!NOTE]
+>
+> Some files are marked with `legacy = true`, and don't have a source nor a
+> license. Those files were added to ci-mirrors before this tool was introduced.
+> No new files should be marked with it.
 
 ## Modifying or deleting an uploaded file
 
