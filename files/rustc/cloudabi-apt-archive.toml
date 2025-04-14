@@ -1,0 +1,2894 @@
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-argdata_0.8-1_all.deb"
+sha256 = "b95bb544f052d7e0a14b582a9cc3363e70c98fcd52a536e8f1c30e66e5213608"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-arpc_0.8-1_all.deb"
+sha256 = "ed1fa2606d7bd845ddb1480d533ec7e291a7df01a262a2b6e84c16b44b538261"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-boost_1.61.0-22_all.deb"
+sha256 = "9cd04bddd976e93a4cec9c152fb6d3e64ebef52bad90ccc5e0997b3e35512d25"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-buddy_2.4-24_all.deb"
+sha256 = "3d72e4cab21ccd88a84dde7ff637eb4b5570c6aea71a37100d1ef8286589869b"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-bzip2_1.0.6-20_all.deb"
+sha256 = "5ddc6c1d2f9de132451e7d123e50166b510c450252e6054ec17af6f709541749"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-c-ares_1.13.0-6_all.deb"
+sha256 = "db10eb2fa9a2f307140b6da26b94fbf5f3c83daf29a885cc6828d3e9b2519ab8"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-c-runtime_1.0-2_all.deb"
+sha256 = "98dc4d8ff665d6244a61a0d9a356596a364221f6b6e8771cb74e854895657995"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-cairo_1.14.8-10_all.deb"
+sha256 = "426814831c1edd30b88ee4b7a6c38c13bda82f3bd266aa52ddf0aa72d2fa7292"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-cairomm_1.12.0-20_all.deb"
+sha256 = "6dcdcbaa442fdfbe7ed07266c0e1cf939d2aea1a06a7856f8d8f5800389e8eab"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-capnproto_0.6.1-4_all.deb"
+sha256 = "c2c06da7b51e842ce842b78b30664c99cc24433f75fc00491eb8b7b7879c514e"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-cloudabi-demo-webserver_0.2-12_all.deb"
+sha256 = "5d718bcf68de1b295499ae90b64e4f49b40792958b3967478c493008dea0e102"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-cloudabi-utils_0.39-1_all.deb"
+sha256 = "6897f106f83f73714004c92b6f0ce95c19fccfa850dd85d86305fe3f7d250c14"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-cloudabi_0.21-1_all.deb"
+sha256 = "77658e9a4ad4a8e7cd9b5a6a8930892858216c110da10ffa17607af4558c6334"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-cloudlibc_0.103-1_all.deb"
+sha256 = "d2136a21c23dc1c7fe39ffabc7f9b0978c5913d2b2d5b767a733e50f74a88b79"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-compiler-rt_5.0.0-2_all.deb"
+sha256 = "a048f61b6adfcb26c06b0d864df589bfae1287ae7087335bca5940fee34cf432"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-cppcoro_0.0.20170824-2_all.deb"
+sha256 = "ed5779ecd7bcb3e3dfa90ad775e101f939373bf9b88ff29c71b487a90191c2cb"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-curl_7.50.3-17_all.deb"
+sha256 = "6a0481759d5f772ee0a38aae1115aa0b818ed2eb20371b860eb9091e1d166899"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-cxx-runtime_1.0-4_all.deb"
+sha256 = "fc62d13b55b2470537dcba6df49afd4e17410aa688990f8dec10fe7ce4a85080"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-db48_4.8.30-7_all.deb"
+sha256 = "77b78f4aef07a0a2ad191fad41223a30c9a00ee97405111f3708f789bab8b9b4"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-django_1.10.4-1_all.deb"
+sha256 = "de576a8b62733d56beb83573135956b1e2d19a872a36c952d0bed2308a4a96f3"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-everything_1.0-37_all.deb"
+sha256 = "590bd45cbb5e4b550f79015495993dfdeba0b4293c1737275b7e1bc22fed4633"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-expat_2.2.5-1_all.deb"
+sha256 = "c687e01ae0f2ae83a25e8c6c5fc20913fca6b476ca908911a53af7b5e530f751"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-flac_1.3.2-6_all.deb"
+sha256 = "5361dda649d31ba0016d71ae117075102b0979fca9d401e27f9edeffd36e3fab"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-flower_0.11-1_all.deb"
+sha256 = "fecb3921a172dfb560a64c0631fa7ba2f69c927d1155c38f1b26199bd73a9563"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-freetype_2.8.1-3_all.deb"
+sha256 = "d9030a4db80f816ba60de2e76b69a24b6bd82f1fa5c9f5ee02efa18c0d871462"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-fribidi_0.19.7-18_all.deb"
+sha256 = "555da1d9fee028bfb152430e16c20b5cb0bfd43ad63a01cd37994644ef423bbf"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-giflib_5.1.4-13_all.deb"
+sha256 = "6af5b906bfcc210191f1ada0d58ee1b3adb4c172966498981e2048a41f812e0f"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-glib_2.50.3-12_all.deb"
+sha256 = "c1d3e25cf935f009eeedf6d5f46f08934c233e2ad3acc9e6bdd4fc75c8982a61"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-gmp_6.1.2-5_all.deb"
+sha256 = "916a7814eeeb2f0c79da44692fb72f36a06f1b54c8876dc8d2c8d79486445fba"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-grpc_1.7.2-2_all.deb"
+sha256 = "e1c88885ec3118de2c52345e9ff8f9434792e8443f90be9d2671d35bd3115ce9"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-http-parser_2.7.1-1_all.deb"
+sha256 = "022e75db3cf9959b2d591bed6329a87cb1d2d55212f6765ff096622ffd92e2d8"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-icu4c_60.1-2_all.deb"
+sha256 = "24b45abcc3bfd347b14885a2faf38572efd9bef6b47c13d4ba852f46646e725e"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-jasper_2.0.14-1_all.deb"
+sha256 = "53b841bf6318289d325efac3fc0862e28d3f8504b7162a3a8a2053ae5c8a6e93"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-jpeg_9.2-17_all.deb"
+sha256 = "7d7d7f47203780dba26c6cab69cbec6c7fda15e228d03388d74b0993d7037816"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-json-c_0.12.1-9_all.deb"
+sha256 = "555087db2dc01b138528920cbb9b3130a1fec515fb42733c2af210e42b3bbc2b"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-jsoncpp_1.8.3-1_all.deb"
+sha256 = "ef10e8898e156ae62b27a1b9a202f5a18a71e40b5ecce905d76fa93955bbe635"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-lcms2_2.9-1_all.deb"
+sha256 = "020e9ee1d8bf4248536a23c1bd287cf023f2a222234e3d40d079cf32d956dd8b"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-leveldb_1.20-8_all.deb"
+sha256 = "fc8b14639cf2db12cab2b28cea8aec8f58a0b146f5ca4991d18a91255e33503c"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libatomic-ops_7.4.0-20_all.deb"
+sha256 = "6219f8c7f5cc94a8a8bf9b2faaf66a2e2c080887aac2ba616e19ce539857d748"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libcroco_0.6.12-2_all.deb"
+sha256 = "8dbea5a0bf723048a84dfd8ea91e65fcdb70a2e957c87e113e101ebef038a18e"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libcxx_5.0.0-5_all.deb"
+sha256 = "8f5fc0526ede0e85e352606e20a932ec04927f1dbccaeb279baa799c7adc18d0"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libcxxabi_5.0.0-4_all.deb"
+sha256 = "5859ad9f6cc39e7b3c706190d8d07ee6f8b7e1301eb36da755dd914e9e02349b"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libebml_1.3.5-1_all.deb"
+sha256 = "1f193d09fcc43064439f633490370f2513eaa0ba968963fde2021fe372288e74"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libevent_2.0.22-29_all.deb"
+sha256 = "a2358db5ca4326a0f05d407f0a55d0bc32931911ce80def39c48299f5a66b9f1"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libexif_0.6.21-34_all.deb"
+sha256 = "c051df174b28834574269491839be20a94719c934e8e6636c1bac57faa74f55b"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libffi_3.2.1-18_all.deb"
+sha256 = "be4e8cefcc8648dfc60d4560f6d0a9e84761c0fc77f091bf2e6e730e21ee16c0"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libgcrypt_1.7.6-6_all.deb"
+sha256 = "0da250361d633ee4e4009fd42b7a1d962b8e53e5c49061454c079fc94d58da39"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libgpg-error_1.27-6_all.deb"
+sha256 = "5d7bcad671d2f966f852278dfa45a7552ce391d8616371465c2ac766aa0fa627"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libid3tag_0.15.1.2-25_all.deb"
+sha256 = "4008bf664750dcadaeebfadfb05d86148ba92ef0c7b90b29bbea7073f01b1da0"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libircclient_1.9-6_all.deb"
+sha256 = "0d59dc7cb7fac42527920e95856e422dc4345c97887377598d0853c107744e2b"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libksba_1.3.5-9_all.deb"
+sha256 = "32421e87b1c16941d76332bd4b3b17376e5cdbeee26f0267a66f7ce899129681"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libmad_0.15.1.2-19_all.deb"
+sha256 = "c88c9da5544cb0bc618b29df84287412df1595294cfed7c18826717ba7546111"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libmatroska_1.4.8-1_all.deb"
+sha256 = "556fe9809cc7660daa9f51585a2a34e35e5e2f6206a4485516f9cb28e895f704"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libmng_2.0.3-23_all.deb"
+sha256 = "07024b2b18affcec374aed7af01c947f5aabdc43024da93a90e2a35864a0ada9"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libogg_1.3.3-1_all.deb"
+sha256 = "66c3e540638766565de3b76b0431116a6c2cb7ac40149c6638d59c427360ba3d"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libpng_1.6.34-3_all.deb"
+sha256 = "9efe5964e48210e698f09767c9e2276d5355158f8098ebdd6560bf94e57f4092"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libressl_2.6.3-1_all.deb"
+sha256 = "b1264252d448df013495165664efdc0888715299f0acdfe95248d4c14c033d7b"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libsamplerate_0.1.9-7_all.deb"
+sha256 = "0aa05c84fe18d42a2e6b2059bd3935ca0a96b0ed55805e9df317ef15662ec209"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libsigcxx_2.10.0-8_all.deb"
+sha256 = "f3bbf5f786e876e4526ade1bbfe4736460333c868972defc5cd13a5c7b4048b1"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libsndfile_1.0.28-1_all.deb"
+sha256 = "0fb8f7c541d683edea480359ddfc1a984e818e6e928bef6b94a3ece57b907e62"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libsodium_1.0.15-1_all.deb"
+sha256 = "e805e374e05f148541f7a76aa9c5314d1663b6bb03ad4bceed4e055a5e1bf5de"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libtasn1_4.12-1_all.deb"
+sha256 = "ccbf7e2dfb4125fc3342a02ef0ee9fc15ccc1b03f41984092813ab46d77d7639"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libtheora_1.1.1-22_all.deb"
+sha256 = "0c323c46df1f9a85bdeaf070b14d7a7521bf99868e7ce807553595e1043c42ec"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libtomcrypt_1.18.0-1_all.deb"
+sha256 = "0abdc8b43904bd694eefd74655b1f3cc9633a1b2f4980ff4ef61c55cfae5367a"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libtomfloat_0.2-20_all.deb"
+sha256 = "0ddf23abd701015eb0d74e2f48d71803d4761d16002af97a16ad11b5720991b5"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libtommath_1.0.1-1_all.deb"
+sha256 = "6552c79029a08cde271af41d7517b6f32bb2587a81160f71836387bc66172b2b"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libtompoly_0.4-20_all.deb"
+sha256 = "ed9e4e09dcc5de93f288ed49d570e06d0c678bc45c0773a8708d13b538d80b5c"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libucl_0.8.0-9_all.deb"
+sha256 = "cd29e1b55601f53721b505e24e4bc487378eec7b72c050ccd0edbf93d5766f93"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libunwind_5.0.0-5_all.deb"
+sha256 = "95b11cfff95475f7eb33abcc81277f5caf644d4b15bceacadd16b3244cc4491b"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libvorbis_1.3.5-23_all.deb"
+sha256 = "5e1b4931ff4fb66c8fe7a2097f7de61e77d37238f4944a03e4ce1490b612cbef"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libwebp_0.6.1-1_all.deb"
+sha256 = "016ae8c7ce41e181319c98246cf48fded9ace3e03d8c597dff38dcf3616fe61f"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libxml2_2.9.7-1_all.deb"
+sha256 = "e81e280fa398fb8ddbfca92eac3312dad44ffce806ee7bf093ad9d89671655df"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libxslt_1.1.32-1_all.deb"
+sha256 = "c2cfdb77f58fb7fcf7d8b4ba0824dc51943ddeaf1d3a5b8be60635e093d56420"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-libxspf_1.2.0-20_all.deb"
+sha256 = "3efccd85afc1d37ba3c2d305416e2dbce6fa0385f2dd7440efc234ea11338f4b"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-lua_5.3.4-22_all.deb"
+sha256 = "7168ca305c13e5b1083b90f6490876d41389db5b61c825b3f1e0938a1df08669"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-lz4_1.8.0-1_all.deb"
+sha256 = "753142e4c4ac744237abff149fa0f24cf754dc9c5fef41561553bc1288f07144"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-lzo_2.10-5_all.deb"
+sha256 = "894b742fbbcbe1919ebfab4307b5b4a23c9525b4eb214ca5ec985215afb67a32"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-mpfr_3.1.6-3_all.deb"
+sha256 = "b9b6797e20ff07ebc5a889c1b12658ea471b7ead54571f5bb2039e813e93a982"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-mstd_1.1-1_all.deb"
+sha256 = "8d3add8d3feaeb9db7e1d9e8bef750fcfb24a09931a90f53f05d477beb2f8034"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-nettle_3.4-3_all.deb"
+sha256 = "02b11374af8159ef35a1755fc0a7cd647bd5593b994826cdc9930305a9eca594"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-nghttp2_1.28.0-1_all.deb"
+sha256 = "28bc9b164d60b3e1fa1d60f43a52bea73ddcf9f3d177fede906c57885e20ea31"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-node_9.20171122-11_all.deb"
+sha256 = "f41de5f23378f81c0ac90da982a55c049738bbf086463faba431a5721cfbf795"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-openjpeg_2.3.0-1_all.deb"
+sha256 = "dd79ad37a0db19d817b0d32f0c04e60cfc6f8bf30128fa105a4fb3580b3d9ff0"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-opus_1.2.1-1_all.deb"
+sha256 = "d1b9290dba69ad3abc90104b13c263b62aaa81e3dff71d791c6247dab12d44c8"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-pcre2_10.30-1_all.deb"
+sha256 = "458f61098fb30b50e97d0f41de3c35f0fd701c6f924867e8fd5dfb0b5dbf93c5"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-pcre_8.41-1_all.deb"
+sha256 = "af6df87390edbfbe18b53c5bb87f9b3a15b143bc30055f01f16489bc82249822"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-picosat_965-17_all.deb"
+sha256 = "09d14dcf014ac2fae615f09d0a6dc2024d8760f1c35ff4eac063cdd4a470ba1a"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-pixman_0.34.0-17_all.deb"
+sha256 = "e30e7e89865d2773299db0e59c7420e049781b606d6c052aed12a35d05ab9bdd"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-prometheus-cpp_0.1.6-8_all.deb"
+sha256 = "717d4e1128ddfa5aa6860f0081e8de4cea4c5ab7af6cbb9e32c46741ad65f016"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-protobuf-cpp_3.5.0-1_all.deb"
+sha256 = "f570427bc2efe9a454287f90ca533d150d05f7103769a83e3550777684187ff9"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-python_3.6.0-82_all.deb"
+sha256 = "397fc05174d2bc5ce6bded5e35c7ff5bee27b264f8e9afd6aeb4328ddbc1d41b"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-qpdf_7.0.0-3_all.deb"
+sha256 = "46f052831095cebdc69cc70100ff396eb0273a257eb2ba57443c32eda4b38727"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-re2_0.20171101-1_all.deb"
+sha256 = "804162752017924f20251d8b675acb0917f17a6da895aaf697d429a5447bdca4"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-scuba_0.7-11_all.deb"
+sha256 = "2efeb5dfb9f980554980d4c275fbc9a829ac9dfa64185e3e5abf270a4e07cdbc"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-snappy_1.1.7-1_all.deb"
+sha256 = "4db366e2a3c856bd5603969d02897cb453f3184a91b859e8efa75032adae6872"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-speex_1.2.0-1_all.deb"
+sha256 = "c5a1119946cf6e7f6f85f5ac103382330c6ed10b008947b4fda23ab2f8105c0e"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-speexdsp_1.1.93-20_all.deb"
+sha256 = "ebb49b69b7f5c9faa9e3b755d3cf73f11341db4543d09d222fe69350f9f72d15"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-taglib_1.11.1-9_all.deb"
+sha256 = "426e1dcdf0fda8d456c4e8d17bab28842a58a57b18fb654c155d677c4ccbefc6"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-tiff_4.0.9-1_all.deb"
+sha256 = "ebd04d5869d66366bbdf3bd79ac6dec4cf835a298b3fe0d796b2a0278e5369fa"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-tomsfastmath_0.13.1-1_all.deb"
+sha256 = "388a69329bac4d1913f1f894394c4e05a0d97647da5c963a9f58af3fd9f5292f"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-uriparser_0.8.5-1_all.deb"
+sha256 = "8889d0cb09a42a778960867ee851c09b7743879c72d77532d3ec0f9386d3978c"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-uvw_1.3.0-2_all.deb"
+sha256 = "af13de68339ec6b25c64546faf87246af62ab61d45382532eafc057ccf0b624e"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-x265_2.3-7_all.deb"
+sha256 = "d0fe43d293190b2dcc96ff58f29cd0501b8620671b54ac65120f5827726cc370"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-xz_5.2.3-6_all.deb"
+sha256 = "8fb9fbc2ca55b45f1984e2659728e4e3f788728ae352fa4d7a3eb2e2f7270f76"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-yaml-cpp_0.6.0-1_all.deb"
+sha256 = "d88f4e77124abba4b15a51ce8eaabc23fd9ec98584082a02770422e847cbd320"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-yaml2argdata_0.4-1_all.deb"
+sha256 = "b8685b0faaa67ce95762a3985b451217560433be07f8af552e2a0bcda3340392"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-yaml_0.1.7-7_all.deb"
+sha256 = "85657dafa1b6d8fd91e5d51c12eb6c37b1b797b7639b83a5ed1c392da6d8c949"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-zeromq_4.2.2-1_all.deb"
+sha256 = "c72560ca02de44b553f60892875f811b42a58be57a98bb26036c260ce698c5b5"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-zlib_1.2.11-5_all.deb"
+sha256 = "d64e2a1a1825283daa6491192b6ca5f43cd8c798931ff7805a1b6f58e3e40aa3"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/aarch64-unknown-cloudabi-zstd_1.3.2-1_all.deb"
+sha256 = "cbea2c3769af628ffad8e1bfbc4dfe48910afc304825f0a85f12f64e85613a76"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-argdata_0.8-1_all.deb"
+sha256 = "b483b99946f64f945e500eba2308508d45fab29bf0cf609fff2ecb7f7ee831e8"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-arpc_0.8-1_all.deb"
+sha256 = "51adf756d4eba23af77083d965f14067b770df73fbacc43e15afae8988f976f1"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-boost_1.61.0-17_all.deb"
+sha256 = "5f1364ab315da0a29cb5a0ef01dc8b587eac1095f6097e2aca2201a3aa818b2d"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-buddy_2.4-11_all.deb"
+sha256 = "fbc2552e9ab47687920181881a5f2fa74dd3cc8971308d0edc6a72dad24ea0db"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-bzip2_1.0.6-7_all.deb"
+sha256 = "fb4ab17d377d701c292dd1593e9ded24efca1e87fa619ebceb07f43437d18f2c"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-c-ares_1.13.0-5_all.deb"
+sha256 = "e1c509f2ba20091bc8713d6aa9e7ce50954775b86b4c93c943c6993673ecd51d"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-c-runtime_1.0-1_all.deb"
+sha256 = "2b8693bff825257d729a1135afcd329ec58bd4ba3838513af5be620af98b9a6b"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-cairo_1.14.8-8_all.deb"
+sha256 = "146b33f4b0c25f8510c8ccb4ef8d23a8c7b2e5994c6740f0d14532c9f990163f"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-cairomm_1.12.0-8_all.deb"
+sha256 = "dc0789c316a6e7b454668ecc9ec4059e7875a84ce9fa87ee10737dcf1efdb799"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-capnproto_0.6.1-3_all.deb"
+sha256 = "665742a52538c587af5887f21b63ae61e6bc8d08ac404184c867a8908c1c0fb0"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-cloudabi-demo-webserver_0.2-10_all.deb"
+sha256 = "00ac0d45893490ce874eab072f4fd04a4f0ddba911cd158d84a2accc3e2d3c34"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-cloudabi-utils_0.39-1_all.deb"
+sha256 = "f53f1c9ebc231a2b943429fe740bcae0672d3e1ac4ee0691a470f00ed406806b"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-cloudabi_0.21-1_all.deb"
+sha256 = "8a4d0ad8646126577e63956327415e56d4b98ea9f342a48862c77c87ea992cff"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-cloudlibc_0.103-1_all.deb"
+sha256 = "c3b521db9e3610d84f975d1e7ef4082d19b0b4a55bb30b2faca323d4fb66f6d0"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-compiler-rt_5.0.0-2_all.deb"
+sha256 = "5f9f3a9706ba0659c85f5b653d55c0b96f308bc99167ed7f5c2592ec9640e5c2"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-cppcoro_0.0.20170824-1_all.deb"
+sha256 = "ccdc387b0865c33107cd7075977260c7fd489d509d9b37e15c79855a27e1646a"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-curl_7.50.3-15_all.deb"
+sha256 = "3956a72d4590f769a8883b657953ab687ce78e4937fe5a686173c0c4ac667ee7"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-cxx-runtime_1.0-3_all.deb"
+sha256 = "c880b515d5ff8df21eccfac2db458f4fa6a42f746a53480d25b6517a1a5c9c1a"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-db48_4.8.30-7_all.deb"
+sha256 = "7aa59fa82d5f1333e36e95b56958830b9137ad82a5e11e28369dd72f627c7830"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-django_1.10.4-1_all.deb"
+sha256 = "69a4838a2125e97506f4314bb163e1884e041f0b02a3b2098270a6e27ac8c9ca"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-everything_1.0-29_all.deb"
+sha256 = "c42a12e15637c1183262f327d5200794141a9e3c5e14707bd6246066f13b1254"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-expat_2.2.5-1_all.deb"
+sha256 = "68fb6c5cb7ceeb38830c854e53972899065c38b704efb37a2e4f8379f2b0d59f"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-flac_1.3.2-5_all.deb"
+sha256 = "16e4e20f3558de3ba96fe5f7ab221b46b3881dd4e6197c5bc54b6dacdb6823fc"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-flower_0.11-1_all.deb"
+sha256 = "d4c98d9b7aa7e296dc8be5b0eb7dd38b31bd276fe56dc906a776b1f9c6004386"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-freetype_2.8.1-2_all.deb"
+sha256 = "2f24f3ac6fe5162ac2cd36f36237dd44c102b4d54ec38dc1f50ff0bb592b8b4a"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-fribidi_0.19.7-7_all.deb"
+sha256 = "4d35d8db71ac420a5a9809720a9d00545b9e6e909b62a6151ad25b5f1116c4f2"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-giflib_5.1.4-8_all.deb"
+sha256 = "7a7915e762fe329e7a2f02209d10dcec876c4c86c934155579c799893d50c93c"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-glib_2.50.3-11_all.deb"
+sha256 = "5a99aa27b7e22df71a53bcb6759ad4eed99a99ba3a085aa0933e1b8e5e7087e8"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-gmp_6.1.2-4_all.deb"
+sha256 = "89375bd860eb4c475552bdeea4b0bd9a663aaf366d7c5e3c557cbf90a0be3157"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-grpc_1.7.2-3_all.deb"
+sha256 = "0a157cafc37666c45df06c485c146961340ead0f33e44bd8951c04331c9e0983"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-http-parser_2.7.1-1_all.deb"
+sha256 = "9322a6a670ff198e9934f65dfddd9a14b98f4b6bd5425942f0fa78603abbcc35"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-icu4c_60.1-1_all.deb"
+sha256 = "39a151ae010a8197f91d35ee27151f7bd27eb7e67960a291d1b22810a5be53da"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-jasper_2.0.14-2_all.deb"
+sha256 = "c488d6574c48e4e7ae022f4d801a8f07cc35549233abbf52a0f82bf5df2ffd91"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-jpeg_9.2-7_all.deb"
+sha256 = "49398217b72a5850aa66353dc85270938e05638bad0fe1a75e926e7eec1f5d76"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-json-c_0.12.1-8_all.deb"
+sha256 = "c15c670253862076d1870e4068d9e6d54e3c3ae776576f3aa55215ded7702286"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-jsoncpp_1.8.3-1_all.deb"
+sha256 = "f91881847ee7597c2a1b10cac0b6e08d148048fca0e758f259f3f995d948dfd4"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-lcms2_2.9-1_all.deb"
+sha256 = "c1f771d7cdbf15428313f72ee70d2eb482881d786584c937f3335fc9e4764988"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-leveldb_1.20-7_all.deb"
+sha256 = "4b6c3a617f3bf880683c75807605d1b13471b904e54906b3095af8d97fcc90ef"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libatomic-ops_7.4.0-8_all.deb"
+sha256 = "e1b17872ebb74eb8ab7194274b7b5f9881a485e72756c956fbcee13e3707dbfc"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libcroco_0.6.12-2_all.deb"
+sha256 = "d7b532749cd8cbe84bc11aa396352a7ad6fc5403e3fbada5a82228dc91bd846b"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libcxx_5.0.0-4_all.deb"
+sha256 = "00bab49bd0af7f67776bf1d41bc56cfd5f299432c593d6e4288c8fa1f47212a2"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libcxxabi_5.0.0-3_all.deb"
+sha256 = "0f31e70b801debfe44031e03cc4261820994143a6416b94752679db2cc70ad9b"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libebml_1.3.5-1_all.deb"
+sha256 = "ac9e756eb9ea972186d781d657398375a3e284f8290ec53fff83e8ced2014dc3"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libevent_2.0.22-15_all.deb"
+sha256 = "40a81e2a0ba3a7fde345d069baf5bd1a053893479c4c0a5fed0f9d3909b8f8c3"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libexif_0.6.21-16_all.deb"
+sha256 = "ed01000037fb330321b08cb6d0841fa97ab99d8cec78a55e427ab73443430976"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libffi_3.2.1-7_all.deb"
+sha256 = "c753458aed7856daf771e6394f4aec297c588554ff184964ebaebda7be4c643c"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libgcrypt_1.7.6-5_all.deb"
+sha256 = "6b96b1cf05dcb44cd5ce798bdce0c571344127bc073b033541c06b8b60c72c25"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libgpg-error_1.27-5_all.deb"
+sha256 = "1b66657a7ac2b4cf6778bf711a949701fc3e0a1ef7b21521393aee84c2bf2006"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libid3tag_0.15.1.2-8_all.deb"
+sha256 = "a072cca01aa658e4d411a55e0046ed1a74b375550aedd38e064aeebb35832a7b"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libircclient_1.9-5_all.deb"
+sha256 = "cd32fb2336f1d259707bf560e6279621974b566313a447c35b4822eacef2bb8e"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libksba_1.3.5-8_all.deb"
+sha256 = "a2d9bc00aff00108e6bb61fc022b6f963f3311195b0c7126cfa6d930a4640182"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libmad_0.15.1.2-7_all.deb"
+sha256 = "cf913cbeadc093b7e7a72e9d343b1e510d8e56d0dea81b433ad4b3a0f31967ed"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libmatroska_1.4.8-1_all.deb"
+sha256 = "da38614b8e32ee785e411f831dcba1444f81e0d96b2164a5740b95ffee6a61f5"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libmng_2.0.3-11_all.deb"
+sha256 = "f09d1be8c66e2dd5b50849e3cb843d54e06fae6c2e60dd413ae64e24914b8624"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libogg_1.3.3-1_all.deb"
+sha256 = "74b53445cc78df1f0ec0cbec07115ac07c02a7b7470a3a417bede8e52712fc07"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libpng_1.6.34-2_all.deb"
+sha256 = "0416089d8843934482c48224fe3eeff95c30237f361650acfeba9ffdf9ba74ab"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libressl_2.6.3-1_all.deb"
+sha256 = "f75678af906054a21130185c52a518827c1d98fdc69d38fcf82768c2a16c9de2"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libsamplerate_0.1.9-6_all.deb"
+sha256 = "c90881355b667d2d3c9756282c575040dc52e9b8af7ae40e1b017dd85a60d0b9"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libsigcxx_2.10.0-7_all.deb"
+sha256 = "3eb6ccbb74f147f1f16d8efbe7555142d96363200adf724c9b50b5f9d462f6e7"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libsndfile_1.0.28-1_all.deb"
+sha256 = "321339fc536a5034aab005328181fe97ff9296c497ec22531429bac7d17ff271"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libsodium_1.0.15-1_all.deb"
+sha256 = "b874060737ae447e14ff5af519e740ccb574000f0473baf04d045ce41a288afb"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libtasn1_4.12-1_all.deb"
+sha256 = "f601220d8aef1819ab63f058b4fbb37a3fca2e65b99477cdf180cbcab552ca4b"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libtheora_1.1.1-8_all.deb"
+sha256 = "8f5d5c0fabf57f19ef39607949656f817d9b850dbfbd54209619e59084319ec4"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libtomcrypt_1.18.0-1_all.deb"
+sha256 = "bf8ab82f00e5c596b80d1259d59090946100d90385abd751f90c4ce2b7e6005d"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libtomfloat_0.2-7_all.deb"
+sha256 = "adc4da3920933d44e9d259494d495fcbf3d522e633ef430fb5e0fb6e239c01d6"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libtommath_1.0.1-1_all.deb"
+sha256 = "5bdbd03fd2349e3dcf51bf712fa9deb26248079e8e69db25c4dd5e719244afce"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libtompoly_0.4-7_all.deb"
+sha256 = "79c15dd2e970e81859145e5932ad61e8a092b90728f0479282a1f80e9b8872fd"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libucl_0.8.0-8_all.deb"
+sha256 = "96e78cedabfcd7a2ea7961be63a14eeefc617b056b867c0cefe41ae0da87e693"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libunwind_5.0.0-3_all.deb"
+sha256 = "f58dafd5bd722c78ef03cc621140139858fcd58b7626d0806af67eebbbbbd86e"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libvorbis_1.3.5-8_all.deb"
+sha256 = "6bb37460e179dedb0c60f63d0a28e77168afa23cf06738792d69d37a832fe60d"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libwebp_0.6.1-1_all.deb"
+sha256 = "41b15be56d3b474822f52ed6c0079ed851e4dd9ed8a7128b7d51da31e81bedfa"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libxml2_2.9.7-1_all.deb"
+sha256 = "dbe7ae4a2cd0640848cce5f70efdd1725a8b1dfc245cfb8747bbfef4cf318f0d"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libxslt_1.1.32-1_all.deb"
+sha256 = "c8c5c8a52231bb6a295262544766f533ce4b48fb701af70bb795c292074619c7"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-libxspf_1.2.0-8_all.deb"
+sha256 = "aecd8b670d1bf1b043993a080ede602ac40e510206ad7a31097cdb38c11cfa62"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-lua_5.3.4-20_all.deb"
+sha256 = "6dc10a7ddc9b66e1b6f169b573fb3b49e0deb8cfeb961058a5c63961ef160b69"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-lz4_1.8.0-1_all.deb"
+sha256 = "45beee473a2676de932f5acc6eeaae8311a093f515226a5a10f2a4835d22a96b"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-lzo_2.10-4_all.deb"
+sha256 = "291fe9557c6d561170c8eaf178dd3ddfec9c9bfa4ea2b308392e2a6ef9ade59a"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-mpfr_3.1.6-2_all.deb"
+sha256 = "9ea20e7e21c7f2244116d6f9414520bd460d1a5a015f0de2047dd050a19b6729"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-mstd_1.1-1_all.deb"
+sha256 = "a2958253368433c731d2b690da113274b49c1c88d545c6185b793b15ad141ed5"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-nettle_3.4-3_all.deb"
+sha256 = "290a4a5ea2f83e8d63b8772fe0d8ac3be1916f45e5ddc8859ae44654afa2038f"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-nghttp2_1.28.0-1_all.deb"
+sha256 = "f19dd0b0acf2e98f910b9dde35323dcfca7fdae65356a5b6beee266ddd624f0e"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-node_9.20171122-11_all.deb"
+sha256 = "0897f1e62a8d700da32347c8ef1c02e28aeed2e15dcce908a277ed00ca25e763"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-openjpeg_2.3.0-1_all.deb"
+sha256 = "beb23c41f7b8e1d32d2d8e8b2f2edb6d2682b23664e14e85298c49c6d5d7562c"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-opus_1.2.1-1_all.deb"
+sha256 = "e2fae57a051e3eec8f1c0a7fab9bcf0523b2b286408ad9aa3e3a78c7c647d826"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-pcre2_10.30-1_all.deb"
+sha256 = "f16137e42fb3faacfe193e475a820c18b07b969792d9344c8d6d24450b95b37e"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-pcre_8.41-1_all.deb"
+sha256 = "638599d28afd34bab34848270caad7996957ebd6cc3965b3217917317b75e78e"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-picosat_965-7_all.deb"
+sha256 = "a7ffecaff331b5c71f2daffd8138d0d86bc4e9d43d8aebf94c6a1ec499d0c26a"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-pixman_0.34.0-7_all.deb"
+sha256 = "f690616d22a15a1dde13c86b25a2ae568ca9e4c2042d991b1dec28b1752af5eb"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-prometheus-cpp_0.1.6-8_all.deb"
+sha256 = "aaba8fd91a637e03efdfc3eb53a189278d9881c6678cb07ad192c290185087bc"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-protobuf-cpp_3.5.0-2_all.deb"
+sha256 = "a054da4e4ec73451c05c6ffa6a9489f8aa93194f9bc3bcdeff25809dc71255e5"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-python_3.6.0-70_all.deb"
+sha256 = "b55a9bdf63a765ecee1a12ee273099659f0e8986890177c1fdac8d889327bd6c"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-qpdf_7.0.0-2_all.deb"
+sha256 = "57a4794b73b4ed5fcb1e485e0b9eb62cf12df1535549c584fec1bfcdaac82f8a"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-re2_0.20171101-1_all.deb"
+sha256 = "e093dac001415d756eba82dd58a54b3153745f3a941d718b0cab97270244e0d5"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-scuba_0.7-10_all.deb"
+sha256 = "ff78b06d1083a31f732caa263d3034d3b6a118bd0c14f1869d8b5690054497c4"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-snappy_1.1.7-1_all.deb"
+sha256 = "40d034d526ccdc1876e483f7933e45f0c9770e1cd356aa49f1af881c863ffa37"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-speex_1.2.0-1_all.deb"
+sha256 = "ab471cbc6544f08510f6831f198db7cbec7af329c2fcb92e82e645a67613a9b9"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-speexdsp_1.1.93-7_all.deb"
+sha256 = "2a46c7603fec8e1b36ad4b25889fc5750e05dd92912e1b4d9dc20a0eaa5bf2f5"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-taglib_1.11.1-8_all.deb"
+sha256 = "a8e6ad480364ac47f644aa9efa7e8d01764e7837ce486811858703c1fe9e9f6a"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-tiff_4.0.9-1_all.deb"
+sha256 = "a33c4fd697823c4bd1ae1b300dd9be73f35bd799fe399adde2ae6b44ffc4b959"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-tomsfastmath_0.13.1-1_all.deb"
+sha256 = "0c87b82d2017f80e8cf27cf19bb0f33c25d3be4db4f16eaa0cc1c18a5b44bc8c"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-uriparser_0.8.5-1_all.deb"
+sha256 = "987f10e7075775da15f423e8e046310f820d3d657767295d5d3d5975fd70f7e0"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-uvw_1.3.0-2_all.deb"
+sha256 = "c3ce672f2a60b4a8678e407213f6e15378ba6b9f4dbaa11df763c01b4739ba93"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-x265_2.3-7_all.deb"
+sha256 = "98622e7b08a8d5e6f42aed574cf6d7a49997314ae189e4d3cc282565123e19d6"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-xz_5.2.3-5_all.deb"
+sha256 = "0c41f762a28b2a17ba6a2a0e40d3de4ff8460457b07538a2011641fbc1af0e91"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-yaml-cpp_0.6.0-1_all.deb"
+sha256 = "fb067bca9dd0e247a9af786f19ba1c37ae48771021c5ecf542526046ed322a5a"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-yaml2argdata_0.4-1_all.deb"
+sha256 = "5beafc247e91651afd83052bca5b42f1cc860f7b2f747a0d5552842815e265dc"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-yaml_0.1.7-6_all.deb"
+sha256 = "cebe6e47a8a99b2d17b980e0ed926ee3edcdc60de48c16b0437daa3aca4bb673"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-zeromq_4.2.2-2_all.deb"
+sha256 = "598becc807e26a8bd62dd654981f5f7de41d7bd4041665c59fbb222d21f52b52"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-zlib_1.2.11-4_all.deb"
+sha256 = "d864d6efbcf16932d8c9fe18fd3c4afc517793936188d09b95cfe6acba0ea8b8"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv6-unknown-cloudabi-eabihf-zstd_1.3.2-1_all.deb"
+sha256 = "3a5869d0c2fc472e778b8b6d75d5c0f31b2f522a2298fc74d24096e4b749f75d"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-argdata_0.8-1_all.deb"
+sha256 = "49ae0069c87e9ad2d17f2703af2416c4025d3e83cfcd7208aea1681d0e2ad6e1"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-arpc_0.8-1_all.deb"
+sha256 = "ac8cc36216088e0219d4b989745f2a5a86349debb44a9d72ff74224b16c5b3dd"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-boost_1.61.0-9_all.deb"
+sha256 = "07444a1620468afd11dab0e2cefff5545d7139ec7899a9734c692fbaf03fbbc7"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-buddy_2.4-5_all.deb"
+sha256 = "9d2274901a8e41c57930a55b90ae6be9e86344ebe773b7eedcea34cedc9e481d"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-bzip2_1.0.6-3_all.deb"
+sha256 = "9ae09811e920294062306eca4c40db17ef625664b2c7f9b1c2aa3ff4fc9e5f0d"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-c-ares_1.13.0-5_all.deb"
+sha256 = "318efbc6f3785ac0d7a422fceb8e030af64bb0d30efdaec22c40dd2cc22cab57"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-c-runtime_1.0-1_all.deb"
+sha256 = "7be9fd5eda74baf4ce51013faae94249e7e756f9fafe391df68930e6d24d4c7d"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-cairo_1.14.8-7_all.deb"
+sha256 = "ee7a841f7bd6b553ec88d37734645cecaa2f8cc0b206f9b710249590fdb92129"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-cairomm_1.12.0-4_all.deb"
+sha256 = "284b41e533e156c5c13c42c44a46b9625fe5a09ecc68c25a9505a2bdc92e5d54"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-capnproto_0.6.1-3_all.deb"
+sha256 = "64b22ec154d2b46d348079c065c9df6997ef32dfbdf2e32fbe2c4dd8698865b4"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-cloudabi-demo-webserver_0.2-10_all.deb"
+sha256 = "f590174d7e8f8b6cf40df7b74601daa37d57d2782774d8d489775d8eea2f76bf"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-cloudabi-utils_0.39-1_all.deb"
+sha256 = "fd8ad3ab08b6dbc3792db0eb451fcfe6639a25e97889e363de3991b23a61d61d"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-cloudabi_0.21-1_all.deb"
+sha256 = "20f6ca0b572eec1533aed1b1f04976cc017b8dbfa2c2c77c5c11eda11a8602ba"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-cloudlibc_0.103-1_all.deb"
+sha256 = "04dda423e9362bdd68839d849173b01f41980e68c17a9d026c95215b4b8d47cd"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-compiler-rt_5.0.0-2_all.deb"
+sha256 = "0a76c8d875772761937f9347c8fecf82762bd45cfacebfaff4b029cae5dfcac8"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-cppcoro_0.0.20170824-1_all.deb"
+sha256 = "e12aec6125f3fc0d7544b67f1ac4d54adb29b9910abb676e57cea8f4e79c32ce"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-curl_7.50.3-9_all.deb"
+sha256 = "42df36837499fac3c1282a005199e317cfb93ee9d19923c05a5e089d1d3dcb36"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-cxx-runtime_1.0-2_all.deb"
+sha256 = "baf9544b99ca72471e5483d8b48f3ddf7e40922910e49f76fb455f46c1e9eeb3"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-db48_4.8.30-6_all.deb"
+sha256 = "85523cdf5acea9c5fac188fe9fe6e8adcd7976d2175d2ff158786893a4060628"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-django_1.10.4-1_all.deb"
+sha256 = "ed920129d311bafe1bcc2e5261a3295f5a61d9d28b2b1cb93f5847f127f801cc"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-everything_1.0-17_all.deb"
+sha256 = "1e29c9572beab0d7a3cefb932ef4503e296e88e23a331da37ceb25592fdda26e"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-expat_2.2.5-1_all.deb"
+sha256 = "b1676382bba49f30739ce4d450d2ba4b2d36c8f6ddacbe06613d6560f1fa75b5"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-flac_1.3.2-4_all.deb"
+sha256 = "32082bb4d44baf7818b559c3d9c9b7161a4d6a925f4d69136f3d522335ad8ad6"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-flower_0.11-1_all.deb"
+sha256 = "71326e6b48ba5fe60f767c9591cce85a55555001c6e32934cce17af3bed04cfe"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-freetype_2.8.1-2_all.deb"
+sha256 = "629d677005a2435bc8eae912496cf1f4b5ea847c8f7cc275cacba9b5e2f67ee3"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-fribidi_0.19.7-3_all.deb"
+sha256 = "9b1e24bc106614b26b7c215bc52eeef047ceda064fb9904bd2420a11dbd08350"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-giflib_5.1.4-3_all.deb"
+sha256 = "2432a19625a9cd2d2b57a35c47f7f9720deb2b938689d3490c6aaf4bb5318841"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-glib_2.50.3-10_all.deb"
+sha256 = "dae2c118d4b0183531b5fdc7fbb52f6821c4dd52cc9e48e19f56875abf7e2b8c"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-gmp_6.1.2-3_all.deb"
+sha256 = "af5616e95e3786241ec82d915d9e5a133f910ff6393268b04c312d9dd1f8aa17"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-grpc_1.7.2-3_all.deb"
+sha256 = "45d76ec86ee9351b3813fcd5b65f3546db1403a79c0232cdcd7f41085d192ad4"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-http-parser_2.7.1-1_all.deb"
+sha256 = "9582df9dd1f3abc8dc92272edb990f7a1fbe68f570bede192d7488d8bb0092e3"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-icu4c_60.1-1_all.deb"
+sha256 = "8ec5ed49adade4a278be0a07683e2386314b627f3a72ce1f53692f93b44e6649"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-jasper_2.0.14-2_all.deb"
+sha256 = "c0409a5e2d80b7e4bd75de0cc78f6f8754b5d6cc356c7ce4cb362e31f1f024a3"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-jpeg_9.2-3_all.deb"
+sha256 = "d4a78bbd5f20c55042f1baf325cac74810191e19b0bb3842f3c9d65067f7d0c6"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-json-c_0.12.1-3_all.deb"
+sha256 = "f2e8fa84d4c60d84373be03b4b165e37a4faf52f25837c5a5b350cb00b3d00e6"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-jsoncpp_1.8.3-1_all.deb"
+sha256 = "478c5701d2ef4d80ec8a72f210d6c833c0b12595915624f81ffeb167e8211209"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-lcms2_2.9-1_all.deb"
+sha256 = "212fe0ad35e2c7c72259db72a890f38f8e9b23bd73ba8e4c9a7d6e27408fb08f"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-leveldb_1.20-5_all.deb"
+sha256 = "2b780bd3ff77f92cd25e29145f3b0a92394f6359b5177d6451c9680743e1e997"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libatomic-ops_7.4.0-4_all.deb"
+sha256 = "46122e0cabeac9828bde590bf33cb352baf6185e98eee9f04661198d9ccbb47f"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libcroco_0.6.12-2_all.deb"
+sha256 = "0afa420da1fe9e9a557304400dab8116f586c0d3e4a2fa1822346d2473977bc8"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libcxx_5.0.0-4_all.deb"
+sha256 = "6eacf10379267578a7944bb6047e73ad031a64f0f18fa88a08a9e4273b17f76d"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libcxxabi_5.0.0-3_all.deb"
+sha256 = "1cbbeaa9c3c89fcba5a1e1b52fce57ab40e9018345dd68b50d48c682e3ef8a84"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libebml_1.3.5-1_all.deb"
+sha256 = "f45f9dac9780ac1b7219b4c7392f082f695c73fe0bd006039bd8f95f563af550"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libevent_2.0.22-8_all.deb"
+sha256 = "b018a5f42f779e6d48d57d13c75f9c70eadfba321774f82a77f8eb3c541caa92"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libexif_0.6.21-9_all.deb"
+sha256 = "f2af7a559c19671bee2b271b295f0fd5cec9d21e35c8c06a52efd092a0af8609"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libffi_3.2.1-3_all.deb"
+sha256 = "8ef58682eafb705cee81443b5119420d29853561c42d32eb66887bf0e965ec2d"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libgcrypt_1.7.6-4_all.deb"
+sha256 = "7a8e363342ca5165fd05e73ed29c7e7d6f034d704f602d59029c7637fd6daaf0"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libgpg-error_1.27-4_all.deb"
+sha256 = "83d08f36118477809df3c7b2c864b40d0beb94f945e657f259bd909e288a19ab"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libid3tag_0.15.1.2-3_all.deb"
+sha256 = "79c4072411261dec1b45ceceadaaa7ce03bd28ec9abc6e43904e374d14dae060"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libircclient_1.9-5_all.deb"
+sha256 = "f0d2e504d7e76ffe3e42f21c3107d41277accb19470256fe4a784be5eb71887c"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libksba_1.3.5-3_all.deb"
+sha256 = "cf0e9e85c92c5429c2f30a486dc5e3f868e4d4f3b8702c7f565c1ce2bd5ba477"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libmad_0.15.1.2-3_all.deb"
+sha256 = "1aa740437f8a893c61c89749ecfe8cb5fa80a7246a74325cb3a24eafdfd4e1a4"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libmatroska_1.4.8-1_all.deb"
+sha256 = "23b895b4aefde6684eb0ae2db8670976c5eaeadb57b2df8954536713e44d104e"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libmng_2.0.3-5_all.deb"
+sha256 = "242eff8d126f6b6938e5bfac72236b6467cf16b1e13172823fde18923031ea6c"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libogg_1.3.3-1_all.deb"
+sha256 = "c3ff259ff337bb820c8c8567fe484c12c774ea2e4d75b906c52a6afe72359a62"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libpng_1.6.34-2_all.deb"
+sha256 = "c8017ad6ff9886bfce8f1dd71211c025211b6676c4b115f7993fb26a3fb64714"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libressl_2.6.3-1_all.deb"
+sha256 = "16a58c39038e5bac954196e339ab17e926d3f6f43965fa1c1f6939cb5488495d"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libsamplerate_0.1.9-3_all.deb"
+sha256 = "8d4ff2117d5857b3c86859c5263cfa99aa8801452676e2812089db0cdeb0b019"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libsigcxx_2.10.0-4_all.deb"
+sha256 = "3660b7aba904953c1ceb115145b7877672c3b9398040c3934806d7712a25b05f"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libsndfile_1.0.28-1_all.deb"
+sha256 = "ffb15113970cee097315c4f0b07c7743ddd039c1d0fcd139c113216dd9183d82"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libsodium_1.0.15-1_all.deb"
+sha256 = "eac8ea341765f4c6fda70c99c6321cbfb5eda643ccd7280c90470c5658ec27fc"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libtasn1_4.12-1_all.deb"
+sha256 = "e7312d9935a8bb00493e9751e3c3cb7b136b01838f21574700a950a74d4e4752"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libtheora_1.1.1-3_all.deb"
+sha256 = "3974bf64e480ce1e232b187d011ab23cc9461ce836b2b06d81a8aa427367f061"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libtomcrypt_1.18.0-1_all.deb"
+sha256 = "6df6c38a91e10adf1048a0398a7d9d29d2e6f03057b5227f97f15fe1982119e6"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libtomfloat_0.2-3_all.deb"
+sha256 = "50219e348ad41bf856cb734e26c0941e4d3206519e0cfe2cb11abe058a6809c9"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libtommath_1.0.1-1_all.deb"
+sha256 = "594424a1f456b6cd7aa9103cb5e5a3ba8b885291c05ec015a95a20afc3dbc1e7"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libtompoly_0.4-3_all.deb"
+sha256 = "55850b195cce03228e3d71d36744465784472cd4781966fb4a07ef9c6f1aa92a"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libucl_0.8.0-3_all.deb"
+sha256 = "0eea6c73100df2417dbc11996db79fe259bfff0d39ea52ec3d94c3e97f07c8d9"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libunwind_5.0.0-3_all.deb"
+sha256 = "f2b0250cee725724093725628ff0f53323fe6d434949bed479eb1f184bdcf508"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libvorbis_1.3.5-3_all.deb"
+sha256 = "25c8ae4c2a70b8c0b4d0430032cffca862e79cea91aaf79b815658cb05022db9"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libwebp_0.6.1-1_all.deb"
+sha256 = "5e8540f99fe40f1380ef1db25f869422cd9b92b3dfb24e1f20518c0be89eae0c"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libxml2_2.9.7-1_all.deb"
+sha256 = "10a81033e0199a789f8a09b5404979a8fab301c721f18a3adfe97a150eab9b8a"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libxslt_1.1.32-1_all.deb"
+sha256 = "ca5767615cde7789bb49271d84dbc15d4c0cca8e01723f625a6a18463994c066"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-libxspf_1.2.0-4_all.deb"
+sha256 = "eae6955f96c32728eafc4f39dd38acffa7cd9077af9ed6cc2592b6f5a39805b0"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-lua_5.3.4-17_all.deb"
+sha256 = "a2fc599ac17ae502cf508f78ffb74547cbe62342a4b795dddb789c6e412303b0"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-lz4_1.8.0-1_all.deb"
+sha256 = "94cf06d62246421f1439abfa95616b095ae4ad581c7264e2fc852bb2a4cf0c53"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-lzo_2.10-3_all.deb"
+sha256 = "10b500e99c7835c5a0ca872ee000a349f159088dbfc60d4ff3592cc68c1d65c9"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-mpfr_3.1.6-2_all.deb"
+sha256 = "6ccdf82b56d43818fa29c249ab238d3413912c41f321e3393afbeeb95431b82c"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-mstd_1.1-1_all.deb"
+sha256 = "35d3cfdd358e3891bd0593425820dc0af500bf149bf60548196c929b8625fda8"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-nettle_3.4-3_all.deb"
+sha256 = "195448d780063b77d623f1c9ccce51f8c3740bd1bd39a1adb786b7d416038e89"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-nghttp2_1.28.0-1_all.deb"
+sha256 = "14be6a5ca5f84b11c9212daec5ece088701dd31322a023fc2f4cdf561f5560dd"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-node_9.20171122-11_all.deb"
+sha256 = "34e0f32f78a506ede69bdbe0a975509cdf42b0a3f3d16139fbcd7d4fd260984f"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-openjpeg_2.3.0-1_all.deb"
+sha256 = "22ee5702bb8a36900fdede30456dd7a73fdb05a30fbf88a622b2b5bd7688b8e6"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-opus_1.2.1-1_all.deb"
+sha256 = "4944253129a0a6fe5f8551b22fec996b3cd15a3e2d4d6f0bb26c3d91ba7a200d"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-pcre2_10.30-1_all.deb"
+sha256 = "8fe38461ad1f2b327cf823d99552354730cb3352b2454b0802e806ccaf38743d"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-pcre_8.41-1_all.deb"
+sha256 = "9806b70fe51adf3c1f29b51bff37595891036380d626542acf70cbacdb1e00b5"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-picosat_965-3_all.deb"
+sha256 = "d401fe20df133d00db0dd15f07afdde25be953895e39a8b73b937f73d3dfe9da"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-pixman_0.34.0-3_all.deb"
+sha256 = "0f7570d697a67bf5ad8bbe36206fb2094d2887f1526b6156536ac20f13a6d8bb"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-prometheus-cpp_0.1.6-8_all.deb"
+sha256 = "0e742ca5fcd3e09e9c2c274be371a812d77c3dd5f85358a599574a4ed18c1640"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-protobuf-cpp_3.5.0-2_all.deb"
+sha256 = "fb969590f3c6a3579a97cb3df12bed9a925ca27ccac594eab194a2c02e75572e"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-python_3.6.0-35_all.deb"
+sha256 = "ac007e1cfc97f3463d7dc63a103bfb25a907378fbc33983cc719eb4101199499"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-qpdf_7.0.0-2_all.deb"
+sha256 = "4debd438aea8bd76bce983a2ca630e004e3feeae29f8375e1e7debed9f6f3046"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-re2_0.20171101-1_all.deb"
+sha256 = "aa0aadd35113a86e8a25dbd59413d32a95ec7cc43eb9ff874569b188441b020d"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-scuba_0.7-10_all.deb"
+sha256 = "4478cab6d29bb6fc314122b9fe226109282fecaaed8004ede57a55e44e5fcb14"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-snappy_1.1.7-1_all.deb"
+sha256 = "a61f0122f61402b7f75daaab70302cdc2466b1741ee303685e63ce14fc439dc2"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-speex_1.2.0-1_all.deb"
+sha256 = "41c0b625f0b19d1cfa476a1cf4b0485d4f72a1a81c750f9f4e6b0e5794aa8620"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-speexdsp_1.1.93-3_all.deb"
+sha256 = "afb488bdee28b43a63522ecba5198d3c4f5386162b3cd185f974252519dde44f"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-taglib_1.11.1-4_all.deb"
+sha256 = "a49f8c63dca5c633d5e43a178f83a0969fe3e61e6ed36c7cbb9ee34d2ad9e317"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-tiff_4.0.9-1_all.deb"
+sha256 = "b548c13d0fa31d09a55b5afa2178933a7291e6a543f187a1b413ea8af170674e"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-tomsfastmath_0.13.1-1_all.deb"
+sha256 = "79f6e8b9690aae8947155ea01c2f69ed9584b56515e2eb6cc5449fc036c05ca0"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-uriparser_0.8.5-1_all.deb"
+sha256 = "620406865ab6d2926cb58773eade9fee1ae1f420d5eb4eb47e6cb61889f42508"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-uvw_1.3.0-2_all.deb"
+sha256 = "7eb1c542f6f8215cfdb29a0e6379995784ae061db9e1ace8a5e8c206157e5eb9"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-x265_2.3-6_all.deb"
+sha256 = "563b811be565dafdb603111d2c9a387b943a728b199314bb8453d87302f649d4"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-xz_5.2.3-4_all.deb"
+sha256 = "7ef17e2d306df46f4044902f3c6ce1cd0ff55079a8d5ccfd46a7333e4fe8bab5"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-yaml-cpp_0.6.0-1_all.deb"
+sha256 = "85badda33ff1109561967e0fead12e4aff61542bb7575ae8a35f521637647ff1"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-yaml2argdata_0.4-1_all.deb"
+sha256 = "8c1b471b02af3495ab63c88958e4136b57b6fb90c9dd9974bf264fac65a38b96"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-yaml_0.1.7-3_all.deb"
+sha256 = "45faa8636c90e63609bec9c2b57838c4fad2949b6a89e7a96d84a312b9f8e587"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-zeromq_4.2.2-2_all.deb"
+sha256 = "c9ec6006f17bebf2bff0442de266cdc5b66a27fef55c642e4f4f7fe33255caf8"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-zlib_1.2.11-3_all.deb"
+sha256 = "5aa22e1781ae4939ad929efa63bc755d181b2063c09c0451c2df4101353bdb25"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/armv7-unknown-cloudabi-eabihf-zstd_1.3.2-1_all.deb"
+sha256 = "9ea486ca338c28b277cd02c940a8d52e33a910a2759429a38d4fd0a94ccd124e"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/InRelease"
+sha256 = "8e9984ba333eb651ddf0394a760bc6a0e5f739ab63ef91001806b99756ca3465"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-amd64/Packages"
+sha256 = "8394326a338d04a4581474e5bf6753bff321ea381e2fe13cdbb65280256aef68"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-amd64/Packages.xz"
+sha256 = "a92f61bca4819458b19b4e3641cbb51cb17b8516609ef2b92506b41928fcc879"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-armel/Packages"
+sha256 = "8394326a338d04a4581474e5bf6753bff321ea381e2fe13cdbb65280256aef68"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-armel/Packages.xz"
+sha256 = "a92f61bca4819458b19b4e3641cbb51cb17b8516609ef2b92506b41928fcc879"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-armhf/Packages"
+sha256 = "8394326a338d04a4581474e5bf6753bff321ea381e2fe13cdbb65280256aef68"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-armhf/Packages.xz"
+sha256 = "a92f61bca4819458b19b4e3641cbb51cb17b8516609ef2b92506b41928fcc879"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-i386/Packages"
+sha256 = "8394326a338d04a4581474e5bf6753bff321ea381e2fe13cdbb65280256aef68"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-i386/Packages.xz"
+sha256 = "a92f61bca4819458b19b4e3641cbb51cb17b8516609ef2b92506b41928fcc879"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-ia64/Packages"
+sha256 = "8394326a338d04a4581474e5bf6753bff321ea381e2fe13cdbb65280256aef68"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-ia64/Packages.xz"
+sha256 = "a92f61bca4819458b19b4e3641cbb51cb17b8516609ef2b92506b41928fcc879"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-kfreebsd-amd64/Packages"
+sha256 = "8394326a338d04a4581474e5bf6753bff321ea381e2fe13cdbb65280256aef68"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-kfreebsd-amd64/Packages.xz"
+sha256 = "a92f61bca4819458b19b4e3641cbb51cb17b8516609ef2b92506b41928fcc879"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-kfreebsd-i386/Packages"
+sha256 = "8394326a338d04a4581474e5bf6753bff321ea381e2fe13cdbb65280256aef68"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-kfreebsd-i386/Packages.xz"
+sha256 = "a92f61bca4819458b19b4e3641cbb51cb17b8516609ef2b92506b41928fcc879"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-mips/Packages"
+sha256 = "8394326a338d04a4581474e5bf6753bff321ea381e2fe13cdbb65280256aef68"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-mips/Packages.xz"
+sha256 = "a92f61bca4819458b19b4e3641cbb51cb17b8516609ef2b92506b41928fcc879"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-mipsel/Packages"
+sha256 = "8394326a338d04a4581474e5bf6753bff321ea381e2fe13cdbb65280256aef68"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-mipsel/Packages.xz"
+sha256 = "a92f61bca4819458b19b4e3641cbb51cb17b8516609ef2b92506b41928fcc879"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-powerpc/Packages"
+sha256 = "8394326a338d04a4581474e5bf6753bff321ea381e2fe13cdbb65280256aef68"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-powerpc/Packages.xz"
+sha256 = "a92f61bca4819458b19b4e3641cbb51cb17b8516609ef2b92506b41928fcc879"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-ppc64el/Packages"
+sha256 = "8394326a338d04a4581474e5bf6753bff321ea381e2fe13cdbb65280256aef68"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-ppc64el/Packages.xz"
+sha256 = "a92f61bca4819458b19b4e3641cbb51cb17b8516609ef2b92506b41928fcc879"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-s390/Packages"
+sha256 = "8394326a338d04a4581474e5bf6753bff321ea381e2fe13cdbb65280256aef68"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-s390/Packages.xz"
+sha256 = "a92f61bca4819458b19b4e3641cbb51cb17b8516609ef2b92506b41928fcc879"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-s390x/Packages"
+sha256 = "8394326a338d04a4581474e5bf6753bff321ea381e2fe13cdbb65280256aef68"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-s390x/Packages.xz"
+sha256 = "a92f61bca4819458b19b4e3641cbb51cb17b8516609ef2b92506b41928fcc879"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-sparc/Packages"
+sha256 = "8394326a338d04a4581474e5bf6753bff321ea381e2fe13cdbb65280256aef68"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-sparc/Packages.xz"
+sha256 = "a92f61bca4819458b19b4e3641cbb51cb17b8516609ef2b92506b41928fcc879"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-argdata_0.8-1_all.deb"
+sha256 = "0339df8cd3cd436424398b1373affeefefb1ebc6bc1bd71c3ac9998bf0f6d1e1"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-arpc_0.8-1_all.deb"
+sha256 = "2eee44b02cde0066862e4c2ebf379b4bb89cfe3efed9cf9c6059e822829a7de0"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-boost_1.61.0-19_all.deb"
+sha256 = "ba160ec0362718a213d0ef0863819b9ea79c95cb62cda610932cbf9c06a1db5b"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-buddy_2.4-14_all.deb"
+sha256 = "685c5bbf0aa9015c33f97f31d84feed983fda7915a5871100412c468cebf4c3a"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-bzip2_1.0.6-10_all.deb"
+sha256 = "b5c7148ba1697e8c010926524013340ad7c034549b171bb5bece926767141a4b"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-c-ares_1.13.0-6_all.deb"
+sha256 = "a0eb5cfa0d2956e6ba16b11da0170b8ffbd06440bc738e201c8f8fc15bb4b6d9"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-c-runtime_1.0-1_all.deb"
+sha256 = "2da62d89300cb11a36fd477986055f9bb654aa7910c6037c8207dd33e56fe349"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-cairo_1.14.8-8_all.deb"
+sha256 = "060ae513cfe8ec35930b4f0b8a6817e8e7aba5f947f37ebbac9ade5fe4487b50"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-cairomm_1.12.0-11_all.deb"
+sha256 = "286308e77ad8f2f3d688787dbceb715149bdbecde7bc7d2871ac8afc0593beef"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-capnproto_0.6.1-3_all.deb"
+sha256 = "ac6d5a86da50c015896445b11fc1e5b38cb186fddc017dcb2b633b5d0d856f32"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-cloudabi-demo-webserver_0.2-11_all.deb"
+sha256 = "babc0f4fc3c89916786f1d893f667834493daee4c8a98022f79451625e654b49"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-cloudabi-utils_0.39-1_all.deb"
+sha256 = "90b6ae93df516b2ff61620bc07d85ab763b7a62c12d793db8079d027a33c485f"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-cloudabi_0.21-1_all.deb"
+sha256 = "421278b4bfd77358805fed3de806ea9ec52611f896f5d1ab8b3658ea5fc3d2d7"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-cloudlibc_0.103-1_all.deb"
+sha256 = "5d31540a67da8b7d20476b4469b628474832c781f24a7ab10f13f9021defb910"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-compiler-rt_5.0.0-2_all.deb"
+sha256 = "bf9e761dae7667bfcca337cf7dfecc9745d2a7f0411db1a29c183166776864be"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-cppcoro_0.0.20170824-1_all.deb"
+sha256 = "f26b42d6d891f3c87896b9b8164ec6a9a53c2296668c4499fb23266b0294b35e"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-curl_7.50.3-15_all.deb"
+sha256 = "63f647bf11455434a8e42dec1da371a272903a97257cfd9bbee1a7323d48d488"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-cxx-runtime_1.0-3_all.deb"
+sha256 = "9e2093e29233736f3023ef1a0cab6ba6b4a11bd11452d362472b94c02bb26708"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-db48_4.8.30-6_all.deb"
+sha256 = "b6be1b2b3e899d6b15ad5032f2b95c2886747798c889e6a263aa1e5593a1adbf"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-django_1.10.4-1_all.deb"
+sha256 = "7546c4b6d17b0a7080ddfd095f5bf0a217f2a69b9ba414e06c972f3ba089f806"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-everything_1.0-29_all.deb"
+sha256 = "a631b5a966f7cfe6a8f08b0d204db53693254361a87643fc6068f531880e2fd5"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-expat_2.2.5-1_all.deb"
+sha256 = "7f1e1180efc39ed211a0b1c10894eff72000cfc34d61e3e74325f4ee11ed0a64"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-flac_1.3.2-5_all.deb"
+sha256 = "7b7b70e4bc5ea3af416239ddde60aeb85418546e33ff8955ab68a6b91f2c59d9"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-flower_0.11-1_all.deb"
+sha256 = "cb45f8be8dfad45903f8ec3963ea2d37892cfbb22a8649a9e3085e686eee1ce1"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-freetype_2.8.1-2_all.deb"
+sha256 = "fcc423afce413d01aa17f71dfd9a7b41f47df73540c092624c660e64bc1b7f77"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-fribidi_0.19.7-10_all.deb"
+sha256 = "871f0bf5740708ba3d10aa44d4eb6af7792338cf5722101683257f1b2a3421d2"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-giflib_5.1.4-11_all.deb"
+sha256 = "61fa1f0b6d43db1e9e25f236cede541184cd8847e39babbe087100bfdb2f5318"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-glib_2.50.3-11_all.deb"
+sha256 = "e6d8843b87f75c8031023ccbcab1d92200acc91b447d88970fba1380c75e2484"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-gmp_6.1.2-4_all.deb"
+sha256 = "e2affa0d67ffc36b1cc7abae0d15e8c403f18b00260546f70e8eb24492e319ed"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-grpc_1.7.2-3_all.deb"
+sha256 = "dc251837f589015c7cb4c8abd84bf6ca0f433f0173b10b31bc4801611ab8bdbe"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-http-parser_2.7.1-1_all.deb"
+sha256 = "7452a91a34939c5675ad662e8b57c12e31ef3303cacba6789cebbd6372ccfc99"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-icu4c_60.1-1_all.deb"
+sha256 = "f2cf9a15e1598ff7bd020e804e52e4cb214230a8a2521c1568c123bafde87515"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-jasper_2.0.14-1_all.deb"
+sha256 = "f44c4149fe1877fbcbe063e612ec1eb7eb46ee4e203b6fe936306dca566be4d6"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-jpeg_9.2-10_all.deb"
+sha256 = "7cdb94c19dd74837732ea55bd881390cebcd65d6f9b665b3d2b2c7e01502bd49"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-json-c_0.12.1-8_all.deb"
+sha256 = "c7d5149a3786cba4f10caf0532fa5cd17fc0febe02e3e9de34cafded8e86c053"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-jsoncpp_1.8.3-1_all.deb"
+sha256 = "c40c1be3f3dab8638a897e512c6f16951a252a7d7ad223fb5fd2ffd7a4b85e72"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-lcms2_2.9-1_all.deb"
+sha256 = "d09d8d83c03277c536101b900f259fec5c5d527606d7de824cf96f6cab912c2c"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-leveldb_1.20-7_all.deb"
+sha256 = "72ed53c3519d2be1bec24e155486e8e93c3d92ce2c837886ce4eb16c600096a5"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libatomic-ops_7.4.0-11_all.deb"
+sha256 = "1b8f15a5c22b13e4e86ea082068e30a3af8c9ea7b1ac750b1829bfeed897740d"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libcroco_0.6.12-2_all.deb"
+sha256 = "90d628594d9bdefe77c2bf31811dc2b060ae78cd8f19845720269173d269a28a"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libcxx_5.0.0-4_all.deb"
+sha256 = "a32d4f5b811b0db23a59314089056c5aa29c542e3ec23217c66f535e05f4b890"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libcxxabi_5.0.0-3_all.deb"
+sha256 = "567c057290f94c5b3868bee9c95ba510eb3457754cbbc7ab9fee18d68d515494"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libebml_1.3.5-1_all.deb"
+sha256 = "3db77364cd7b375a8206f1df4d76652c93a9b962eb0ce3e2f618900e56f4952f"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libevent_2.0.22-19_all.deb"
+sha256 = "a571593fef85159e854d28ef1851613e4a0bf09add0952f34c436940953b82ff"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libexif_0.6.21-19_all.deb"
+sha256 = "25f20c629c6ff45631bd9834d28962ee2562d5060b91c249df3bde1265251b9a"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libffi_3.2.1-10_all.deb"
+sha256 = "9844f3600d68cd1c5e0d1cc637f0376da40b6f803ec2ea08813695473260254d"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libgcrypt_1.7.6-5_all.deb"
+sha256 = "8746fa2620a48dbc59e23eb366dddac6be66a1b1b62db1501c93b98c64800642"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libgpg-error_1.27-5_all.deb"
+sha256 = "338e8bdb536c27bcc100b057a19fca14c62720de524959242a1c878e7c888bd8"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libid3tag_0.15.1.2-11_all.deb"
+sha256 = "c41a7c2f1f1651cc340abb89fe36f45a36f2638cedaa4128478ed904fa8a5f9e"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libircclient_1.9-5_all.deb"
+sha256 = "bb98f439e0cde63d56c84468beff96d0713e040fd54cfa4e237d335e4d21efac"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libksba_1.3.5-8_all.deb"
+sha256 = "a260605a2f18a26b35905b346b0ef005e78616e37e054d786e765057b9625a69"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libmad_0.15.1.2-10_all.deb"
+sha256 = "cf166285d2c0b01a84261652a86fc66c117e65aa9a3a179d3338b7cda472cd5e"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libmatroska_1.4.8-1_all.deb"
+sha256 = "4cdd0e60ef02d51987a017a31e29415ffbe025b0fd34e39e6b79e5b761f55aed"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libmng_2.0.3-14_all.deb"
+sha256 = "2058f152466c30d9e7d145d16166611ea4dac46f4c9f913ee6184dd003de4e4b"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libogg_1.3.3-1_all.deb"
+sha256 = "099e33228097701fc1414205502c083e99f27d08bbefe6c8e268db3ad82fcecb"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libpng_1.6.34-2_all.deb"
+sha256 = "69190e78f39a59db3bc33d644b04a952071dc28562d5bca015a6df734e74a6e3"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libressl_2.6.3-2_all.deb"
+sha256 = "a92682e7243789081474f783778693402cafabc7fb8d37df6ee17f6fe3186731"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libsamplerate_0.1.9-6_all.deb"
+sha256 = "332a4b00a6ee062618861321a9d26b68ae4ad2d695a227e78d7237bab10aa2e2"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libsigcxx_2.10.0-7_all.deb"
+sha256 = "6e763238f6e25bfc03776a2f2dbd2bd6fd8c9a3bbde2335c4a4eda5b854fd9f7"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libsndfile_1.0.28-1_all.deb"
+sha256 = "4f3858a8366eba5f2cfabdbdf1f09e4e549153d87c88272657c57c379f5da7a9"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libsodium_1.0.15-1_all.deb"
+sha256 = "2ff7d71ede469348c46f2e690028865edc45f006588bdfe5e9eaef0e4eaa0fb9"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libtasn1_4.12-1_all.deb"
+sha256 = "060356de3ab9c6595c6a64dee743844f76a7cfba08b2c2f2cc79ef3e1b5e9df0"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libtheora_1.1.1-11_all.deb"
+sha256 = "44452a0d0615b8eaa92ad1f86f72318f48db854457feaaa20f2ecfa0e6ec8301"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libtomcrypt_1.18.0-1_all.deb"
+sha256 = "fba1c3fcc4188faaa8994069122fd1a81c77988bd33653a04d5bf109837f037e"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libtomfloat_0.2-10_all.deb"
+sha256 = "aaa816e0e266cb572e1c1952d8a8b11f5966326b38ea4833f79c88a70a0fe7a6"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libtommath_1.0.1-1_all.deb"
+sha256 = "d4a93886253ca246d9605661cd32ce48e1b0cfea4a56ca21d1f403a83b7c0c11"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libtompoly_0.4-10_all.deb"
+sha256 = "ac052336b5dce55c83e85b394cec58c74e450fd625a5c3b0006275f94fe28a4f"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libucl_0.8.0-8_all.deb"
+sha256 = "35f906806f2122511364afc326d10e8700c142fb1bbb5d61cd9df99fdbd6f528"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libunwind_5.0.0-4_all.deb"
+sha256 = "de5305c7e753ed0def4991ac2ef91dba98e9188153104d3a12d24f657a903930"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libvorbis_1.3.5-11_all.deb"
+sha256 = "f6cd2b1f89869bde60ebd57ff619d516a5ea937d5b67b01b7203cd58c804105e"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libwebp_0.6.1-1_all.deb"
+sha256 = "c0b27a1c5caa17cac694924509be4a2b4ca11db4c00f5e481f241ece79d85011"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libxml2_2.9.7-1_all.deb"
+sha256 = "d1c952e5f496de5343a4f67d6592caf20561f7fecdc9b698cd179e4886b87391"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libxslt_1.1.32-1_all.deb"
+sha256 = "e3716b9c3e7cbe5ba0913c340da55765438e352a8cfebd5824e9b92783a3f62f"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-libxspf_1.2.0-11_all.deb"
+sha256 = "073c58c5f4e5e01f09f5bc1069381c793269abd20e31ca52dc615e597e0bbda9"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-lua_5.3.4-20_all.deb"
+sha256 = "7a16b9a0d272a56714325a71cf168d27379000f5f3f5f5477b92a336cd1a10ab"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-lz4_1.8.0-1_all.deb"
+sha256 = "18fcb79e322d73a99fa9df5482720b6d722646c9f82e420b9bf137829832e732"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-lzo_2.10-4_all.deb"
+sha256 = "d6b51b27aafc7d85c797fa927321fb2af5606c2018ce89e61138efd8b45eb940"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-mpfr_3.1.6-2_all.deb"
+sha256 = "4acf4b4bfe4130b3fd30ddd61f7dd54f503c837c87ef7ec3b271fcb857a6d343"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-mstd_1.1-1_all.deb"
+sha256 = "1929dd345e8cb323f69dd4be1c26c77d926091ff0e4763eaa21cd187345612d9"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-nettle_3.4-3_all.deb"
+sha256 = "fd85a8c590ca5ad3bff47129e6c0cd14ff10eff9c6f22a1d855443abef827c4a"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-nghttp2_1.28.0-1_all.deb"
+sha256 = "273199198988d876af1d5fd7a12e64a180d476f6438e258faa7f3cc81bb8d921"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-node_9.20171122-11_all.deb"
+sha256 = "3aa129c6b1c9e8a7382aba9146d6afde54ce63e3aa2248f94c5e2a77db7b1bc8"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-openjpeg_2.3.0-1_all.deb"
+sha256 = "0a214d82b1bbef0f9595f66009b80c5f4f9f63bcb72040089e22d1ab06df27c5"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-opus_1.2.1-1_all.deb"
+sha256 = "6329aab4758127ad67523aac26d7bacca93d70a00185ead0d8e44de50307b7a2"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-pcre2_10.30-1_all.deb"
+sha256 = "e5ca03de7d405b26f52a8e99ba8f62ae4b093e632f92a32f9059a2255c940f38"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-pcre_8.41-1_all.deb"
+sha256 = "ee946403a7f0637942e97ae6456974932760f575dff49044140bc2a17422fead"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-picosat_965-10_all.deb"
+sha256 = "fe24bcc690ce3327e969e782a41676c8442b98a465aaa93b136a4b8958bb0343"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-pixman_0.34.0-10_all.deb"
+sha256 = "ebd4f0b7ed91549239f5adc5670c1e29987aada027699797d4cfd42b10cd7657"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-prometheus-cpp_0.1.6-7_all.deb"
+sha256 = "5ddc0745dc23e5ab797240ffcd2c011fa7cafc6ac5d1a2ff8cc508fb71007ca6"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-protobuf-cpp_3.5.0-1_all.deb"
+sha256 = "e85d8990b6abfa2d849836f70759ee78a3a585ff8188a40b47d979463812fe17"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-python_3.6.0-72_all.deb"
+sha256 = "03f9679158c7cb5f9ca473df8d4308bf0418c03f89f8fe2882c7597f5d99f23b"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-qpdf_7.0.0-2_all.deb"
+sha256 = "576266ee6814a77cea04c4e129598b5a30719172107ffb43f7418b4a5ad785ee"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-re2_0.20171101-1_all.deb"
+sha256 = "68053121422fa38433bd4ce773d1d9ece447731c9786c3ecd5c5b5058f6914a9"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-scuba_0.7-11_all.deb"
+sha256 = "8b2c66fb5cbfa14c5e6e0caa2dd0aa073fb752fc7aa10a4651902896f2885cf5"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-snappy_1.1.7-1_all.deb"
+sha256 = "626251612df872b2682139a845e669a8b153701a15458d3061aca8b101c52993"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-speex_1.2.0-1_all.deb"
+sha256 = "ddab948f55f3fb5aacd55201878085bc43dbca094c3957518ee8c8d1fc1d22a7"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-speexdsp_1.1.93-10_all.deb"
+sha256 = "8d58ad3ad275a19ee282a3aec014072928119a65276a401718f6d0fe767d805f"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-taglib_1.11.1-8_all.deb"
+sha256 = "1385aa782666a2b065c3e8e03befe2897933caadcceebf0bd45e81ae31b7a271"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-tiff_4.0.9-1_all.deb"
+sha256 = "5c767b1e6d6aef0e5d0775c25fa7f106cf629ef444cc0d246713eeb179faa1dc"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-tomsfastmath_0.13.1-1_all.deb"
+sha256 = "c5240c8c1e0035467b1bda5e21eb6585d5f9058d12e0734dcb552de36bd67e9c"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-uriparser_0.8.5-1_all.deb"
+sha256 = "10cbd8cfd8b6a2158adbdf3377a496eda600cde32bafccb9bb8914c62ce44e6b"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-uvw_1.3.0-2_all.deb"
+sha256 = "82cbf977bc02fef6b4f17048e18eed99bb908111974519eb9a1bc5c2aa905bdd"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-x265_2.3-6_all.deb"
+sha256 = "1482331d1f559de4bf1c6164b19856f32d9002ca779bc66684419cc027b86788"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-xz_5.2.3-5_all.deb"
+sha256 = "e21bf8dd79ddbf2da38d5843d72fd0e71838c919667b90f5e584c492be48d019"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-yaml-cpp_0.6.0-1_all.deb"
+sha256 = "0a5641b36258c779cb50b4489b76b5acdbee0840b93f64668d32c728906cd2c2"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-yaml2argdata_0.4-1_all.deb"
+sha256 = "df1bb86f55bd8bdd70fc998de030d5ef7b5138802b10bb6d71fcddf02c62b813"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-yaml_0.1.7-6_all.deb"
+sha256 = "116bfa709fef78be112545137b8a5e76d77bb7a2f212ed33710140cbbcb4f0fc"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-zeromq_4.2.2-2_all.deb"
+sha256 = "474be522ca3565d13a67c4bee4d7fdae0bad1bd62b483b06a70fcd6b4dec5f97"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-zlib_1.2.11-4_all.deb"
+sha256 = "c69514113c1536ea0defe251376891f974b8ff4000565102f79d4e795f0a6466"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/i686-unknown-cloudabi-zstd_1.3.2-1_all.deb"
+sha256 = "81cf6a0b6d55fd45847be5bbca29ccb5da7af2815e8afbbc290be23f2b85e6a0"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-argdata_0.8-1_all.deb"
+sha256 = "3c5cd8a2abca9cd65fa5a9d5c071f1e3582383d00f4c716f933600ccb34a6275"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-arpc_0.8-1_all.deb"
+sha256 = "ca7c85c517542bb45ba64f3c455a71bee3179f022fed9329e2b1b4d6b89f1380"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-boost_1.61.0-21_all.deb"
+sha256 = "8d0aff7f5260f627af521a5330db4eb546624188cc14d49d0f4ad8f188476cb4"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-buddy_2.4-23_all.deb"
+sha256 = "420d42addfa5cca1c239fb437f213673a6aeb79d852f2303ca61b8f5b6cfeecd"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-bzip2_1.0.6-21_all.deb"
+sha256 = "4149c0a1cb87a1c488dedff98230dba5692b0addc7bc4bb0260234ce079fa887"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-c-ares_1.13.0-5_all.deb"
+sha256 = "bf51e0c9733c323d733e14e6c6608a0f271aa91238a4553c3978a89241d57f86"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-c-runtime_1.0-2_all.deb"
+sha256 = "a3a79357eda6192e7ae626c5da1aab49a201116a135c72c460ef49441a58a1b5"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-cairo_1.14.8-8_all.deb"
+sha256 = "5d45c74ff1bb62dc6171fa6ea70483a3812d28b8d4569e46da1ec8135ddde8f6"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-cairomm_1.12.0-20_all.deb"
+sha256 = "2ac81d12104b6cbeb2fe711b3781f3ddbb06996854490974f9c655e5bcc57150"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-capnproto_0.6.1-3_all.deb"
+sha256 = "fa45ab81be99549e4c00f5832ff69f318db3b29ec9027a1e9b1c77931be7aad8"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-cloudabi-demo-webserver_0.2-10_all.deb"
+sha256 = "864d432f5878b10e5466e4d30a74657ef1353f5c3a19a301e41145074bf4acec"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-cloudabi-utils_0.39-1_all.deb"
+sha256 = "a603fb5399cb4358ed56f16681f2101df500a964429e771e110cdc5fc37b27c2"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-cloudabi_0.21-1_all.deb"
+sha256 = "60de1c0d01f08535c5a22ba7cf98cbd3d133d65de06a022008dddea750880e04"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-cloudlibc_0.103-1_all.deb"
+sha256 = "43af120b125190ac2815d9653cc4d2e857194606379c5a93cd11f574195f0adf"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-compiler-rt_5.0.0-2_all.deb"
+sha256 = "53d67cd1a4778342c023ec873b2288f8ba209e30e88bfc7b5899376fe7eaa0e0"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-cppcoro_0.0.20170824-1_all.deb"
+sha256 = "11d90f48a84288c2e4c5d77c44fdc0fa5880ed190cb46ae716316e5674552e83"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-curl_7.50.3-15_all.deb"
+sha256 = "13fbd7e234f49fa0d90bd64ad655eeaf6fa1f83251fd28d4d8e5429bf121f2f3"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-cxx-runtime_1.0-4_all.deb"
+sha256 = "b3c00d141d520cf138b546451d0e89ea295e0dd3fcf315586bc9ea182e493357"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-db48_4.8.30-6_all.deb"
+sha256 = "a3a89ffb7811422cb295ebf3d5e41e0fa64cce3b556ed12b1a6bca0c6ccd4ab9"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-django_1.10.4-1_all.deb"
+sha256 = "c6148e96fbd28011e954d885c2f718ead2406340dd49aff56b6a63d84b4dccaf"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-everything_1.0-37_all.deb"
+sha256 = "2f33d7822c763ea271717a4dd52d7632622705dc6a01d53f2ed50c29da0afbee"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-expat_2.2.5-1_all.deb"
+sha256 = "4190650c4b39aa129fbc5071729558583d59582a8eb0573ffe65cba664421312"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-flac_1.3.2-5_all.deb"
+sha256 = "dc90ddf324ff1270bd111259daeef9f30bf51c3af43f59316e7680e7ad8954a9"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-flower_0.11-1_all.deb"
+sha256 = "ce883ba431436906fae6848cb4bdf7ac108fb79da9529b3485be1cfdbbe6c082"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-freetype_2.8.1-2_all.deb"
+sha256 = "a0f477cf859f308214e15ef81f0e5feb180adcfa654534f67ad8ca1c8bb65cf9"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-fribidi_0.19.7-18_all.deb"
+sha256 = "1378389353a8adcbbc3f12ead5e798955d3ee10a6bb6f48e2334c49fd256f378"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-giflib_5.1.4-15_all.deb"
+sha256 = "da36a20c4af295f2d557836d3f3d331895642d1dd3b06471856b6339fdc0d6ec"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-glib_2.50.3-11_all.deb"
+sha256 = "85237542211b4718d9c869d40e6dcce43ccaff803c55f81ac0744e82ade0498f"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-gmp_6.1.2-4_all.deb"
+sha256 = "5aed46b6a7f3c4ee816362986c31a6ff35591481de96cc3336e323a1a4714fa4"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-grpc_1.7.2-2_all.deb"
+sha256 = "9fe6af0934fba5854ad948ba851287f9d4f6a952d50b393e90cc53ed09b07613"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-http-parser_2.7.1-1_all.deb"
+sha256 = "969e6729b9f9b88648418beecdc7baacdeed63927a296a98693612907708759e"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-icu4c_60.1-2_all.deb"
+sha256 = "1e39be491d5fb97260aad5f96bb500b507b6d6875f03b61152d9007e61cc6057"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-jasper_2.0.14-1_all.deb"
+sha256 = "75f2b29a0c553bcf82b15e07ed14d63f39d7afd1e38ee4521b6c6557bc6541ac"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-jpeg_9.2-18_all.deb"
+sha256 = "d1ae2dd4c1aace6d51e839f0f55168f4c209affadec36a89481dda0bab745bcc"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-json-c_0.12.1-8_all.deb"
+sha256 = "3d008e27c03886d019aa2a4644c4c7c5be3851bdab47cca79b71e7db6213a097"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-jsoncpp_1.8.3-1_all.deb"
+sha256 = "ebf41171e4dbb34cfa3c344d64bca1b3314c3759238f7f1b23d14a33a7476e7b"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-lcms2_2.9-1_all.deb"
+sha256 = "1cf6aa11a8a7b6043f68231ce58e7dca713f9737f0b7b456aa66d0028e186095"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-leveldb_1.20-7_all.deb"
+sha256 = "dbbd81e87d6f77ab4c6a067099e0a7f5bda0bd876e83eabe698c48899040acea"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libatomic-ops_7.4.0-21_all.deb"
+sha256 = "1ac25eaa8a3c50b093298f3762a3266fbcd3eaa7d8dc5e92ddc74ccc8f1fd127"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libcroco_0.6.12-2_all.deb"
+sha256 = "f81cb5676ef77cc583a6362c0e1adc75462bab911d585dca3469efac32d53876"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libcxx_5.0.0-4_all.deb"
+sha256 = "f8cea369b71fcb577e640d8c07b69c6db939b16a9ff0a2fe7f3620687dd41eed"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libcxxabi_5.0.0-3_all.deb"
+sha256 = "cbd846da603788351bccd9741e5108e0af25e6c599c5b534e247b4da1e1c233b"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libebml_1.3.5-1_all.deb"
+sha256 = "84565c8cf549548058aba56de12240b539897b876099e59001a4a1aeb905c076"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libevent_2.0.22-31_all.deb"
+sha256 = "de93e4dc58509937c5eb2dd1d86f09b290c2234a61587f939534eda385c415e3"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libexif_0.6.21-34_all.deb"
+sha256 = "724f84f77bc9a24eafa1a6194d8abc04a4d8a41ee205a650a2a65be40526e9f0"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libffi_3.2.1-19_all.deb"
+sha256 = "01397908b70c4c5507378c8c0685a48bf2195896421caff40df31c3d5b651b7b"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libgcrypt_1.7.6-5_all.deb"
+sha256 = "8bb3854b39b16172d78194126fa171308f6cfcaf71d9a48762f9aee04651f744"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libgpg-error_1.27-5_all.deb"
+sha256 = "1021bfb50b6d8c48c77aefdbb84624a4997fc31ec19b9a776199b2f30ee90e06"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libid3tag_0.15.1.2-25_all.deb"
+sha256 = "e566c52e3a4b5a8baa2a9a246f3c79cf304d78ba33f086e6cbb8db5ea55ca2e6"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libircclient_1.9-5_all.deb"
+sha256 = "26f8939fbdc88c983072ca501e4c0eaa50765b138f6b782d117379bf22433882"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libksba_1.3.5-8_all.deb"
+sha256 = "20a69beb8ee2f73ea83ced7b25244d4fc0c76df53ac2ae9c21edac7a81873ca6"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libmad_0.15.1.2-20_all.deb"
+sha256 = "80ac8f11a8bd4f018c274051111fc857a214f537619ddd0da6d5dc7ffe508b8c"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libmatroska_1.4.8-1_all.deb"
+sha256 = "d16d6308e2a2fc0069999b64ac06ccfe3363cdd0bb3f324ad865672f86418fa8"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libmng_2.0.3-22_all.deb"
+sha256 = "e7299cc94473571c7dcf5affc242c9bef3db5a5ebf598cc3d946deb8b28e2a8b"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libogg_1.3.3-1_all.deb"
+sha256 = "7c88c9784e8cc3dfbd7c5cab1d7d84648c481687e9a363df2e4cf70f0fc89e21"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libpng_1.6.34-2_all.deb"
+sha256 = "d9c98089908fd4868cab25ea2ed16e9cb74e957c546fc9081bb84c089a5ad6e4"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libressl_2.6.3-1_all.deb"
+sha256 = "6b1026747638f599a773634a57b7b5468c34ebae334647ebafc037a06c910ca7"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libsamplerate_0.1.9-6_all.deb"
+sha256 = "dc586590028f5ef9928c8881d9288a093dd1e9c540b9657eddb72369cdac222e"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libsigcxx_2.10.0-7_all.deb"
+sha256 = "bff0b8ddc67df989eecb6c05f69278bd7bef365194b199e4dc246057ed2e7501"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libsndfile_1.0.28-1_all.deb"
+sha256 = "7302ef1a0fece20c7929d050785d39c77a243b4ec5406469089dfe3234c5a83d"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libsodium_1.0.15-1_all.deb"
+sha256 = "728799334fa1b04cd12f994b92c275be98cf6226e29cdf08ea5eb66156e60bec"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libtasn1_4.12-1_all.deb"
+sha256 = "97cc6cba8ea9543e22d21e82ae1e9d52f82cbd40a3f739bfaeb41f732461e202"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libtheora_1.1.1-21_all.deb"
+sha256 = "cb2f5fad2a238b13f35c3131a3ae4291668fdf56d3d8cc44d85b72d4d12dee70"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libtomcrypt_1.18.0-1_all.deb"
+sha256 = "a6a7b7d400963c324d498793a6722c37bba175941d6f2a6d5a041b3c1d119d24"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libtomfloat_0.2-19_all.deb"
+sha256 = "750cd13a007fad7419f1d46b83be0555f8cf750495884dad716d753ba147e505"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libtommath_1.0.1-1_all.deb"
+sha256 = "e690c28ac1468a0d46dcd12bb0dbb71527aa89af2954290c6abe6fafbe38ed8c"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libtompoly_0.4-19_all.deb"
+sha256 = "38ca08265a510a9a0d52a761abe060bdbfb77ce18a2bec612092c90bb35fa248"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libucl_0.8.0-8_all.deb"
+sha256 = "216cfecd422c861c85759a9d5c3e84624fbbd0457ee2edb59354006e1f959a3b"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libunwind_5.0.0-4_all.deb"
+sha256 = "9d423ab414c07c9b034214ca92d6c9df8fa6161625e07db4c361c97e520c5fca"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libvorbis_1.3.5-22_all.deb"
+sha256 = "933d8594424e9f60137ec9fb9e9407a03a9d948098168ecfa1302d6392d4d703"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libwebp_0.6.1-1_all.deb"
+sha256 = "54818370ad9a4903cf31a582668b3f2a69d3b98f855d31fd33060714b71e844a"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libxml2_2.9.7-1_all.deb"
+sha256 = "d7eebea2cdb37b7f82a0404da5666b479432ad249a1b34351bc0c6536d805064"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libxslt_1.1.32-1_all.deb"
+sha256 = "5c0ddeec7fca9ac7c70d0efbd5bac14417dfa822cd2d29bb39ba5843bc518ca0"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-libxspf_1.2.0-25_all.deb"
+sha256 = "7a410a4e783cdfaad9924931e1243a532b9323d647310101918e80e2bbe2f234"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-lua_5.3.4-20_all.deb"
+sha256 = "20d0a81e59d6edc1aad0e93169204a4a621a9fda81c8ab88e3729402b84db305"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-lz4_1.8.0-1_all.deb"
+sha256 = "e5ec05aa05ccd37f8308e035e3af9e82b7f9b822b8b678477654f3f45bf4a4d0"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-lzo_2.10-4_all.deb"
+sha256 = "14e4bbca9d7b7308c376983afffb5aff0c18d9f2255409100f0bf207fed7f3e9"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-mpfr_3.1.6-2_all.deb"
+sha256 = "c631aabc9d2fc067bc0a584bb54bc704151f085520e287eb03981c26174a77a9"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-mstd_1.1-1_all.deb"
+sha256 = "144423d4f0bff61fc0cc3ccd860f34e70d95c6b78dc7c41cb84893bb8cce2f96"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-nettle_3.4-2_all.deb"
+sha256 = "2993dc350a3af02c176c751e93c2f70a252eede76d68a9dc713b319479c56d75"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-nghttp2_1.28.0-1_all.deb"
+sha256 = "c3bd841e4e00fb5b945b79a95f31e0b9a8edb6079b8cab1d57f6c63c0f288bec"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-node_9.20171122-11_all.deb"
+sha256 = "1a53100ab0a38b93be8c3d007064e19aba65b630e48723af2401216f9bb28ed9"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-openjpeg_2.3.0-1_all.deb"
+sha256 = "5b635cb012a80cddf0713ef7b57c29167adab5a1379612554bb663d2b0a131f1"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-opus_1.2.1-1_all.deb"
+sha256 = "4177a14ec0f86fee847dd4b19bac7fd25ca90de9982cc1c0356626576ae50152"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-pcre2_10.30-1_all.deb"
+sha256 = "11ce2dd84cbc6981d29fbe40cca36ac9708b6a934d1a32ca7a711406bb290d67"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-pcre_8.41-1_all.deb"
+sha256 = "6762f76ab75a93e97d4fb992d318eb52dd3ca652e9605545c4caa688ab4f22fc"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-picosat_965-17_all.deb"
+sha256 = "56d187d3277cda6b19741b53d80e798ca0134fcc3a249ff21392dbb1bf3068ac"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-pixman_0.34.0-18_all.deb"
+sha256 = "e457b62b2acf722903801766f989c1d49d8b23db5dfdc361edeaf7663e720e92"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-prometheus-cpp_0.1.6-7_all.deb"
+sha256 = "1e00aaff7c9838b26132bab56d15ca0a08638b10c1c5d993dd84314c1235167c"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-protobuf-cpp_3.5.0-1_all.deb"
+sha256 = "c44461732c92a92d8827721ef2479de38fdd200a6faa8e959242c195c6ed4522"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-python_3.6.0-81_all.deb"
+sha256 = "0ab4179b578ebfb4bf60b59ffd11c46fd61ca0e9fcee7c3af9f5027c3c4d2a26"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-qpdf_7.0.0-2_all.deb"
+sha256 = "546f54624b8931850abf7b02252f4ba2fdccf1a8bb010c5d38dec62db3c40936"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-re2_0.20171101-1_all.deb"
+sha256 = "86a603dbf13ffa1c373db1ef1ce46df1a046aa4e0bd8912ac5a18db17b509e6e"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-scuba_0.7-10_all.deb"
+sha256 = "fb8569e29b977de77371c153890cf263ac84caf946245d1a7dc298e75b1a2f15"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-snappy_1.1.7-1_all.deb"
+sha256 = "5aea6b6fbcb5134d63cf99582e1678a709601d293604f5e7501b00aa9f6f20f3"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-speex_1.2.0-1_all.deb"
+sha256 = "094b367638cdb3f3d1fd1932e1bcf6711a77ecdda62955dd85a3da599f5f719c"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-speexdsp_1.1.93-21_all.deb"
+sha256 = "053ea82ab5e4324ef03b712e76b542f569415fb1752777ca9dafbc0ae4117fb1"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-taglib_1.11.1-8_all.deb"
+sha256 = "2067ce6890644f99891bd510e5f924f55296c30732d995e6f8622aa37beeb837"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-tiff_4.0.9-1_all.deb"
+sha256 = "698909bca5a8572d8bd8214724832bd06ba70551ebc5423d0a66fbe70c5e925e"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-tomsfastmath_0.13.1-1_all.deb"
+sha256 = "d56cff9606cd0209b14f5b67a790f58bf416df2e24418552d09f3067df424771"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-uriparser_0.8.5-1_all.deb"
+sha256 = "6cd2b5410826237081860229c3c7f0e4f80452e475f0d862e7acc37fcb5550a9"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-uvw_1.3.0-2_all.deb"
+sha256 = "84fb654657de2f401532265afa0d04bec9e70c1a23555f880fd8d2d52b10e1de"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-x265_2.3-6_all.deb"
+sha256 = "4a94f8409a4428a7c672f3f224d4be8d6fd5e1ba8b642947cb058fb12decb4fc"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-xz_5.2.3-5_all.deb"
+sha256 = "c7242ad1c2d1940f2ab529f57e334ac7cbb49f8dcaad37f0ce4814f8465549c2"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-yaml-cpp_0.6.0-1_all.deb"
+sha256 = "092b9b30634cce90fd4ce9a7b27720d04364cad27c3242568dcc6c4379ee10c0"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-yaml2argdata_0.4-1_all.deb"
+sha256 = "92d18fd2ff1e40cc07eb41b63d24cb1fe68db97a59a79fc3a656f3b892733731"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-yaml_0.1.7-6_all.deb"
+sha256 = "b1536a01a74c9f1e31088d0fa2c840dc1fa84e7ffc3d843ebafe0829c1992d03"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-zeromq_4.2.2-1_all.deb"
+sha256 = "d1a0cb1c537ff046ca09a50ff6c033e70b8ffaf52fbc1ead55254601bbe75934"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-zlib_1.2.11-4_all.deb"
+sha256 = "bb871785a7807277a6d7498449d927789c8cf88456c8cfb997d64c02f23bc2a2"
+legacy = true
+
+[[files]]
+name = "rustc/2020-05-04-cloudabi-apt-archive/x86-64-unknown-cloudabi-zstd_1.3.2-1_all.deb"
+sha256 = "caca464d92d104bef2d490a763524f72372e3b7aac15e0f3bfda24104b806047"
+legacy = true

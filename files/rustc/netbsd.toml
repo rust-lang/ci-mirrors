@@ -1,0 +1,114 @@
+[[files]]
+name = "rustc/2017-01-13-netbsd-patch1.patch"
+sha256 = "997eced279cb59c17d4ac44612a1ce5c86223a068aa73eefbb8faf44ccc78aeb"
+legacy = true
+
+[[files]]
+name = "rustc/2017-01-13-netbsd-patch2.patch"
+sha256 = "f8435a62a3b198a29ee85a068cadc008dec7b3aac5d91d384a8c819052eba1bc"
+legacy = true
+
+[[files]]
+name = "rustc/2017-01-16-netbsd-base.tgz"
+sha256 = "0190ce444401a409bc306f2f7901d18c335677ca62ee58c785b0747ebbcf694c"
+legacy = true
+
+[[files]]
+name = "rustc/2017-01-16-netbsd-comp.tgz"
+sha256 = "e7d78a1eb98c31a6f76b35583611b265078017b6385585f9f2054d9ffa93eec6"
+legacy = true
+
+[[files]]
+name = "rustc/2017-03-17-netbsd-base.tgz"
+sha256 = "0190ce444401a409bc306f2f7901d18c335677ca62ee58c785b0747ebbcf694c"
+legacy = true
+
+[[files]]
+name = "rustc/2017-03-17-netbsd-comp.tgz"
+sha256 = "e7d78a1eb98c31a6f76b35583611b265078017b6385585f9f2054d9ffa93eec6"
+legacy = true
+
+[[files]]
+name = "rustc/2017-03-17-netbsd-gnusrc.tgz"
+sha256 = "91d59a01f256b3c7711617a60b88206b2f1ea317d570c4e767d993ae271fc885"
+legacy = true
+
+[[files]]
+name = "rustc/2017-03-17-netbsd-sharesrc.tgz"
+sha256 = "c99326ea0c036f68da50e967918c64f2d5c92b8e865935f6a30f596503a150c3"
+legacy = true
+
+[[files]]
+name = "rustc/2017-03-17-netbsd-src.tgz"
+sha256 = "75ea4d97c264e66e74cdb32cbb31748d13a202217997c6a0f1aaa3e1b5c535d3"
+legacy = true
+
+[[files]]
+name = "rustc/2017-03-17-netbsd-syssrc.tgz"
+sha256 = "5ccae35936a2c025c811c463b4fdfaf56e3d5b5612c068296fc68000f706732d"
+legacy = true
+
+[[files]]
+name = "rustc/2018-03-01-netbsd-base.tgz"
+sha256 = "bcd6c515792cdfad56d5dcf310bc7c59e13f10a59c3529635dfc845dfe5d83de"
+legacy = true
+
+[[files]]
+name = "rustc/2018-03-01-netbsd-comp.tgz"
+sha256 = "07eb16adcf48120619af9eae7232f4cabf4df7daaa05acd9d5bc0336c3a55645"
+legacy = true
+
+[[files]]
+name = "rustc/2018-03-01-netbsd-gnusrc.tgz"
+sha256 = "bcecea39ab684719765acd260f8f0bbbe1569082c1f2557fc86cb15dc7ff28c7"
+legacy = true
+
+[[files]]
+name = "rustc/2018-03-01-netbsd-sharesrc.tgz"
+sha256 = "cb9c280f42793a183a1b23e5b77cd0bfe6118dcb347077ee7633b65e56500eba"
+legacy = true
+
+[[files]]
+name = "rustc/2018-03-01-netbsd-src.tgz"
+sha256 = "bdc31de9a3880f780ea05b39daff6cc7e53d63ee8a7d43220514d3222e2cedee"
+legacy = true
+
+[[files]]
+name = "rustc/2018-03-01-netbsd-syssrc.tgz"
+sha256 = "c41d12346cfeb36265c51f1f78314748f5ffce4eeb31dcc0c9243ab61852cce1"
+legacy = true
+
+[[files]]
+name = "rustc/2025-03-14-netbsd-9.0-amd64-binary-base.tar.xz"
+sha256 = "d9f7dcf163f33f22fd7f839cbeb7021bbcacdf145763460be9ab85a68a3d6323"
+legacy = true
+
+[[files]]
+name = "rustc/2025-03-14-netbsd-9.0-amd64-binary-comp.tar.xz"
+sha256 = "501cb586f62d2aec2623a5568891ff9cea4c0a3a7fc6ec255d14109ffa338367"
+legacy = true
+
+[[files]]
+name = "rustc/2025-03-14-netbsd-9.0-src-gnusrc.tgz"
+sha256 = "d5136683f6ca024b064deee45d04742042ca133d74350c03bcf7950bb912668c"
+legacy = true
+
+[[files]]
+name = "rustc/2025-03-14-netbsd-9.0-src-sharesrc.tgz"
+sha256 = "d2f3363eb70c8ad1f90ae0997c4fa170259f57641213ffad1b6a9da3b5fca378"
+legacy = true
+
+[[files]]
+name = "rustc/2025-03-14-netbsd-9.0-src-src.tgz"
+sha256 = "b5df75211fc32c270f2eaa9c47ddcf447de4a2ae18a4e430a01707a1d7e02e85"
+legacy = true
+
+[[files]]
+name = "rustc/2025-03-14-netbsd-9.0-src-syssrc.tgz"
+sha256 = "2830afe4c607c7a6909430ca6cd3ca4d38de2388fd741c606d01be98a1c0d805"
+legacy = true
+
+[[files]]
+name = "rustc/2025-03-14-netbsd-9.0-src-xsrc.tgz"
+sha256 = "13822e98067ab3e4674b4f9ff42b55d2c95c91729075f5ff1777257ec6f1d231"
+legacy = true

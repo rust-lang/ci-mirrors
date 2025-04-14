@@ -1,0 +1,19 @@
+[[files]]
+name = "rustc/2017-03-15-ninja-win.zip"
+sha256 = "95b36a597d33c1fe672829cfe47b5ab34b3a1a4c6bf628e5d150b6075df4ef50"
+legacy = true
+
+[[files]]
+name = "rustc/2024-03-28-v1.11.1-ninja-win.zip"
+sha256 = "524b344a1a9a55005eaf868d991e090ab8ce07fa109f1820d40e74642e289abc"
+legacy = true
+
+[[files]]
+name = "rustc/ninja-linux-1.10.1"
+sha256 = "654835515dc08b38e498233d5eea02cfd4f41202a204015f19ba554a897e6093"
+legacy = true
+
+[[files]]
+name = "rustc/ninja-linux-1.10.1.zip"
+sha256 = "7ee7f467a1a747c5b5e02342904af9c24e84df4ca993541f1c4d0f113cab27aa"
+legacy = true
