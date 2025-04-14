@@ -47,7 +47,7 @@ impl Storage {
     async fn get_file(&self, path: &str) -> Result<Option<String>, Error> {
         match self {
             Storage::ReadOnly(storage) => {
-                let url = format!("{}/{path}", storage.cdn_url);
+                let url = format!("{}/{}", storage.cdn_url, path.replace("+", "%2B"));
                 let response = storage.http.get(&url).send().await?;
                 match response.status() {
                     StatusCode::OK => Ok(Some(response.text().await?)),
