@@ -1,0 +1,64 @@
+[[files]]
+name = "rustc/android/3534162-studio.sdk-patcher.zip"
+sha256 = "18f9b8f27ea656e06b05d8f14d881df8e19803c9221c0be3e801632bcef18bed"
+legacy = true
+
+[[files]]
+name = "rustc/android/android-18_r03.zip"
+sha256 = "166ae9cf299747a5faa8f04168f0ee47cd7466a975d8b44acaaa62a43e767568"
+legacy = true
+
+[[files]]
+name = "rustc/android/android-21_r02.zip"
+sha256 = "a76cd7ad3080ac6ce9f037cb935b399a1bad396c0605d4ff42f693695f1dcefe"
+legacy = true
+
+[[files]]
+name = "rustc/android/emulator-linux-5264690.zip"
+sha256 = "6821047a6444e722c8f3d52a621bb6ecb2651be84bde6cd26b404f234f45fdc4"
+legacy = true
+
+[[files]]
+name = "rustc/android/emulator-linux_x64-11237101.zip"
+sha256 = "cfd54ce620ad5f9f786682ecad88b8b9da7ac48827d57406cc2a31bb8f6e73fe"
+legacy = true
+
+[[files]]
+name = "rustc/android/emulator-linux_x64-11772612.zip"
+sha256 = "6df97f72ab3108ba124e701348025125755f9f378131c45467890d9960a47e13"
+legacy = true
+
+[[files]]
+name = "rustc/android/emulator-linux_x64-12038310.zip"
+sha256 = "621c9384efa919ecf42d94b29e47abbc097261fa7bff667adf4bddb9a35f7254"
+legacy = true
+
+[[files]]
+name = "rustc/android/platform-tools_r28.0.2-linux.zip"
+sha256 = "3ddee83a3dbbed7129607e4ef5dcfa73fd1b9f7d124d30881d955a67e916ccf8"
+legacy = true
+
+[[files]]
+name = "rustc/android/platform-tools_r34.0.5-linux.zip"
+sha256 = "362f8f6218af0f4c61e5aaafb8e255a426c7a0ee00127dfab7371775081d3124"
+legacy = true
+
+[[files]]
+name = "rustc/android/sdk-tools-linux-4333796.zip"
+sha256 = "92ffee5a1d98d856634e8b71132e8a95d96c83a63fde1099be3d86df3106def9"
+legacy = true
+
+[[files]]
+name = "rustc/android/sys-img/android/arm64-v8a-21_r04.zip"
+sha256 = "6f9f8ab64641ccbea92a02cc85c130a60c3464b87aa9d49952a8d8292f84d073"
+legacy = true
+
+[[files]]
+name = "rustc/android/sys-img/android/armeabi-v7a-18_r05.zip"
+sha256 = "4200009917fad970953855a93cf197d0b5739262ff37395f0747a5f49d5485e7"
+legacy = true
+
+[[files]]
+name = "rustc/android/sys-img/android/armeabi-v7a-21_r04.zip"
+sha256 = "4f20bb4abff1fcda7fdde510993d2004b0ca330ae6e7a798ffecc3fbf6d48520"
+legacy = true

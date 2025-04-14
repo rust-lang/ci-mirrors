@@ -1,0 +1,124 @@
+[[files]]
+name = "rustc/LLVM-10.0.0-win64.exe"
+sha256 = "893f8a12506f8ad29ca464d868fb432fdadd782786a10655b86575fc7fc1a562"
+legacy = true
+
+[[files]]
+name = "rustc/LLVM-10.0.0-win64.tar.gz"
+sha256 = "469215a8acb5f64fab155f406fbcaa1530aaa997d3198a012212fac2f545d2f3"
+legacy = true
+
+[[files]]
+name = "rustc/LLVM-12.0.0-win64.exe"
+sha256 = "8426d57f2af2bf07f80014bfd359e87ed10f5521a236a10cfe9fc4870d1b1b25"
+legacy = true
+
+[[files]]
+name = "rustc/LLVM-14.0.2-win64.exe"
+sha256 = "b3e32ef8e10d8ba3259cc9da65639d3604e430bb38016702cb94f84370060e01"
+legacy = true
+
+[[files]]
+name = "rustc/LLVM-14.0.5-win64.exe"
+sha256 = "7b3f8f9255eb36422fadefc2828e33b55f7cda0270860defe196cb24fd06abfe"
+legacy = true
+
+[[files]]
+name = "rustc/LLVM-18.1.4-win64.exe"
+sha256 = "78d8f528a132e131b978e6b3276aa45af759a068a25c006240f59ab28df5f621"
+legacy = true
+
+[[files]]
+name = "rustc/LLVM-6.0.0-win64.exe"
+sha256 = "2501887b2f638d3f65b0336f354b96f8108b563522d81e841d5c88c34af283dd"
+legacy = true
+
+[[files]]
+name = "rustc/LLVM-7.0.0-win64.exe"
+sha256 = "74b197a3959b0408adf0824be01db8dddfa2f9a967f4085af3fad900ed5fdbf6"
+legacy = true
+
+[[files]]
+name = "rustc/LLVM-7.0.0-win64.tar.gz"
+sha256 = "5a08e164609213ea914acbd334e5d35abc869f8853f12942b2e3940b896f1045"
+legacy = true
+
+[[files]]
+name = "rustc/LLVM-8.0.0-win64.exe"
+sha256 = "56d582eed2d5def6accaedabbe11ae368186600798e2a6a7eb86a727fa7bb20c"
+legacy = true
+
+[[files]]
+name = "rustc/LLVM-9.0.0-win64.tar.gz"
+sha256 = "7b161fa80bf86908a6d77b72873dce46d215a41c9aa3e6539aa143b5ccfa003b"
+legacy = true
+
+[[files]]
+name = "rustc/clang+llvm-10.0.0-x86_64-apple-darwin.tar.xz"
+sha256 = "633a833396bf2276094c126b072d52b59aca6249e7ce8eae14c728016edb5e61"
+legacy = true
+
+[[files]]
+name = "rustc/clang+llvm-10.0.0-x86_64-linux-gnu-ubuntu-18.04.tar.xz"
+sha256 = "b25f592a0c00686f03e3b7db68ca6dc87418f681f4ead4df4745a01d9be63843"
+legacy = true
+
+[[files]]
+name = "rustc/clang+llvm-12.0.0-x86_64-apple-darwin.tar.xz"
+sha256 = "7bc2259bf75c003f644882460fc8e844ddb23b27236fe43a2787870a4cd8ab50"
+legacy = true
+
+[[files]]
+name = "rustc/clang+llvm-14.0.2-x86_64-apple-darwin.tar.xz"
+sha256 = "7037efca192eb04a569a7422bd5d974a0af315b979252b6d956d2657ac33d672"
+legacy = true
+
+[[files]]
+name = "rustc/clang+llvm-14.0.5-x86_64-apple-darwin.tar.xz"
+sha256 = "66cf1b8e00289a567b2f5f740f068b7682e27ccf048647b836d3624376a64705"
+legacy = true
+
+[[files]]
+name = "rustc/clang+llvm-15.0.7-x86_64-apple-darwin21.0.tar.xz"
+sha256 = "d16b6d536364c5bec6583d12dd7e6cf841b9f508c4430d9ee886726bd9983f1c"
+legacy = true
+
+[[files]]
+name = "rustc/clang+llvm-7.0.0-x86_64-apple-darwin.tar.xz"
+sha256 = "b3ad93c3d69dfd528df9c5bb1a434367babb8f3baea47fbb99bf49f1b03c94ca"
+legacy = true
+
+[[files]]
+name = "rustc/clang+llvm-8.0.0-x86_64-linux-gnu-ubuntu-14.04.tar.xz"
+sha256 = "9ef854b71949f825362a119bf2597f744836cb571131ae6b721cd102ffea8cd0"
+legacy = true
+
+[[files]]
+name = "rustc/clang+llvm-9.0.0-x86_64-darwin-apple.tar.xz"
+sha256 = "b46e3fe3829d4eb30ad72993bf28c76b1e1f7e38509fbd44192a2ef7c0126fc7"
+legacy = true
+
+[[files]]
+name = "rustc/clang+llvm-9.0.0-x86_64-linux-gnu-ubuntu-14.04.tar.xz"
+sha256 = "bea706c8f6992497d08488f44e77b8f0f87f5b275295b974aa8b194efba18cb8"
+legacy = true
+
+[[files]]
+name = "rustc/2021-01-14-clang+llvm-11.0.1-x86_64-linux-gnu-ubuntu-16.04.tar.xz"
+sha256 = "67f18660231d7dd09dc93502f712613247b7b4395e6f48c11226629b250b53c5"
+legacy = true
+
+[[files]]
+name = "rustc/2022-05-10-clang+llvm-14.0.0-x86_64-linux-gnu-ubuntu-18.04.tar.xz"
+sha256 = "61582215dafafb7b576ea30cc136be92c877ba1f1c31ddbbd372d6d65622fef5"
+legacy = true
+
+[[files]]
+name = "rustc/2022-12-06-clang+llvm-15.0.6-x86_64-linux-gnu-ubuntu-18.04.tar.xz"
+sha256 = "38bc7f5563642e73e69ac5626724e206d6d539fbef653541b34cae0ba9c3f036"
+legacy = true
+
+[[files]]
+name = "rustc/2023-05-17-clang+llvm-16.0.4-x86_64-linux-gnu-ubuntu-22.04.tar.xz"
+sha256 = "fd464333bd55b482eb7385f2f4e18248eb43129a3cda4c0920ad9ac3c12bdacf"
+legacy = true

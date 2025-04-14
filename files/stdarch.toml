@@ -1,0 +1,9 @@
+[[files]]
+name = "stdarch/sde-external-9.48.0-2024-11-25-lin.tar.xz"
+sha256 = "3173d2a5369e3385226b488d8b75403951bc14af601435fe707d9f83e0b533e6"
+legacy = true
+
+[[files]]
+name = "stdarch/sde-external-9.53.0-2025-03-16-lin.tar.xz"
+sha256 = "f55138df53378198e8c0a89598351cdb3c5e7f8819e63e472b0bc179afaad34c"
+legacy = true

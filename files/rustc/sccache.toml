@@ -1,0 +1,279 @@
+[[files]]
+name = "rustc/2017-02-24-sccache-x86_64-apple-darwin"
+sha256 = "68744d3a22bbbad4cf0c63f08414e4a741be5c9fd629d530ed4b90a6fa77d945"
+legacy = true
+
+[[files]]
+name = "rustc/2017-02-24-sccache-x86_64-pc-windows-msvc"
+sha256 = "5363ad3aa85e869f8282540b4a85994de5c8eee5d9c63b8429d368229a928d69"
+legacy = true
+
+[[files]]
+name = "rustc/2017-02-24-sccache-x86_64-unknown-linux-gnu"
+sha256 = "4b2ae37d793e6b846d05b5ac4a8bf55982d5b4fd5405789d1c895b7d2d88435a"
+legacy = true
+
+[[files]]
+name = "rustc/2017-02-25-sccache-x86_64-apple-darwin"
+sha256 = "926484403e410163daae2d2af3d114605f994a8026bb7012b1e59921fb444bcc"
+legacy = true
+
+[[files]]
+name = "rustc/2017-02-25-sccache-x86_64-pc-windows-msvc"
+sha256 = "d61f90a2dd78eb62ab9a435b7971cf3cd54de9e41fa9446aa41ece7c00e7754f"
+legacy = true
+
+[[files]]
+name = "rustc/2017-02-25-sccache-x86_64-unknown-linux-musl"
+sha256 = "2e6a427c41d311ee23e04a71ce0f2ca8edf4d098b46911dc9a7c13622976ae69"
+legacy = true
+
+[[files]]
+name = "rustc/2017-03-16-sccache-x86_64-apple-darwin"
+sha256 = "fb43600cfce057dcd8030f9183e14e823995138e5548c28ba8c02a34449a01b1"
+legacy = true
+
+[[files]]
+name = "rustc/2017-03-16-sccache-x86_64-pc-windows-msvc"
+sha256 = "95ac6025b2b35154ac65ac9a76f3165775746d93f5430972575c69a16b161ed3"
+legacy = true
+
+[[files]]
+name = "rustc/2017-03-16-sccache-x86_64-unknown-linux-musl"
+sha256 = "e83d68ec1356ce32dd0a8c612767efc564d4650dfa355833ee9c4fd0e6e04708"
+legacy = true
+
+[[files]]
+name = "rustc/2017-03-20-sccache-x86_64-apple-darwin"
+sha256 = "35025a6352de3d9a3884658d0493400bf7d4f62ccde5a32ac1125e80c26b9785"
+legacy = true
+
+[[files]]
+name = "rustc/2017-03-20-sccache-x86_64-pc-windows-msvc"
+sha256 = "d9678473433ac838ed3dda6ef924b19687e00c3b5e899c8fb421c5009a70936d"
+legacy = true
+
+[[files]]
+name = "rustc/2017-03-20-sccache-x86_64-unknown-linux-musl"
+sha256 = "f7e41595e9cdc92351b825309e677245f57f95c85b369c505b7fc81c9613bc8c"
+legacy = true
+
+[[files]]
+name = "rustc/2017-03-21-sccache-x86_64-apple-darwin"
+sha256 = "814c4a931336fbd5e48f91e13d7df8ba0e33a62160209cd87b823b168cfeeaca"
+legacy = true
+
+[[files]]
+name = "rustc/2017-03-21-sccache-x86_64-pc-windows-msvc"
+sha256 = "f4c96c920da286b043e7d69bbaf97cb7aaae7ad22c70445a6c6034604891a886"
+legacy = true
+
+[[files]]
+name = "rustc/2017-03-21-sccache-x86_64-unknown-linux-musl"
+sha256 = "c4bb57741ebe69a393444be20c980c6c9098969c1240e887cb6d86fe8b0ad3d2"
+legacy = true
+
+[[files]]
+name = "rustc/2017-03-22-sccache-x86_64-apple-darwin"
+sha256 = "c95f2495e0714d98af0fc0556cfb98778046603fb2e9d37a04db6174adac5998"
+legacy = true
+
+[[files]]
+name = "rustc/2017-03-22-sccache-x86_64-pc-windows-msvc"
+sha256 = "b6c9739a7ed91e29b0f40ca84e374b12a053a11d7ac65d6fb87277fd7075f1a9"
+legacy = true
+
+[[files]]
+name = "rustc/2017-03-22-sccache-x86_64-unknown-linux-musl"
+sha256 = "e84012e555cb585d8f33426ef5f3aebd654d79bd7cef21c81e7805f06cbff590"
+legacy = true
+
+[[files]]
+name = "rustc/2017-03-24-sccache-x86_64-apple-darwin"
+sha256 = "57a6df275129fff66408d875b1bc1b1a1cef9710f16745530863e0ea1dafc7bf"
+legacy = true
+
+[[files]]
+name = "rustc/2017-03-24-sccache-x86_64-pc-windows-msvc"
+sha256 = "43233d06bad0e14aa35913060595d068bb2f5852e35c67c4cc510e6b6a50d110"
+legacy = true
+
+[[files]]
+name = "rustc/2017-03-24-sccache-x86_64-unknown-linux-musl"
+sha256 = "0c32a788f12c04ea322b4a5c7bad4f1652b4ad2a4633fa7f3e4938df582e403d"
+legacy = true
+
+[[files]]
+name = "rustc/2017-04-04-sccache-x86_64-apple-darwin"
+sha256 = "f1fff4742d78b6818229d85827aab6db53de542d43c3637add5da725b027720f"
+legacy = true
+
+[[files]]
+name = "rustc/2017-04-04-sccache-x86_64-pc-windows-msvc"
+sha256 = "7e7320305d3287b4b63cb6c94871b435660c919fb9a28edad52bced7182b7cc0"
+legacy = true
+
+[[files]]
+name = "rustc/2017-04-04-sccache-x86_64-unknown-linux-musl"
+sha256 = "d31abdcab2c44e63bcf6314ebb833ccc8aacc02c79b85d280961c25025d83d6a"
+legacy = true
+
+[[files]]
+name = "rustc/2017-04-19-sccache-x86_64-apple-darwin"
+sha256 = "da11286fb428dc3138ec8c7d13df8633c575ebaa22dd4d21cae5a4b6273f809a"
+legacy = true
+
+[[files]]
+name = "rustc/2017-04-19-sccache-x86_64-pc-windows-msvc"
+sha256 = "5baa600f523de5535310ceeca82f93ec3359c0de7ef8ecfd1336e0a11dea9397"
+legacy = true
+
+[[files]]
+name = "rustc/2017-04-19-sccache-x86_64-unknown-linux-musl"
+sha256 = "71d7fd6197696dfcfa45997382d09600d578ce8b55f0eb97cdae2087c06035fc"
+legacy = true
+
+[[files]]
+name = "rustc/2017-04-29-sccache-x86_64-apple-darwin"
+sha256 = "267eabedbcca123757281c1c4ac78b0b2dedac203958daa22f9da18dcc09797e"
+legacy = true
+
+[[files]]
+name = "rustc/2017-04-29-sccache-x86_64-pc-windows-msvc"
+sha256 = "a88884ebae66bde37ffb17e6099ab7c10c3133b6834dbdfd453515eee3c15413"
+legacy = true
+
+[[files]]
+name = "rustc/2017-04-29-sccache-x86_64-unknown-linux-musl"
+sha256 = "87f767c6eeb7b93127fd748cf5615c08900b52474ab0dbadd565fadc87609a83"
+legacy = true
+
+[[files]]
+name = "rustc/2017-05-12-sccache-x86_64-apple-darwin"
+sha256 = "bd4fef90266f9598c4aadd9d83d454f344020ea403356d4ac3c41dd5b8eaefd7"
+legacy = true
+
+[[files]]
+name = "rustc/2017-05-12-sccache-x86_64-pc-windows-msvc"
+sha256 = "626467671dcdb96ab4b86b788631d0ecacf05910eb99c9eb0f49f025cee65d4b"
+legacy = true
+
+[[files]]
+name = "rustc/2017-05-12-sccache-x86_64-unknown-linux-musl"
+sha256 = "02e57b7f229641444975680a7d9d360478db4c62fd95078edd3a7beaec10a7c9"
+legacy = true
+
+[[files]]
+name = "rustc/2018-03-01-sccache-x86_64-apple-darwin"
+sha256 = "f4c445084fafa028454b28f59763197a907ea33766321f5d16bd98d0830754f3"
+legacy = true
+
+[[files]]
+name = "rustc/2018-03-01-sccache-x86_64-pc-windows-msvc"
+sha256 = "be80a836481153644bb7e6c4d587314d010f2d7136044842dcbc04765cca8455"
+legacy = true
+
+[[files]]
+name = "rustc/2018-03-01-sccache-x86_64-unknown-linux-musl"
+sha256 = "9f254b19407c479749280a4b8b9fbde34d390f2e3de54ef7fd19e15c9c765eaf"
+legacy = true
+
+[[files]]
+name = "rustc/2018-03-12-sccache-x86_64-apple-darwin"
+sha256 = "b1b058ad15a22b00e8c039c65c9fab11f3f138e4a424d544cc2d5a0736345708"
+legacy = true
+
+[[files]]
+name = "rustc/2018-03-12-sccache-x86_64-pc-windows-msvc"
+sha256 = "450ac4ca4164a4efd5f07c97122da58a544d4717e3fa61485fd1b029981e3700"
+legacy = true
+
+[[files]]
+name = "rustc/2018-03-12-sccache-x86_64-unknown-linux-musl"
+sha256 = "5349192f80b07e91b60745b7fef3523f76b166b629f67da08ca2868d7ba515aa"
+legacy = true
+
+[[files]]
+name = "rustc/2018-04-02-sccache-x86_64-apple-darwin"
+sha256 = "27422f26fd77f020b130d1b4dc8449804ca3d14dbd0c2779a57798b2b4b14e56"
+legacy = true
+
+[[files]]
+name = "rustc/2018-04-02-sccache-x86_64-pc-windows-msvc"
+sha256 = "d436b7b28f3749651de26b3e8a522b73661fd4097e762aa560b06b1b2ca9dcfd"
+legacy = true
+
+[[files]]
+name = "rustc/2018-04-02-sccache-x86_64-unknown-linux-musl"
+sha256 = "f9937acda5e049b8dab5cbf22fff9c0e877a08a2d449b6b39caf92725c988e35"
+legacy = true
+
+[[files]]
+name = "rustc/2018-04-26-sccache-x86_64-pc-windows-msvc"
+sha256 = "dba306f2b1283110e526e0e8ea68081032e1e170ca8234f3a083479fc7be7fcf"
+legacy = true
+
+[[files]]
+name = "rustc/2021-08-24-sccache-v0.2.15-x86_64-unknown-linux-musl"
+sha256 = "6075534342ea713d178142c61d3676f8a68f9fb8fa299e554e2a4a4635bd28d3"
+legacy = true
+
+[[files]]
+name = "rustc/2021-08-25-sccache-v0.2.15-aarch64-unknown-linux-musl"
+sha256 = "bfd790d021cde2c6d3f7f0e74c5cb0e5b3a9e516089d7fc9d27890f34178575d"
+legacy = true
+
+[[files]]
+name = "rustc/2021-08-25-sccache-v0.2.15-x86_64-apple-darwin"
+sha256 = "adbd229cd2e31eec194b5842ff92eb6faf79ba33792af707bd3ffe553ab6c6b5"
+legacy = true
+
+[[files]]
+name = "rustc/2021-08-25-sccache-v0.2.15-x86_64-pc-windows-msvc"
+sha256 = "b4a06b86f940e352c93af32810e137de056423d13c9e1345ed9e8b11e95f126f"
+legacy = true
+
+[[files]]
+name = "rustc/2022-11-13-sccache-v0.3.1-aarch64-unknown-linux-musl"
+sha256 = "d3c8964d0be239a4a38692b7d4c938d206752f2ae51ab0b74b5b0194ada69b6c"
+legacy = true
+
+[[files]]
+name = "rustc/2022-12-08-sccache-v0.3.3-x86_64-unknown-linux-musl"
+sha256 = "8fbcf63f454afce6755fd5865db3e207cdd408b8553e5223c9ed0ed2c6a92a09"
+legacy = true
+
+[[files]]
+name = "rustc/2025-01-07-sccache-v0.9.1-aarch64-unknown-linux-musl"
+sha256 = "af220834d081cc863c744e610054ac6fb25c8a2818d56d12001361b1f6a95006"
+legacy = true
+
+[[files]]
+name = "rustc/2025-01-07-sccache-v0.9.1-x86_64-unknown-linux-musl"
+sha256 = "c211f6ea94e7c78e1d05f28723651884acff6dbad652bb21aba5a60d6cb500f3"
+legacy = true
+
+[[files]]
+name = "rustc/2025-02-24-sccache-v0.10.0-aarch64-unknown-linux-musl"
+sha256 = "8df5d557b50aa19c1c818b1a6465454a9dd807917af678f3feae11ee5c9dbe27"
+legacy = true
+
+[[files]]
+name = "rustc/2025-02-24-sccache-v0.10.0-x86_64-apple-darwin"
+sha256 = "0925fe78012c21e39790653b5e6b20b7498441718cb8bb3a043866896f378568"
+legacy = true
+
+[[files]]
+name = "rustc/2025-02-24-sccache-v0.10.0-x86_64-pc-windows-msvc.exe"
+sha256 = "f3eff6014d973578498dbabcf1510fec2a624043d4035e15f2dc660fb35200d7"
+legacy = true
+
+[[files]]
+name = "rustc/2025-02-24-sccache-v0.10.0-x86_64-unknown-linux-musl"
+sha256 = "c205ba0911ce383e90263df8d83e445becccfff1bc0bb2e69ec57d1aa3090a4b"
+legacy = true
+
+[[files]]
+name = "rustc/2019-12-17-sccache-aarch64-unknown-linux-gnu"
+sha256 = "bf198b548e82f334dd092e493c2dc1adf7b8557a6651a3a2c37249aff801db42"
+legacy = true

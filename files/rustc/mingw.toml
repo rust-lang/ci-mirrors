@@ -1,0 +1,135 @@
+
+[[files]]
+name = "rustc/x86_64-12.2.0-release-posix-seh-rt_v10-rev0.7z"
+sha256 = "17fcd3ec733108788428ff551c83d54b2f80b426b7d40292d3f581895b9e1038"
+legacy = true
+
+[[files]]
+name = "rustc/x86_64-14.1.0-release-posix-seh-msvcrt-rt_v12-rev0.7z"
+sha256 = "bc0de4321141730e83fd2457b1f7639946cc66787bf98ba9b03770d06d414df1"
+legacy = true
+
+[[files]]
+name = "rustc/x86_64-4.9.2-release-win32-seh-rt_v4-rev4.7z"
+sha256 = "0fe055365d51619c8905187e9564cb7e1d41ec0ba6976e3a39b6b836f5bdd2df"
+legacy = true
+
+[[files]]
+name = "rustc/x86_64-6.2.0-release-posix-seh-rt_v5-rev1.7z"
+sha256 = "2d3269dd14689c9a55ae2d8ab50c834dd411eae0ebc9a74515b8eedbb1b98486"
+legacy = true
+
+[[files]]
+name = "rustc/x86_64-6.2.0-release-win32-seh-rt_v5-rev1.7z"
+sha256 = "5dc4b62038f5062f7239c99ab7b7d51a40cb6e482944fdaaf4e16d235492f9f4"
+legacy = true
+
+[[files]]
+name = "rustc/x86_64-6.3.0-release-posix-seh-rt_v5-rev2.7z"
+sha256 = "e93c3eeeb410ead1ab04898693fe691f69a930d397455de86313260c0ad1eaf0"
+legacy = true
+
+[[files]]
+name = "rustc/x86_64-6.3.0-release-posix-seh-rt_v5-rev2.tar.gz"
+sha256 = "8a784616cbf103e80f988825236c1f1d675cf55fa24ec0992c2fadb5db48e39f"
+legacy = true
+
+[[files]]
+name = "rustc/x86_64-6.3.0-release-posix-seh-rt_v5-rev2.zip"
+sha256 = "30d9c16639994f6a79b547cd55aa5edb1baac09e2a690ce441d5379db2b7472c"
+legacy = true
+
+[[files]]
+name = "rustc/x86_64-6.3.0-release-win32-seh-rt_v5-rev1.7z"
+sha256 = "9b416b02503979d43436837a5a8a2c80ad77d01f8fc98ab242059355a7b0a2d2"
+legacy = true
+
+[[files]]
+name = "rustc/x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z"
+sha256 = "853970527b5de4a55ec8ca4d3fd732c00ae1c69974cc930c82604396d43e79f8"
+legacy = true
+
+[[files]]
+name = "rustc/i686-12.2.0-release-posix-dwarf-rt_v10-rev0.7z"
+sha256 = "057ea5fdb9a5a2928e0a5d0595d08fe2835de4f3e3951d59c7e2221cfd84f58e"
+legacy = true
+
+[[files]]
+name = "rustc/i686-14.1.0-release-posix-dwarf-msvcrt-rt_v12-rev0.7z"
+sha256 = "e4f2aed5eba0c47b72d37fb3e2328784a0f4b2f6207b0783ad8c231c0b3cac22"
+legacy = true
+
+[[files]]
+name = "rustc/i686-4.9.2-release-win32-dwarf-rt_v4-rev4.7z"
+sha256 = "cc11b95f873ad77deceac3079193534030d0023d6100566c9d6ee6ddfa1241a0"
+legacy = true
+
+[[files]]
+name = "rustc/i686-6.2.0-release-posix-dwarf-rt_v5-rev1.7z"
+sha256 = "e1caa88a4a2d2e4adee67c9acd24d06d7d01a596bcca2a5b61e63b75ebb88b81"
+legacy = true
+
+[[files]]
+name = "rustc/i686-6.2.0-release-win32-dwarf-rt_v5-rev1.7z"
+sha256 = "330184c3d0976f48ea264fbbf7ede5beb204d4c96deb9458a5406cad9aaf1139"
+legacy = true
+
+[[files]]
+name = "rustc/i686-6.3.0-release-posix-dwarf-rt_v5-rev2.7z"
+sha256 = "55c529c0c0860d1c48acdaa32b141ced83437bfbadaa576310d1f60003698e45"
+legacy = true
+
+[[files]]
+name = "rustc/i686-6.3.0-release-posix-dwarf-rt_v5-rev2.tar.gz"
+sha256 = "16e43cb9326156b5872315f5d733d620789832c89afcbcde672d6787e053c503"
+legacy = true
+
+[[files]]
+name = "rustc/i686-6.3.0-release-posix-dwarf-rt_v5-rev2.zip"
+sha256 = "a0e544c3c60297a7879f4a93cd3aa1ec191823d8387d6df78cacc73458fa8cb4"
+legacy = true
+
+[[files]]
+name = "rustc/i686-6.3.0-release-win32-dwarf-rt_v5-rev1.7z"
+sha256 = "4ce8b4e2d97291bd2231babd30553e5d5c7971b70586245156bb47fd92e7a6f2"
+legacy = true
+
+[[files]]
+name = "rustc/i686-8.1.0-release-posix-dwarf-rt_v6-rev0.7z"
+sha256 = "adb84b70094c0225dd30187ff995e311d19424b1eb8f60934c60e4903297f946"
+legacy = true
+
+[[files]]
+name = "rustc/msys2-repo/mingw/i686/mingw-w64-i686-ca-certificates-20180409-1-any.pkg.tar.xz"
+sha256 = "f4bc34f1b07bff014cc8fecb2c32b892f39b9dd0d3daf850337a0d07dec63269"
+legacy = true
+
+[[files]]
+name = "rustc/msys2-repo/mingw/i686/mingw-w64-i686-ca-certificates-20180409-1-any.pkg.tar.xz.sig"
+sha256 = "3c362f057ee1c4a0e30a84bcf8a24a98a084c284b3992f91e7626df77aadf7f5"
+legacy = true
+
+[[files]]
+name = "rustc/msys2-repo/mingw/x86_64/mingw-w64-x86_64-ca-certificates-20180409-1-any.pkg.tar.xz"
+sha256 = "f2a35875ca5d36aa6be084a3f2273d91ac269e018689b8029b52e40cf5e341a6"
+legacy = true
+
+[[files]]
+name = "rustc/msys2-repo/mingw/x86_64/mingw-w64-x86_64-ca-certificates-20180409-1-any.pkg.tar.xz.sig"
+sha256 = "409575572cd67fef9f32af8943a85dba1743310768ccf1c1a9e2232dc1fd96a0"
+legacy = true
+
+[[files]]
+name = "rustc/msys2-repo/msys/x86_64/libzstd-1.4.4-2-x86_64.pkg.tar.xz"
+sha256 = "9167d228d293665ad13a17b990cd75a2664f7d39322ca0e86a98a5357240fd71"
+legacy = true
+
+[[files]]
+name = "rustc/msys2-repo/msys/x86_64/pacman-5.2.1-6-x86_64.pkg.tar.xz"
+sha256 = "0a3fb9db3f066b29571d2542c28b031db2b310f58d55617848e0ee9c53db4da3"
+legacy = true
+
+[[files]]
+name = "rustc/msys2-repo/msys/x86_64/zstd-1.4.4-2-x86_64.pkg.tar.xz"
+sha256 = "b7cbd3bf4cc1992d413bc220bf06e29ad36f042ed14c144c761de036174c1445"
+legacy = true

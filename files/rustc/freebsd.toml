@@ -1,0 +1,49 @@
+[[files]]
+name = "rustc/2019-04-04-freebsd-amd64-10.3-RELEASE-base.txz"
+sha256 = "e7c4c961694e34b2b60598d9668a185b5de1c6241bedfc4891cd9ea8fbff2dc4"
+legacy = true
+
+[[files]]
+name = "rustc/2019-04-04-freebsd-i386-10.3-RELEASE-base.txz"
+sha256 = "311faed2f5484184d4942399edc49e7add0fdccf30bdb22ee404f0c5d5cd768a"
+legacy = true
+
+[[files]]
+name = "rustc/2020-08-09-freebsd-amd64-11.4-RELEASE-base.txz"
+sha256 = "3bac8257bdd5e5b071f7b80cc591ebecd01b9314ca7839a2903096cbf82169f9"
+legacy = true
+
+[[files]]
+name = "rustc/2020-08-09-freebsd-i386-11.4-RELEASE-base.txz"
+sha256 = "ae602552ff4c26f31b304e4a1ffc066db826e75d07ba9a4bf33649e9549bf27b"
+legacy = true
+
+[[files]]
+name = "rustc/2022-05-06-freebsd-12.3-amd64-base.txz"
+sha256 = "e85b256930a2fbc04b80334106afecba0f11e52e32ffa197a88d7319cf059840"
+legacy = true
+
+[[files]]
+name = "rustc/2022-05-06-freebsd-12.3-i386-base.txz"
+sha256 = "789c9a08bdf9ece4a6e73454daf4940f79889efdc0e8b37db02cc26147a93a47"
+legacy = true
+
+[[files]]
+name = "rustc/2024-02-18-freebsd-13.2-amd64-base.txz"
+sha256 = "3a9250f7afd730bbe274691859756948b3c57a99bcda30d65d46ae30025906f0"
+legacy = true
+
+[[files]]
+name = "rustc/2024-02-18-freebsd-13.2-i386-base.txz"
+sha256 = "f784eabacca2eead765b14f664d7775f8f6a12aa74d8c657be851d1e090b187d"
+legacy = true
+
+[[files]]
+name = "rustc/2024-09-13-freebsd-13.4-amd64-base.txz"
+sha256 = "8e13b0a93daba349b8d28ad246d7beb327659b2ef4fe44d89f447392daec5a7c"
+legacy = true
+
+[[files]]
+name = "rustc/2024-09-13-freebsd-13.4-i386-base.txz"
+sha256 = "fc8f624bc3f60d2f04fadfc7de50f5b7ed22fe0314faf637bf46bbdd173f41d8"
+legacy = true

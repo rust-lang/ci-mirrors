@@ -1,0 +1,214 @@
+[[files]]
+name = "rustc/2017-03-17-stamp-x86_64-apple-darwin"
+sha256 = "26ed2959e10dc9eb6668722a99f0cfaf968d1a36a25abbbd699a33d317598846"
+legacy = true
+
+[[files]]
+name = "rustc/2017-03-17-stamp-x86_64-pc-windows-msvc"
+sha256 = "b38ffb6cfc7fc328bfc1b5614505f7a5115021b09e2a919de2f35b3428fa7faf"
+legacy = true
+
+[[files]]
+name = "rustc/2017-03-17-stamp-x86_64-unknown-linux-musl"
+sha256 = "e8365317a8a1d9d4a5ecc4576875cd1a220abc41a50016fa25bbaff361b4861a"
+legacy = true
+
+[[files]]
+name = "rustc/2017-04-20-32bit-gdborig.exe"
+sha256 = "5dcef090a55b956a54ee16aa1068355b471378f6b89385bacc47c31317d14ecc"
+legacy = true
+
+[[files]]
+name = "rustc/2017-04-20-64bit-gdborig.exe"
+sha256 = "74c28e3b30e7c70a4492c902377cf30e3b4f32d3e2a395111f6fb21177189494"
+legacy = true
+
+[[files]]
+name = "rustc/2017-05-15-Handle.zip"
+sha256 = "c3fd53b8cc363e466bcc5fc853a4a3c60ffd0230e322923a33a915feb0464214"
+legacy = true
+
+[[files]]
+name = "rustc/2017-07-11-sysroot-mips.tar.xz"
+sha256 = "0840b22b9443357e42f499ca093153e051a4267e41ca52c8a1c1335a0f3b2f02"
+legacy = true
+
+[[files]]
+name = "rustc/2017-07-11-sysroot-mipsel.tar.xz"
+sha256 = "9ce920263497fd76420df6fb0e004770acd0ec5bc69be0a3a8037d7491decc8c"
+legacy = true
+
+[[files]]
+name = "rustc/2017-08-22-is.exe"
+sha256 = "0432d5d91f769fa39ede83f425458f4f03b03209d650c302c5bf134023431b44"
+legacy = true
+
+[[files]]
+name = "rustc/2019-07-27-awscli.tar"
+sha256 = "537327eb34c2a495ed2c8b8a03aa926bf4ae61ce062476cdadb199d2c25d6103"
+legacy = true
+
+[[files]]
+name = "rustc/2022-11-27-relibc-install.tar.gz"
+sha256 = "891bfb0a0627c209c689180c6ec79f774284dc622f6d432d8b6a5c3c9f891d0b"
+legacy = true
+
+[[files]]
+name = "rustc/2023-04-28-awscli.tar"
+sha256 = "55d142c0295b285ccbe0bc11d02373363311edf681ffb8dcc7abf77674c1da6e"
+legacy = true
+
+[[files]]
+name = "rustc/OpenWrt-Toolchain-ar71xx-generic_gcc-5.3.0_musl-1.1.16.Linux-x86_64.tar.bz2"
+sha256 = "e71db90cc8c269f2331c5662d6c83026f21df5023a85f0c804d7d02bafd14d8b"
+legacy = true
+
+[[files]]
+name = "rustc/OpenWrt-Toolchain-malta-le_gcc-5.3.0_musl-1.1.15.Linux-x86_64.tar.bz2"
+sha256 = "ad41df333c059e552171b9ece2efbc177e9da389062a564b1883b6f60ca329fd"
+legacy = true
+
+[[files]]
+name = "rustc/cmake-3.11.1-win64-x64.zip"
+sha256 = "ed23c3d22e164fae7300c82db3e72eac4648e016eabdeace1bd573a9a6ecd218"
+legacy = true
+
+[[files]]
+name = "rustc/crosstool-ng-1.24.0.tar.gz"
+sha256 = "36c0067a2da265aa88f8d91c1647d152c98a100b8e2ce416cf47dedf08c069e9"
+legacy = true
+
+[[files]]
+name = "rustc/curl-7.66.0.tar.xz"
+sha256 = "dbb48088193016d079b97c5c3efde8efa56ada2ebf336e8a97d04eb8e2ed98c1"
+legacy = true
+
+[[files]]
+name = "rustc/gcc/gettext-0.22.tar.gz"
+sha256 = "49f089be11b490170bbf09ed2f51e5f5177f55be4cc66504a5861820e0fb06ab"
+legacy = true
+
+[[files]]
+name = "rustc/gcc/gmp-6.2.1.tar.bz2"
+sha256 = "eae9326beb4158c386e39a356818031bd28f3124cf915f8c5b1dc4c7a36b4d7c"
+legacy = true
+
+[[files]]
+name = "rustc/gcc/isl-0.24.tar.bz2"
+sha256 = "fcf78dd9656c10eb8cf9fbd5f59a0b6b01386205fe1934b3b287a0a1898145c0"
+legacy = true
+
+[[files]]
+name = "rustc/gcc/mpc-1.2.1.tar.gz"
+sha256 = "17503d2c395dfcf106b622dc142683c1199431d095367c6aacba6eec30340459"
+legacy = true
+
+[[files]]
+name = "rustc/gcc/mpfr-4.1.0.tar.bz2"
+sha256 = "feced2d430dd5a97805fa289fed3fc8ff2b094c02d05287fd6133e7f1f0ec926"
+legacy = true
+
+[[files]]
+name = "rustc/glibc-2.17-157-2020-11-25.el7.ppc64le.rpm"
+sha256 = "95677b9274777e78dacc7477f775a5aa6eaa8bb73076a7fb9b56282b7f5205c4"
+legacy = true
+
+[[files]]
+name = "rustc/glibc-devel-2.17-157-2020-11-25.el7.ppc64le.rpm"
+sha256 = "1b7c984235e369eeb3d9d5b6c390ca5713ab0a9f9e0182b4fef41a17050a541c"
+legacy = true
+
+[[files]]
+name = "rustc/glibc-headers-2.17-157-2020-11-25.el7.ppc64le.rpm"
+sha256 = "394881fdbf4f42c02e5758dbd8b5e8851104696f99aae5b17e012b0a257af15c"
+legacy = true
+
+[[files]]
+name = "rustc/isl-0.14.tar.xz"
+sha256 = "b1044f02819da0708fc7071fa2a558ce5d3c29d6676c8cb113caaedd5903ff03"
+legacy = true
+
+[[files]]
+name = "rustc/isl-0.20.tar.xz"
+sha256 = "a5596a9fb8a5b365cb612e4b9628735d6e67e9178fae134a816ae195017e77aa"
+legacy = true
+
+[[files]]
+name = "rustc/isl-0.24.tar.bz2"
+sha256 = "fcf78dd9656c10eb8cf9fbd5f59a0b6b01386205fe1934b3b287a0a1898145c0"
+legacy = true
+
+[[files]]
+name = "rustc/isl-0.26.tar.bz2"
+sha256 = "5eac8664e9d67be6bd0bee5085d6840b8baf738c06814df47eaf4166d9776436"
+legacy = true
+
+[[files]]
+name = "rustc/kernel-headers-3.10.0-514-2020-11-25.el7.ppc64le.rpm"
+sha256 = "3ab4a39e7d33c02080765342c4544f57153d5b045aa9e0afdb3bfa40eab3a663"
+legacy = true
+
+[[files]]
+name = "rustc/msp430-gcc-6.4.0.32_linux64.tar.bz2"
+sha256 = "86dbe86cf0d0a2146c493055d6b80ce768618f3f7a437541714ab676a528b66a"
+legacy = true
+
+[[files]]
+name = "rustc/openssl-1.0.2k.tar.gz"
+sha256 = "6b3977c61f2aedf0f96367dcfb5c6e578cf37e7b8d913b4ecb6643c3cb88d8c0"
+legacy = true
+
+[[files]]
+name = "rustc/openssl-1.0.2m.tar.gz"
+sha256 = "8c6ff15ec6b319b50788f42c7abc2890c08ba5a1cdcd3810eb9092deada37b0f"
+legacy = true
+
+[[files]]
+name = "rustc/openssl-1.0.2n.tar.gz"
+sha256 = "370babb75f278c39e0c50e8c4e7493bc0f18db6867478341a832a982fd15a8fe"
+legacy = true
+
+[[files]]
+name = "rustc/python-3.7.4-embed-amd64.zip"
+sha256 = "fb65e5cd595ad01049f73b47bc0ee23fd03f0cbadc56cb318990cee83b37761b"
+legacy = true
+
+[[files]]
+name = "rustc/riscv32-elf-ubuntu-22.04-gcc-nightly-2023.10.18-nightly.tar.gz"
+sha256 = "0cff7b05d90af9679ca7e1f8e7040d3e4d0757123b4207af28bd9ac796bf425b"
+legacy = true
+
+[[files]]
+name = "rustc/riscv64-elf-ubuntu-22.04-gcc-nightly-2023.10.18-nightly.tar.gz"
+sha256 = "24fabc64df0fc11cad155390f089eb87431ccd862fe0511446d76fbe54cbde57"
+legacy = true
+
+[[files]]
+name = "rustc/rustc-perf-4f313add609f43e928e98132358e8426ed3969ae.zip"
+sha256 = "ed7ace9a80e9509afafa6a96a427559080f558b44501b03cbbdf7894219fdeac"
+legacy = true
+
+[[files]]
+name = "rustc/rustc-perf-8b2ac3042e1ff2c0074455a0a3618adef97156b1.zip"
+sha256 = "32b4a27599596fbc5bc604cb93488e2d90ddc2fb6b22341a9503d37832cb096b"
+legacy = true
+
+[[files]]
+name = "rustc/sabotage-linux-tarballs/linux-headers-4.19.88.tar.xz"
+sha256 = "d3f3acf6d16bdb005d3f2589ade1df8eff2e1c537f92e6cd9222218ead882feb"
+legacy = true
+
+[[files]]
+name = "rustc/sde-external-8.9.0-2017-08-06-lin.tar.bz2"
+sha256 = "d3868ac4d6f92e57376924a62e8d52f36d7a326561ec0bbd1d5681759a947134"
+legacy = true
+
+[[files]]
+name = "rustc/vexpress-v2p-ca15-tc1.dtb"
+sha256 = "0abd5abfceef9df5848254caaf933c4ede795dd4b618a9751f4a2727e95e7ff2"
+legacy = true
+
+[[files]]
+name = "rustc/wix311-binaries.zip"
+sha256 = "37f0a533b0978a454efb5dc3bd3598becf9660aaf4287e55bf68ca6b527d051d"
+legacy = true
