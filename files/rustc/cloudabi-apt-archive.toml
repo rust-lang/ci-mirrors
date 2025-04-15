@@ -1657,6 +1657,7 @@ legacy = true
 name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-amd64/Packages"
 sha256 = "8394326a338d04a4581474e5bf6753bff321ea381e2fe13cdbb65280256aef68"
 legacy = true
+skip-validation = true # duplicate hash
 
 [[files]]
 name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-amd64/Packages.xz"
@@ -1667,6 +1668,7 @@ legacy = true
 name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-armel/Packages"
 sha256 = "8394326a338d04a4581474e5bf6753bff321ea381e2fe13cdbb65280256aef68"
 legacy = true
+skip-validation = true # duplicate hash
 
 [[files]]
 name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-armel/Packages.xz"
@@ -1677,6 +1679,7 @@ legacy = true
 name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-armhf/Packages"
 sha256 = "8394326a338d04a4581474e5bf6753bff321ea381e2fe13cdbb65280256aef68"
 legacy = true
+skip-validation = true # duplicate hash
 
 [[files]]
 name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-armhf/Packages.xz"
@@ -1687,6 +1690,7 @@ legacy = true
 name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-i386/Packages"
 sha256 = "8394326a338d04a4581474e5bf6753bff321ea381e2fe13cdbb65280256aef68"
 legacy = true
+skip-validation = true # duplicate hash
 
 [[files]]
 name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-i386/Packages.xz"
@@ -1697,6 +1701,7 @@ legacy = true
 name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-ia64/Packages"
 sha256 = "8394326a338d04a4581474e5bf6753bff321ea381e2fe13cdbb65280256aef68"
 legacy = true
+skip-validation = true # duplicate hash
 
 [[files]]
 name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-ia64/Packages.xz"
@@ -1727,6 +1732,7 @@ legacy = true
 name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-mips/Packages"
 sha256 = "8394326a338d04a4581474e5bf6753bff321ea381e2fe13cdbb65280256aef68"
 legacy = true
+skip-validation = true # duplicate hash
 
 [[files]]
 name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-mips/Packages.xz"
@@ -1737,6 +1743,7 @@ legacy = true
 name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-mipsel/Packages"
 sha256 = "8394326a338d04a4581474e5bf6753bff321ea381e2fe13cdbb65280256aef68"
 legacy = true
+skip-validation = true # duplicate hash
 
 [[files]]
 name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-mipsel/Packages.xz"
@@ -1747,6 +1754,7 @@ legacy = true
 name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-powerpc/Packages"
 sha256 = "8394326a338d04a4581474e5bf6753bff321ea381e2fe13cdbb65280256aef68"
 legacy = true
+skip-validation = true # duplicate hash
 
 [[files]]
 name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-powerpc/Packages.xz"
@@ -1757,6 +1765,7 @@ legacy = true
 name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-ppc64el/Packages"
 sha256 = "8394326a338d04a4581474e5bf6753bff321ea381e2fe13cdbb65280256aef68"
 legacy = true
+skip-validation = true # duplicate hash
 
 [[files]]
 name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-ppc64el/Packages.xz"
@@ -1767,6 +1776,7 @@ legacy = true
 name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-s390/Packages"
 sha256 = "8394326a338d04a4581474e5bf6753bff321ea381e2fe13cdbb65280256aef68"
 legacy = true
+skip-validation = true # duplicate hash
 
 [[files]]
 name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-s390/Packages.xz"
@@ -1777,6 +1787,7 @@ legacy = true
 name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-s390x/Packages"
 sha256 = "8394326a338d04a4581474e5bf6753bff321ea381e2fe13cdbb65280256aef68"
 legacy = true
+skip-validation = true # duplicate hash
 
 [[files]]
 name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-s390x/Packages.xz"
@@ -1787,6 +1798,7 @@ legacy = true
 name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-sparc/Packages"
 sha256 = "8394326a338d04a4581474e5bf6753bff321ea381e2fe13cdbb65280256aef68"
 legacy = true
+skip-validation = true # duplicate hash
 
 [[files]]
 name = "rustc/2020-05-04-cloudabi-apt-archive/dists/cloudabi/cloudabi/binary-sparc/Packages.xz"

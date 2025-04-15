@@ -67,6 +67,7 @@ legacy = true
 name = "rustc/OpenWrt-Toolchain-malta-le_gcc-5.3.0_musl-1.1.15.Linux-x86_64.tar.bz2"
 sha256 = "ad41df333c059e552171b9ece2efbc177e9da389062a564b1883b6f60ca329fd"
 legacy = true
+skip-validation = true # duplicate hash
 
 [[files]]
 name = "rustc/cmake-3.11.1-win64-x64.zip"
