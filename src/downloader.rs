@@ -41,7 +41,7 @@ impl Downloader {
                 .map_err(std::io::Error::other),
         );
 
-        let dest = File::create(self.path_for(&file)).await?;
+        let dest = File::create(self.path_for(file)).await?;
         let mut writer = Sha256Writer::new(BufWriter::new(dest));
         tokio::io::copy(&mut reader, &mut writer).await?;
 

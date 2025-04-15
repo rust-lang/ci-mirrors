@@ -37,7 +37,7 @@ struct Cli {
 #[tokio::main]
 async fn main() -> Result<(), Error> {
     let args = Cli::parse();
-    let files = load_manifests(&args.manifests_dir)?;
+    let (files, mut errors) = load_manifests(&args.manifests_dir)?;
 
     let storage = Arc::new(if args.skip_upload {
         Storage::ReadOnly(CdnReader::new(args.cdn_url))
@@ -47,8 +47,6 @@ async fn main() -> Result<(), Error> {
 
     // Collect all errors that happen during the check phase and show them at the end. This way, if
     // there are multiple errors in CI users won't have to retry the build multiple times.
-    let mut errors = Vec::new();
-
     eprintln!(
         "calculating the changes to execute ({} files, {} parallelism)...",
         files.len(),
@@ -86,7 +84,7 @@ async fn main() -> Result<(), Error> {
     // We download eagerly to be able to detect errors during the check phase.
     let downloader = Downloader::new()?;
     for file in &to_upload {
-        if let Err(err) = downloader.download(&file).await {
+        if let Err(err) = downloader.download(file).await {
             errors.push(format!("{err:?}"));
         }
     }
