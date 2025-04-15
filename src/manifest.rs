@@ -88,12 +88,19 @@ fn record_locations(toml_path: &Path, manifest: &Manifest, cache: &mut LocationC
     for file in &manifest.files {
         let span = Span(file.span());
         let file = file.get_ref();
+
         let location = Location {
             file: toml_path.to_owned(),
             span,
         };
         let (hash, name, url) = match file {
-            ManifestFile::Legacy(f) => (f.sha256.clone(), f.name.clone(), None),
+            ManifestFile::Legacy(f) => {
+                if f.skip_validation {
+                    return;
+                }
+
+                (f.sha256.clone(), f.name.clone(), None)
+            }
             ManifestFile::Managed(f) => (f.sha256.clone(), f.name.clone(), Some(f.source.clone())),
         };
         cache
@@ -212,6 +219,8 @@ struct ManifestFileLegacy {
     #[serde(deserialize_with = "deserialize_true")]
     #[expect(unused)]
     legacy: (),
+    #[serde(default, rename = "skip-validation")]
+    skip_validation: bool,
 }
 
 #[derive(Debug, Deserialize)]
