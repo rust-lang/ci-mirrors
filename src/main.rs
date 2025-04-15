@@ -90,6 +90,7 @@ async fn main() -> Result<(), Error> {
     }
 
     if !errors.is_empty() {
+        eprintln!("Found {} error(s)", errors.len());
         for error in errors {
             eprintln!("error: {error}");
         }
