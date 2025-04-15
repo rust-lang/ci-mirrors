@@ -12,6 +12,7 @@ legacy = true
 name = "rustc/2017-01-16-netbsd-base.tgz"
 sha256 = "0190ce444401a409bc306f2f7901d18c335677ca62ee58c785b0747ebbcf694c"
 legacy = true
+skip-validation = true # duplicate hash
 
 [[files]]
 name = "rustc/2017-01-16-netbsd-comp.tgz"
@@ -22,6 +23,7 @@ legacy = true
 name = "rustc/2017-03-17-netbsd-base.tgz"
 sha256 = "0190ce444401a409bc306f2f7901d18c335677ca62ee58c785b0747ebbcf694c"
 legacy = true
+skip-validation = true # duplicate hash
 
 [[files]]
 name = "rustc/2017-03-17-netbsd-comp.tgz"
