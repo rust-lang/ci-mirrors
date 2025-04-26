@@ -1,0 +1,11 @@
+[[files]]
+name = "rustc/solaris-11.4.42.111.0-i386-sysroot-v2025-02-21.tar.bz2"
+source = "https://github.com/psumbera/solaris-sysroot/releases/download/v2025-02-21/solaris-11.4.42.111.0-i386-sysroot-v2025-02-21.tar.bz2"
+sha256 = "e82b78c14464cc2dc71f3cdab312df3dd63441d7c23eeeaf34d41d8b947688d3"
+license = "https://www.oracle.com/downloads/licenses/solaris-ea-license.html"
+
+[[files]]
+name = "rustc/solaris-11.4.42.111.0-sparc-sysroot-v2025-02-21.tar.bz2"
+source = "https://github.com/psumbera/solaris-sysroot/releases/download/v2025-02-21/solaris-11.4.42.111.0-sparc-sysroot-v2025-02-21.tar.bz2"
+sha256 = "e249a7ef781b9b3297419bd014fa5074807030981d84e113d6af3a897a8b4ffc"
+license = "https://www.oracle.com/downloads/licenses/solaris-ea-license.html"
