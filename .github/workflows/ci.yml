@@ -21,7 +21,7 @@ jobs:
         run: cargo build
 
       - name: Try a dry run of the changes
-        run: cargo run -- --skip-upload
+        run: cargo run -- upload --skip-upload
         if: github.event_name == 'pull_request'
 
       - name: Upload tool to artifacts
@@ -41,7 +41,7 @@ jobs:
   apply:
     name: Apply to production
     runs-on: ubuntu-latest
-    needs: [build]
+    needs: [ build ]
     if: github.event_name == 'merge_group'
 
     permissions:
@@ -72,12 +72,12 @@ jobs:
         run: chmod +x ./ci-mirrors
 
       - name: Run the tool
-        run: ./ci-mirrors
+        run: ./ci-mirrors upload
 
   finished:
     name: Build finished
     runs-on: ubuntu-latest
-    needs: [build, apply]
+    needs: [ build, apply ]
     if: "${{ !cancelled() }}"
     env:
       NEEDS: "${{ toJson(needs) }}"
