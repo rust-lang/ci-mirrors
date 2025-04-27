@@ -1,8 +1,11 @@
 use crate::downloader::Downloader;
-use crate::manifest::load_manifests;
+use crate::manifest::{ManifestFileManaged, load_manifests};
 use crate::storage::{CdnReader, FileStatus, S3Storage, Storage};
+use crate::utils::to_hex;
 use anyhow::Error;
 use clap::Parser;
+use reqwest::Url;
+use std::fs::OpenOptions;
 use std::path::PathBuf;
 use std::sync::Arc;
 use tokio::sync::Semaphore;
@@ -11,9 +14,19 @@ use tokio::task::JoinSet;
 mod downloader;
 mod manifest;
 mod storage;
+mod utils;
+
+/// Manage mirrored files on rust-lang CDN.
+#[derive(Debug, Parser)]
+enum Cli {
+    /// Upload files to the CDN and check that the local files are consistent.
+    Upload(UploadArgs),
+    /// Add a new mirrored file entry.
+    AddFile(AddFileArgs),
+}
 
 #[derive(Debug, Parser)]
-struct Cli {
+struct UploadArgs {
     /// Path to the manifest to synchronize.
     #[arg(default_value = "files/")]
     manifests_dir: PathBuf,
@@ -34,9 +47,37 @@ struct Cli {
     jobs: usize,
 }
 
+#[derive(Debug, Parser)]
+struct AddFileArgs {
+    /// URL that should be mirrored.
+    url: Url,
+    /// Path under which the file should be available on the CDN.
+    #[arg(long)]
+    path: String,
+    /// TOML file into which should the mirrored entry be added.
+    #[arg(long)]
+    toml_file: PathBuf,
+    /// License of the file.
+    #[arg(long)]
+    license: Option<String>,
+}
+
 #[tokio::main]
 async fn main() -> Result<(), Error> {
     let args = Cli::parse();
+    match args {
+        Cli::Upload(args) => {
+            upload(args).await?;
+        }
+        Cli::AddFile(args) => {
+            add_file(args).await?;
+        }
+    }
+
+    Ok(())
+}
+
+async fn upload(args: UploadArgs) -> anyhow::Result<()> {
     let (files, mut errors) = load_manifests(&args.manifests_dir)?;
 
     let storage = Arc::new(if args.skip_upload {
@@ -112,6 +153,34 @@ async fn main() -> Result<(), Error> {
             .write_contents(&format!("{}.sha256", &file.name), file.sha256.as_bytes())
             .await?;
     }
+    Ok(())
+}
+
+async fn add_file(args: AddFileArgs) -> anyhow::Result<()> {
+    use std::io::Write;
+
+    let hash = Downloader::new()?.get_file_hash(&args.url).await?;
+
+    let file_existed = args.toml_file.is_file();
+    let mut file = OpenOptions::new()
+        .create(true)
+        .append(true)
+        .open(&args.toml_file)?;
+
+    let entry = ManifestFileManaged::new(
+        args.path,
+        to_hex(&hash),
+        args.url,
+        args.license.unwrap_or(String::new()),
+    );
+    let entry = toml::to_string(&entry)?;
+
+    let space = if file_existed { "\n" } else { "" };
+    write!(
+        file,
+        r#"{space}[[files]]
+{entry}"#,
+    )?;
 
     Ok(())
 }

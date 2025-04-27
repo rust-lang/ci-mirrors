@@ -1,7 +1,8 @@
 use crate::manifest::{MirrorFile, Source};
+use crate::utils::to_hex;
 use anyhow::{Error, bail};
 use futures::TryStreamExt as _;
-use reqwest::Client;
+use reqwest::{Client, Url};
 use sha2::{Digest as _, Sha256};
 use std::path::PathBuf;
 use std::pin::Pin;
@@ -47,7 +48,7 @@ impl Downloader {
 
         eprintln!("  -> success! the size is {}", format_size(writer.len));
 
-        let sha256 = to_hex(writer.sha256.finalize().as_slice());
+        let sha256 = to_hex(&writer.sha256);
         if sha256 != file.sha256 {
             bail!(
                 "the hash of {} doesn't match (expected {}, downloaded {})",
@@ -60,17 +61,28 @@ impl Downloader {
         Ok(())
     }
 
+    pub(crate) async fn get_file_hash(&self, url: &Url) -> Result<Sha256, Error> {
+        let mut writer = Sha256Writer::new(tokio::io::sink());
+        eprintln!("downloading {url}...");
+
+        let mut reader = StreamReader::new(
+            self.http
+                .get(url.clone())
+                .send()
+                .await?
+                .error_for_status()?
+                .bytes_stream()
+                .map_err(std::io::Error::other),
+        );
+        tokio::io::copy(&mut reader, &mut writer).await?;
+
+        eprintln!("  -> success! the size is {}", format_size(writer.len));
+        Ok(writer.sha256)
+    }
+
     pub(crate) fn path_for(&self, file: &MirrorFile) -> PathBuf {
         self.storage.path().join(&file.sha256)
     }
-}
-
-fn to_hex(bytes: &[u8]) -> String {
-    let mut result = String::new();
-    for byte in bytes {
-        result.push_str(&format!("{byte:0<2x}"));
-    }
-    result
 }
 
 fn format_size(size: usize) -> String {
@@ -84,7 +96,7 @@ fn format_size(size: usize) -> String {
     format!("{size:.2} TB")
 }
 
-struct Sha256Writer<W: AsyncWrite> {
+pub struct Sha256Writer<W: AsyncWrite> {
     sha256: Sha256,
     len: usize,
     writer: Pin<Box<W>>,
@@ -106,6 +118,8 @@ impl<W: AsyncWrite> AsyncWrite for Sha256Writer<W> {
         cx: &mut Context<'_>,
         buf: &[u8],
     ) -> Poll<Result<usize, std::io::Error>> {
+        use sha2::Digest;
+
         match self.writer.as_mut().poll_write(cx, buf) {
             Poll::Ready(Ok(written)) => {
                 self.sha256.update(&buf[..written]);
