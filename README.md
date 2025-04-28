@@ -31,6 +31,13 @@ the TOML files in the `files/` directory. Each entry has the following schema:
   artifacts built from open source code you should put the license identifier,
   for everything else you should put a link to the licensing terms.
 
+You can add a new entry either by manually modifying a TOML file in the `files` directory,
+or by using the following command:
+
+```bash
+$ cargo run -- add-file <source-url> --path <cdn-name> --toml-files <path-to-toml-file> [--license <license>]
+```
+
 Once the PR is merged, the file will be available at:
 
 ```

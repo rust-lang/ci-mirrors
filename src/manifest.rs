@@ -1,7 +1,7 @@
 use anyhow::{Context, Error};
 use reqwest::Url;
 use serde::de::Error as _;
-use serde::{Deserialize, Deserializer};
+use serde::{Deserialize, Deserializer, Serialize, Serializer};
 use std::cmp::Ordering;
 use std::collections::{BTreeSet, HashMap};
 use std::path::{Path, PathBuf};
@@ -223,22 +223,36 @@ struct ManifestFileLegacy {
     skip_validation: bool,
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Debug, Deserialize, Serialize)]
 #[serde(deny_unknown_fields)]
-struct ManifestFileManaged {
+pub struct ManifestFileManaged {
     name: String,
     sha256: String,
-    #[serde(deserialize_with = "deserialize_url")]
+    #[serde(deserialize_with = "deserialize_url", serialize_with = "serialize_url")]
     source: Url,
     // This field is not considered at all by the automation, we just enforce its presence so that
     // people adding new entries think about the licensing implications.
-    #[expect(unused)]
     license: String,
+}
+
+impl ManifestFileManaged {
+    pub fn new(name: String, sha256: String, source: Url, license: String) -> Self {
+        Self {
+            name,
+            sha256,
+            source,
+            license,
+        }
+    }
 }
 
 fn deserialize_url<'de, D: Deserializer<'de>>(de: D) -> Result<Url, D::Error> {
     let raw = String::deserialize(de)?;
     Url::parse(&raw).map_err(|e| D::Error::custom(format!("{e:?}")))
+}
+
+fn serialize_url<S: Serializer>(url: &Url, s: S) -> Result<S::Ok, S::Error> {
+    url.as_str().serialize(s)
 }
 
 fn deserialize_true<'de, D: Deserializer<'de>>(de: D) -> Result<(), D::Error> {
