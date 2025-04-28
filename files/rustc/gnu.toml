@@ -1,0 +1,11 @@
+[[files]]
+name = "rustc/binutils-2.44.tar.xz"
+source = "https://sourceware.org/pub/binutils/releases/binutils-2.44.tar.xz"
+sha256 = "ce2017e059d63e67ddb924e09d4ec49c2893605035cd60e92ad53177f4377237"
+license = "GNU General Public License"
+
+[[files]]
+name = "rustc/gcc-8.4.0.tar.xz"
+source = "https://bigsearcher.com/mirrors/gcc/releases/gcc-8.4.0/gcc-8.4.0.tar.xz"
+sha256 = "e3a06e52d1e01f27ed55104ad233c3b0d1e99cfb5ff98ab022dc941edd1b2dd4"
+license = "GNU General Public License"
