@@ -122,3 +122,15 @@ legacy = true
 name = "rustc/2023-05-17-clang+llvm-16.0.4-x86_64-linux-gnu-ubuntu-22.04.tar.xz"
 sha256 = "fd464333bd55b482eb7385f2f4e18248eb43129a3cda4c0920ad9ac3c12bdacf"
 legacy = true
+
+[[files]]
+name = "rustc/LLVM-20.1.3-win64.exe"
+source = "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.3/LLVM-20.1.3-win64.exe"
+sha256 = "a018ea761147a7de69d6dd60ef81b74096e5255aec6caff22d45da85188614af"
+license = "Apache License v2.0 with LLVM Exceptions"
+
+[[files]]
+name = "rustc/LLVM-20.1.3-woa64.exe"
+source = "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.3/LLVM-20.1.3-woa64.exe"
+sha256 = "cadc1d94e170d37300b077c0d071f39ef6b02a8415322be0891031da00a2ea29"
+license = "Apache License v2.0 with LLVM Exceptions"
