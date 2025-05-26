@@ -1,0 +1,5 @@
+[[files]]
+name = "gha-self-hosted/qemu-efi-aarch64_2022.11-6.deb"
+source = "http://ftp.debian.org/debian/pool/main/e/edk2/qemu-efi-aarch64_2022.11-6+deb12u2_all.deb"
+sha256 = "9a55c7b94fdf13a28928359a77d42e5364aa3ae2e558bd1fd5361955bf479d81"
+license = "BSD"
