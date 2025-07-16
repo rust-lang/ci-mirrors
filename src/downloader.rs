@@ -21,7 +21,9 @@ impl Downloader {
     pub(crate) fn new() -> Result<Self, Error> {
         Ok(Self {
             storage: TempDir::new()?,
-            http: Client::new(),
+            http: Client::builder()
+                .user_agent("https://github.com/rust-lang/ci-mirrors")
+                .build()?,
         })
     }
 
@@ -32,15 +34,16 @@ impl Downloader {
         };
         eprintln!("downloading {url}...");
 
-        let mut reader = StreamReader::new(
-            self.http
-                .get(url.clone())
-                .send()
-                .await?
-                .error_for_status()?
-                .bytes_stream()
-                .map_err(std::io::Error::other),
-        );
+        let resp = self.http.get(url.clone()).send().await?;
+        if !resp.status().is_success() {
+            bail!(
+                "failed to download with status {}: {url}\n=== body ===\n{}\n============\n",
+                resp.status(),
+                resp.text().await?
+            );
+        }
+
+        let mut reader = StreamReader::new(resp.bytes_stream().map_err(std::io::Error::other));
 
         let dest = File::create(self.path_for(file)).await?;
         let mut writer = Sha256Writer::new(BufWriter::new(dest));
