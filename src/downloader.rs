@@ -21,7 +21,9 @@ impl Downloader {
     pub(crate) fn new() -> Result<Self, Error> {
         Ok(Self {
             storage: TempDir::new()?,
-            http: Client::new(),
+            http: Client::builder()
+                .user_agent("https://github.com/rust-lang/ci-mirrors")
+                .build()?,
         })
     }
 
