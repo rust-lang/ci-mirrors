@@ -1,4 +1,10 @@
 [[files]]
+name = "rustc/binutils-2.40.tar.bz2"
+source = "https://sourceware.org/pub/binutils/releases/binutils-2.40.tar.bz2"
+sha256 = "f8298eb153a4b37d112e945aa5cb2850040bcf26a3ea65b5a715c83afe05e48a"
+license = "GNU General Public License"
+
+[[files]]
 name = "rustc/binutils-2.44.tar.xz"
 source = "https://sourceware.org/pub/binutils/releases/binutils-2.44.tar.xz"
 sha256 = "ce2017e059d63e67ddb924e09d4ec49c2893605035cd60e92ad53177f4377237"
