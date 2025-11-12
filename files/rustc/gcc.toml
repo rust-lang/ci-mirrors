@@ -3,3 +3,9 @@ name = "rustc/gcc/gmp-6.3.0.tar.bz2"
 source = "https://gmplib.org/download/gmp/gmp-6.3.0.tar.bz2"
 sha256 = "ac28211a7cfb609bae2e2c8d6058d66c8fe96434f740cf6fe2e47b000d1c20cb"
 license = "GNU General Public License"
+
+[[files]]
+name = "rustc/gcc/mpfr-4.2.2.tar.bz2"
+source = "https://www.mpfr.org/mpfr-current/mpfr-4.2.2.tar.bz2"
+sha256 = "9ad62c7dc910303cd384ff8f1f4767a655124980bb6d8650fe62c815a231bb7b"
+license = "GNU General Public License"
