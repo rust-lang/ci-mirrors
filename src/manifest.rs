@@ -44,44 +44,106 @@ struct LocationCache {
 pub(crate) fn load_manifests(load_from: &Path) -> Result<(Vec<MirrorFile>, Vec<String>), Error> {
     let mut result = Vec::new();
     let mut cache = LocationCache::default();
+    let mut errors = Vec::new();
 
     fn load_inner(
         load_from: &Path,
         result: &mut Vec<MirrorFile>,
         cache: &mut LocationCache,
+        errors: &mut Vec<String>,
     ) -> anyhow::Result<()> {
         for entry in load_from.read_dir()? {
             let path = entry?.path();
             if path.is_file() && path.extension().and_then(|s| s.to_str()) == Some("toml") {
-                let manifest = std::fs::read_to_string(&path)
+                let file_source = std::fs::read_to_string(&path)
                     .map_err(Error::from)
-                    .and_then(|raw| toml::from_str::<Manifest>(&raw).map_err(Error::from))
+                    .with_context(|| format!("failed to read {}", path.display()))?;
+                let manifest = toml::from_str::<Manifest>(&file_source)
+                    .map_err(Error::from)
                     .with_context(|| format!("failed to read {}", path.display()))?;
                 record_locations(&path, &manifest, cache);
 
                 for file in manifest.files {
-                    result.push(match file.into_inner() {
+                    let mirror_file = match file.into_inner() {
                         ManifestFile::Legacy(legacy) => MirrorFile {
                             name: legacy.name,
                             sha256: legacy.sha256,
                             source: Source::Legacy,
+                            rename_from: None,
                         },
                         ManifestFile::Managed(managed) => MirrorFile {
                             name: managed.name,
                             sha256: managed.sha256,
                             source: Source::Url(managed.source),
+                            rename_from: managed.rename_from,
                         },
-                    });
+                    };
+                    if let Source::Url(ref source) = mirror_file.source {
+                        if let Some(file_name) = source.path().split('/').last()
+                            && let Some(path_name) = mirror_file.name.split('/').last()
+                        {
+                            match mirror_file.rename_from {
+                                Some(ref rename_from) => {
+                                    if path_name == file_name {
+                                        let location = cache
+                                            .seen_paths
+                                            .get(&mirror_file.name)
+                                            .unwrap()
+                                            .first()
+                                            .unwrap();
+                                        let (src_line, snippet) = span_info(&file_source, location);
+                                        errors.push(format!(
+                                            "`rename-from` field isn't needed since `source` and `name` field have the same file name (`{file_name}`):\n\
+                                             # {} (line {src_line})\n{snippet}\n",
+                                            location.file.display()
+                                        ));
+                                    } else if path_name != file_name && rename_from != file_name {
+                                        let location = cache
+                                            .seen_paths
+                                            .get(&mirror_file.name)
+                                            .unwrap()
+                                            .first()
+                                            .unwrap();
+                                        let (src_line, snippet) = span_info(&file_source, location);
+                                        errors.push(format!(
+                                            "`rename-from` field value doesn't match name from the URL `{source}` (`{file_name}` != `{rename_from}`):\n\
+                                             # {} (line {src_line})\n{snippet}\n",
+                                            location.file.display()
+                                        ));
+                                    }
+                                }
+                                None => {
+                                    if path_name != file_name {
+                                        let location = cache
+                                            .seen_paths
+                                            .get(&mirror_file.name)
+                                            .unwrap()
+                                            .first()
+                                            .unwrap();
+                                        let (src_line, snippet) = span_info(&file_source, location);
+                                        errors.push(format!(
+                                            "The name from the URL `{source}` doesn't match the `name` field (`{file_name}` != `{path_name}`). \
+                                             Add `rename-from = {file_name:?}` to fix this error:\n\
+                                             # {} (line {src_line})\n{snippet}\n",
+                                            location.file.display()
+                                        ));
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    result.push(mirror_file);
                 }
             } else if path.is_dir() {
-                load_inner(&path, result, cache)?;
+                load_inner(&path, result, cache, errors)?;
             }
         }
         Ok(())
     }
 
-    load_inner(load_from, &mut result, &mut cache)?;
-    Ok((result, find_errors(cache)))
+    load_inner(load_from, &mut result, &mut cache, &mut errors)?;
+    find_errors(cache, &mut errors);
+    Ok((result, errors))
 }
 
 fn record_locations(toml_path: &Path, manifest: &Manifest, cache: &mut LocationCache) {
@@ -114,12 +176,32 @@ fn record_locations(toml_path: &Path, manifest: &Manifest, cache: &mut LocationC
             .or_default()
             .insert(location.clone());
         if let Some(url) = url {
-            cache.seen_urls.entry(url).or_default().insert(location);
+            cache
+                .seen_urls
+                .entry(url)
+                .or_default()
+                .insert(location.clone());
         }
     }
 }
 
-fn find_errors(cache: LocationCache) -> Vec<String> {
+fn span_info<'a>(content: &'a str, location: &Location) -> (usize, &'a str) {
+    // Find the corresponding line number
+    let mut accumulated_chars = 0;
+    let mut src_line = 0;
+    for (index, line) in content.lines().enumerate() {
+        accumulated_chars += line.len() + 1; // +1 for newline
+        if accumulated_chars > location.span.0.start {
+            src_line = index + 1;
+            break;
+        }
+    }
+
+    let snippet = &content[location.span.0.start..location.span.0.end];
+    (src_line, snippet)
+}
+
+fn find_errors(cache: LocationCache, errors: &mut Vec<String>) {
     let mut file_cache: HashMap<PathBuf, String> = HashMap::new();
 
     fn format_locations(
@@ -136,18 +218,7 @@ fn find_errors(cache: LocationCache) -> Vec<String> {
                 })
             });
 
-            // Find the corresponding line number
-            let mut accumulated_chars = 0;
-            let mut src_line = 0;
-            for (index, line) in content.lines().enumerate() {
-                accumulated_chars += line.len() + 1; // +1 for newline
-                if accumulated_chars > location.span.0.start {
-                    src_line = index + 1;
-                    break;
-                }
-            }
-
-            let snippet = &content[location.span.0.start..location.span.0.end];
+            let (src_line, snippet) = span_info(&content, location);
             writeln!(
                 output,
                 "# {} (line {src_line})\n{snippet}\n",
@@ -159,7 +230,6 @@ fn find_errors(cache: LocationCache) -> Vec<String> {
         output
     }
 
-    let mut errors = Vec::new();
     for (path, locations) in cache.seen_paths {
         if locations.len() > 1 {
             errors.push(format!(
@@ -184,13 +254,13 @@ fn find_errors(cache: LocationCache) -> Vec<String> {
             ));
         }
     }
-    errors
 }
 
 pub(crate) struct MirrorFile {
     pub(crate) name: String,
     pub(crate) sha256: String,
     pub(crate) source: Source,
+    pub(crate) rename_from: Option<String>,
 }
 
 pub(crate) enum Source {
@@ -233,15 +303,24 @@ pub struct ManifestFileManaged {
     // This field is not considered at all by the automation, we just enforce its presence so that
     // people adding new entries think about the licensing implications.
     license: String,
+    #[serde(default, rename = "rename-from")]
+    rename_from: Option<String>,
 }
 
 impl ManifestFileManaged {
-    pub fn new(name: String, sha256: String, source: Url, license: String) -> Self {
+    pub fn new(
+        name: String,
+        sha256: String,
+        source: Url,
+        license: String,
+        rename_from: Option<String>,
+    ) -> Self {
         Self {
             name,
             sha256,
             source,
             license,
+            rename_from,
         }
     }
 }
