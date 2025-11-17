@@ -167,11 +167,21 @@ async fn add_file(args: AddFileArgs) -> anyhow::Result<()> {
         .append(true)
         .open(&args.toml_file)?;
 
+    let rename_from = if let Some(file_name) = args.url.path().split('/').last()
+        && let Some(path_name) = args.path.split('/').last()
+        && file_name != path_name
+    {
+        Some(file_name.to_string())
+    } else {
+        None
+    };
+
     let entry = ManifestFileManaged::new(
         args.path,
         to_hex(&hash),
         args.url,
         args.license.unwrap_or(String::new()),
+        rename_from,
     );
     let entry = toml::to_string(&entry)?;
 

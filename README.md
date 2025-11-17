@@ -31,6 +31,10 @@ the TOML files in the `files/` directory. Each entry has the following schema:
   artifacts built from open source code you should put the license identifier,
   for everything else you should put a link to the licensing terms.
 
+* **`rename-from`**: in case the `source` file has a different name than `name`,
+  you need to add this field to explicitly mark that this is expected with the
+  file name from `source`.
+
 You can add a new entry either by manually modifying a TOML file in the `files` directory,
 or by using the following command:
 
