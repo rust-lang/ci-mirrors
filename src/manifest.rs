@@ -46,6 +46,27 @@ pub(crate) fn load_manifests(load_from: &Path) -> Result<(Vec<MirrorFile>, Vec<S
     let mut cache = LocationCache::default();
     let mut errors = Vec::new();
 
+    fn emit_error(
+        error: String,
+        mirror_file: &MirrorFile,
+        file_source: &str,
+        cache: &LocationCache,
+        errors: &mut Vec<String>,
+    ) {
+        let location = cache
+            .seen_paths
+            .get(&mirror_file.name)
+            .unwrap()
+            .first()
+            .unwrap();
+        let (src_line, snippet) = span_info(&file_source, location);
+        errors.push(format!(
+            "{error}:\n\
+             # {} (line {src_line})\n{snippet}\n",
+            location.file.display()
+        ));
+    }
+
     fn load_inner(
         load_from: &Path,
         result: &mut Vec<MirrorFile>,
@@ -85,48 +106,39 @@ pub(crate) fn load_manifests(load_from: &Path) -> Result<(Vec<MirrorFile>, Vec<S
                             match mirror_file.rename_from {
                                 Some(ref rename_from) => {
                                     if path_name == file_name {
-                                        let location = cache
-                                            .seen_paths
-                                            .get(&mirror_file.name)
-                                            .unwrap()
-                                            .first()
-                                            .unwrap();
-                                        let (src_line, snippet) = span_info(&file_source, location);
-                                        errors.push(format!(
-                                            "`rename-from` field isn't needed since `source` and `name` field have the same file name (`{file_name}`):\n\
-                                             # {} (line {src_line})\n{snippet}\n",
-                                            location.file.display()
-                                        ));
-                                    } else if path_name != file_name && rename_from != file_name {
-                                        let location = cache
-                                            .seen_paths
-                                            .get(&mirror_file.name)
-                                            .unwrap()
-                                            .first()
-                                            .unwrap();
-                                        let (src_line, snippet) = span_info(&file_source, location);
-                                        errors.push(format!(
-                                            "`rename-from` field value doesn't match name from the URL `{source}` (`{file_name}` != `{rename_from}`):\n\
-                                             # {} (line {src_line})\n{snippet}\n",
-                                            location.file.display()
-                                        ));
+                                        emit_error(
+                                            format!(
+                                                "`rename-from` field isn't needed since `source` and `name` field have the same file name (`{file_name}`)"
+                                            ),
+                                            &mirror_file,
+                                            &file_source,
+                                            cache,
+                                            errors,
+                                        );
+                                    } else if rename_from != file_name {
+                                        emit_error(
+                                            format!(
+                                                "`rename-from` field value doesn't match name from the URL `{source}` (`{file_name}` != `{rename_from}`)"
+                                            ),
+                                            &mirror_file,
+                                            &file_source,
+                                            cache,
+                                            errors,
+                                        );
                                     }
                                 }
                                 None => {
                                     if path_name != file_name {
-                                        let location = cache
-                                            .seen_paths
-                                            .get(&mirror_file.name)
-                                            .unwrap()
-                                            .first()
-                                            .unwrap();
-                                        let (src_line, snippet) = span_info(&file_source, location);
-                                        errors.push(format!(
-                                            "The name from the URL `{source}` doesn't match the `name` field (`{file_name}` != `{path_name}`). \
-                                             Add `rename-from = {file_name:?}` to fix this error:\n\
-                                             # {} (line {src_line})\n{snippet}\n",
-                                            location.file.display()
-                                        ));
+                                        emit_error(
+                                            format!(
+                                                "The name from the URL `{source}` doesn't match the `name` field (`{file_name}` != `{path_name}`). \
+                                             Add `rename-from = {file_name:?}` to fix this error"
+                                            ),
+                                            &mirror_file,
+                                            &file_source,
+                                            cache,
+                                            errors,
+                                        );
                                     }
                                 }
                             }
