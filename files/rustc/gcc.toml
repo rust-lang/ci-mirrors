@@ -15,3 +15,9 @@ name = "rustc/gcc/mpc-1.3.1.tar.gz"
 source = "https://ftp.gnu.org/gnu/mpc/mpc-1.3.1.tar.gz"
 sha256 = "ab642492f5cf882b74aa0cb730cd410a81edcdbec895183ce930e706c1c759b8"
 license = "GNU General Public License"
+
+[[files]]
+name = "/rustc/gcc/gcc-9.2.0.tar.xz"
+sha256 = "ea6ef08f121239da5695f76c9b33637a118dcf63e24164422231917fa61fb206"
+source = "https://ftp.gnu.org/gnu/gcc/gcc-9.2.0/gcc-9.2.0.tar.xz"
+license = "GNU General Public License"
