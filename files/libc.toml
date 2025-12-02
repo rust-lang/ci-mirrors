@@ -42,6 +42,7 @@ sha256 = "a9a118bbe84d8764da0ea0d28b3ab3fae8477fc7e4085d90102b8596fc7c75e4"
 source = "https://www.musl-libc.org/releases/musl-1.2.5.tar.gz"
 license = "MIT"
 
+# The `libc/linux-*` paths are unused.
 [[files]]
 name = "libc/linux-6.6.tar.xz"
 sha256 = "d926a06c63dd8ac7df3f86ee1ffc2ce2a3b81a2d168484e76b5b389aba8e56d0"
@@ -56,6 +57,24 @@ license = "GPL-2.0-only WITH Linux-syscall-note"
 
 [[files]]
 name = "libc/linux-6.18.tar.xz"
+sha256 = "9106a4605da9e31ff17659d958782b815f9591ab308d03b0ee21aad6c7dced4b"
+source = "https://kernel.org/pub/linux/kernel/v6.x/linux-6.18.tar.xz"
+license = "GPL-2.0-only WITH Linux-syscall-note"
+
+[[files]]
+name = "linux/kernel/v6.x/linux-6.6.tar.xz"
+sha256 = "d926a06c63dd8ac7df3f86ee1ffc2ce2a3b81a2d168484e76b5b389aba8e56d0"
+source = "https://kernel.org/pub/linux/kernel/v6.x/linux-6.6.tar.xz"
+license = "GPL-2.0-only WITH Linux-syscall-note"
+
+[[files]]
+name = "linux/kernel/v6.x/linux-6.14.tar.xz"
+sha256 = "a294b683e7b161bb0517bb32ec7ed1d2ea7603dfbabad135170ed12d00c47670"
+source = "https://kernel.org/pub/linux/kernel/v6.x/linux-6.14.tar.xz"
+license = "GPL-2.0-only WITH Linux-syscall-note"
+
+[[files]]
+name = "linux/kernel/v6.x/linux-6.18.tar.xz"
 sha256 = "9106a4605da9e31ff17659d958782b815f9591ab308d03b0ee21aad6c7dced4b"
 source = "https://kernel.org/pub/linux/kernel/v6.x/linux-6.18.tar.xz"
 license = "GPL-2.0-only WITH Linux-syscall-note"
