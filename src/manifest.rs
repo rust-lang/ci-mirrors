@@ -99,6 +99,16 @@ pub(crate) fn load_manifests(load_from: &Path) -> Result<(Vec<MirrorFile>, Vec<S
                             rename_from: managed.rename_from,
                         },
                     };
+                    if mirror_file.name.starts_with('/') {
+                        emit_error(
+                            "Mirrored path cannot start with a slash (/)".to_string(),
+                            &mirror_file,
+                            &file_source,
+                            cache,
+                            errors,
+                        );
+                    }
+
                     if let Source::Url(ref source) = mirror_file.source {
                         if let Some(file_name) = source.path().split('/').last()
                             && let Some(path_name) = mirror_file.name.split('/').last()
