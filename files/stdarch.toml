@@ -13,3 +13,9 @@ name = "stdarch/sde-external-9.58.0-2025-06-16-lin.tar.xz"
 source = "https://downloadmirror.intel.com/859732/sde-external-9.58.0-2025-06-16-lin.tar.xz"
 sha256 = "f849acecad4c9b108259c643b2688fd65c35723cd23368abe5dd64b917cc18c0"
 license = "https://www.intel.com/content/www/us/en/developer/articles/license/end-user-license-agreement.html"
+
+[[files]]
+name = "stdarch/sde-external-10.5.0-2026-01-13-lin.tar.xz"
+source = "https://downloadmirror.intel.com/873619/sde-external-10.5.0-2026-01-13-lin.tar.xz"
+sha256 = "6542a938efb3fd226c9877d0bdd27b4a18f8330157ce1de6c1f70252f0aa52d5"
+license = "https://www.intel.com/content/www/us/en/developer/articles/license/end-user-license-agreement.html"
