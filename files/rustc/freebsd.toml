@@ -47,3 +47,10 @@ legacy = true
 name = "rustc/2024-09-13-freebsd-13.4-i386-base.txz"
 sha256 = "fc8f624bc3f60d2f04fadfc7de50f5b7ed22fe0314faf637bf46bbdd173f41d8"
 legacy = true
+
+[[files]]
+name = "rustc/2025-03-07-freebsd-13.5-arm64-base.txz"
+sha256 = "5accbba73bcaedd43b2628ad8c2997b6bee02503854098e08c83890559bd2bdf"
+source = "https://download.freebsd.org/releases/arm64/13.5-RELEASE/base.txz"
+license = ""
+rename-from = "base.txz"
