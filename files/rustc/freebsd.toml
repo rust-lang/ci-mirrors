@@ -54,3 +54,10 @@ sha256 = "5accbba73bcaedd43b2628ad8c2997b6bee02503854098e08c83890559bd2bdf"
 source = "https://download.freebsd.org/releases/arm64/13.5-RELEASE/base.txz"
 license = ""
 rename-from = "base.txz"
+
+[[files]]
+name = "rustc/2026-03-10-freebsd-14.4-arm64-base.txz"
+sha256 = "c456bf75ee3d0b4da0b0b527402b0a9e61497f02756b2cc5801b51e80b3f90c4"
+source = "https://download.freebsd.org/releases/arm64/14.4-RELEASE/base.txz"
+license = ""
+rename-from = "base.txz"
