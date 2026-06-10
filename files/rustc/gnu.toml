@@ -15,3 +15,9 @@ name = "rustc/gcc-8.4.0.tar.xz"
 source = "https://bigsearcher.com/mirrors/gcc/releases/gcc-8.4.0/gcc-8.4.0.tar.xz"
 sha256 = "e3a06e52d1e01f27ed55104ad233c3b0d1e99cfb5ff98ab022dc941edd1b2dd4"
 license = "GNU General Public License"
+
+[[files]]
+name = "rustc/chrome-linux64.zip"
+source = "https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.22/linux64/chrome-linux64.zip"
+sha256 = "69d3de016c1e6e0483fe0d78954b66f46fd4404cb5900978a28df22657071194"
+license = "https://www.google.com/chrome/terms/"
