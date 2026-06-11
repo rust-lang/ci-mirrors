@@ -39,7 +39,7 @@ You can add a new entry either by manually modifying a TOML file in the `files` 
 or by using the following command:
 
 ```bash
-$ cargo run -- add-file <source-url> --path <cdn-name> --toml-files <path-to-toml-file> [--license <license>]
+$ cargo run -- add-file <source-url> --path <cdn-name> --toml-file <path-to-toml-file> [--license <license>]
 ```
 
 Once the PR is merged, the file will be available at:
