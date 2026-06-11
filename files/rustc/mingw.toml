@@ -133,3 +133,15 @@ legacy = true
 name = "rustc/msys2-repo/msys/x86_64/zstd-1.4.4-2-x86_64.pkg.tar.xz"
 sha256 = "b7cbd3bf4cc1992d413bc220bf06e29ad36f042ed14c144c761de036174c1445"
 legacy = true
+
+[[files]]
+name = "rustc/x86_64-14.2.0-release-posix-seh-msvcrt-rt_v12-rev2.7z"
+sha256 = "9b8f39d04521c078d6a7f88ae4f9f052eb574f303f4134c7b614074d34e21363"
+source = "https://github.com/niXman/mingw-builds-binaries/releases/download/14.2.0-rt_v12-rev2/x86_64-14.2.0-release-posix-seh-msvcrt-rt_v12-rev2.7z"
+license = "GNU General Public License"
+
+[[files]]
+name = "rustc/i686-14.2.0-release-posix-dwarf-msvcrt-rt_v12-rev2.7z"
+sha256 = "895d22c902e22d4b7b1c1b4160d1b3d70bbd6fc653b04f46b7736ef0ef5e4bc2"
+source = "https://github.com/niXman/mingw-builds-binaries/releases/download/14.2.0-rt_v12-rev2/i686-14.2.0-release-posix-dwarf-msvcrt-rt_v12-rev2.7z"
+license = "GNU General Public License"
