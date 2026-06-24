@@ -78,3 +78,9 @@ name = "linux/kernel/v6.x/linux-6.18.tar.xz"
 sha256 = "9106a4605da9e31ff17659d958782b815f9591ab308d03b0ee21aad6c7dced4b"
 source = "https://kernel.org/pub/linux/kernel/v6.x/linux-6.18.tar.xz"
 license = "GPL-2.0-only WITH Linux-syscall-note"
+
+[[files]]
+name = "libc/linux-7.0.tar.xz"
+sha256 = "bb7f6d80b387c757b7d14bb93028fcb90f793c5c0d367736ee815a100b3891f0"
+source = "https://kernel.org/pub/linux/kernel/v7.x/linux-7.0.tar.xz"
+license = "GPL-2.0 WITH Linux-syscall-note"
