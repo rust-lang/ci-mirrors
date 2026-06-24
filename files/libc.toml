@@ -42,6 +42,12 @@ sha256 = "a9a118bbe84d8764da0ea0d28b3ab3fae8477fc7e4085d90102b8596fc7c75e4"
 source = "https://www.musl-libc.org/releases/musl-1.2.5.tar.gz"
 license = "MIT"
 
+[[files]]
+name = "libc/musl-1.2.6.tar.gz"
+sha256 = "d585fd3b613c66151fc3249e8ed44f77020cb5e6c1e635a616d3f9f82460512a"
+source = "https://www.musl-libc.org/releases/musl-1.2.6.tar.gz"
+license = "MIT"
+
 # The `libc/linux-*` paths are unused.
 [[files]]
 name = "libc/linux-6.6.tar.xz"
