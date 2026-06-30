@@ -277,3 +277,31 @@ legacy = true
 name = "rustc/2019-12-17-sccache-aarch64-unknown-linux-gnu"
 sha256 = "bf198b548e82f334dd092e493c2dc1adf7b8557a6651a3a2c37249aff801db42"
 legacy = true
+
+[[files]]
+name = "2026-06-19-sccache-v0.16.0-aarch64-apple-darwin.tar.gz"
+sha256 = "ded590cae2c72042c61178632906bef62d635fa20d45f8b22110a2241f430960"
+source = "https://github.com/mozilla/sccache/releases/download/v0.16.0/sccache-v0.16.0-aarch64-apple-darwin.tar.gz"
+license = "Apache License v2.0"
+rename-from = "sccache-v0.16.0-aarch64-apple-darwin.tar.gz"
+
+[[files]]
+name = "2026-06-19-sccache-v0.16.0-aarch64-pc-windows-msvc.zip"
+sha256 = "6a715fe44d9b7a2cac15c256411ef232d3b6276e2421bd3be16ab32af71fbf88"
+source = "https://github.com/mozilla/sccache/releases/download/v0.16.0/sccache-v0.16.0-aarch64-pc-windows-msvc.zip"
+license = "Apache License v2.0"
+rename-from = "sccache-v0.16.0-aarch64-pc-windows-msvc.zip"
+
+[[files]]
+name = "2026-06-19-sccache-v0.16.0-aarch64-unknown-linux-musl.tar.gz"
+sha256 = "f73a5c39f96bb6ebb89cc7915cf182260d4cbf30765322c5e793d0fe8bd80784"
+source = "https://github.com/mozilla/sccache/releases/download/v0.16.0/sccache-v0.16.0-aarch64-unknown-linux-musl.tar.gz"
+license = "Apache License v2.0"
+rename-from = "sccache-v0.16.0-aarch64-unknown-linux-musl.tar.gz"
+
+[[files]]
+name = "2026-06-19-sccache-v0.16.0-x86_64-unknown-linux-musl.tar.gz"
+sha256 = "aec995a83ad3dff3d14b6314e08858b7b73d35ca85a5bcf3d3a9ec07dee35588"
+source = "https://github.com/mozilla/sccache/releases/download/v0.16.0/sccache-v0.16.0-x86_64-unknown-linux-musl.tar.gz"
+license = "Apache License v2.0"
+rename-from = "sccache-v0.16.0-x86_64-unknown-linux-musl.tar.gz"
