@@ -312,3 +312,10 @@ sha256 = "b8514ed7552e148b0a032114f745118dcb801791adafafeaf9935e4bfb0edf1b"
 source = "https://github.com/mozilla/sccache/releases/download/v0.16.0/sccache-v0.16.0-x86_64-pc-windows-msvc.zip"
 license = "Apache License v2.0"
 rename-from = "sccache-v0.16.0-x86_64-pc-windows-msvc.zip"
+
+[[files]]
+name = "2026-06-19-sccache-v0.16.0-x86_64-apple-darwin.tar.gz"
+sha256 = "f7dbd055db75a938ab1539f5316c5d08e73a1b94c40ab170ddcc617f5bf18343"
+source = "https://github.com/mozilla/sccache/releases/download/v0.16.0/sccache-v0.16.0-x86_64-apple-darwin.tar.gz"
+license = "Apache License v2.0"
+rename-from = "sccache-v0.16.0-x86_64-apple-darwin.tar.gz"
