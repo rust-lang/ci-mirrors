@@ -305,3 +305,10 @@ sha256 = "aec995a83ad3dff3d14b6314e08858b7b73d35ca85a5bcf3d3a9ec07dee35588"
 source = "https://github.com/mozilla/sccache/releases/download/v0.16.0/sccache-v0.16.0-x86_64-unknown-linux-musl.tar.gz"
 license = "Apache License v2.0"
 rename-from = "sccache-v0.16.0-x86_64-unknown-linux-musl.tar.gz"
+
+[[files]]
+name = "2026-06-19-sccache-0.16.0-x86_64-pc-windows-msvc.zip"
+sha256 = "b8514ed7552e148b0a032114f745118dcb801791adafafeaf9935e4bfb0edf1b"
+source = "https://github.com/mozilla/sccache/releases/download/v0.16.0/sccache-v0.16.0-x86_64-pc-windows-msvc.zip"
+license = "Apache License v2.0"
+rename-from = "sccache-v0.16.0-x86_64-pc-windows-msvc.zip"
