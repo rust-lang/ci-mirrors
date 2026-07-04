@@ -39,3 +39,13 @@ name = "rustc/kernel/linux-5.19.17.tar.gz"
 sha256 = "fbfd02954bea5cf3e01a6e5b25423bfc6ad898bf95d32699d03aa456e777ff4c"
 source = "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/snapshot/linux-5.19.17.tar.gz"
 license = "GPL-2.0"
+
+# Unfortunately, crosstools-ng only has a single unified mirror base URL, which
+# means we can't mirror kernel artifacts under nested `/rustc/kernel/`, we have
+# to do it under `/rustc/` directly.
+
+[[files]]
+name = "rustc/linux-3.2.102.tar.gz"
+sha256 = "81098f1aa5bc07c282bdc925dd6b122234dfbf69d1ed6d92075f3925e0c2ac43"
+source = "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/snapshot/linux-3.2.102.tar.gz"
+license = "GPL-2.0"
