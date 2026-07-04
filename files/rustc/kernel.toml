@@ -1,0 +1,41 @@
+[[files]]
+name = "rustc/kernel/linux-3.2.86.tar.xz"
+sha256 = "c5a4494cdf27421d8cf05039937f7a0410ec83b649730d46a01beef6257c72d9"
+source = "http://mirrors.ustc.edu.cn/kernel.org/linux/kernel/v3.x/linux-3.2.86.tar.xz"
+license = "GPL-2.0"
+
+[[files]]
+name = "rustc/kernel/linux-3.10.105.tar.xz"
+sha256 = "1c5bcc129cbbe2f665e8446b4c2fdbec0ec5f2b5d40495abfba13bbf66ac699c"
+source = "https://mirrors.ustc.edu.cn/kernel.org/linux/kernel/v3.x/linux-3.10.105.tar.xz"
+license = "GPL-2.0"
+
+[[files]]
+name = "rustc/kernel/linux-4.4.302.tar.xz"
+sha256 = "35017bb40b604e0b577fc2b87e727632b46608a2ba3a4f5858b9177f58f376b3"
+source = "https://web.archive.org/web/20240515072011/https://mirrors.edge.kernel.org/pub/linux/kernel/v4.x/linux-4.4.302.tar.xz"
+license = "GPL-2.0"
+
+[[files]]
+name = "rustc/kernel/linux-4.14.336.tar.xz"
+sha256 = "0820fdb7971c6974338081c11fbf2dc869870501e7bdcac4d0ed58ba1f57b61c"
+source = "https://web.archive.org/web/20240515072334/https://mirrors.edge.kernel.org/pub/linux/kernel/v4.x/linux-4.14.336.tar.xz"
+license = "GPL-2.0"
+
+[[files]]
+name = "rustc/kernel/linux-4.19.312.tar.xz"
+sha256 = "a394fa5ffe321ee43dae9cccc724572f49fbb289875d39ea695adf712e51f74a"
+source = "https://web.archive.org/web/20240507062408/https://mirrors.edge.kernel.org/pub/linux/kernel/v4.x/linux-4.19.312.tar.xz"
+license = "GPL-2.0"
+
+[[files]]
+name = "rustc/kernel/linux-4.20.17.tar.xz"
+sha256 = "d011245629b980d4c15febf080b54804aaf215167b514a3577feddb2495f8a3e"
+source = "https://web.archive.org/web/20240507093811/https://mirrors.edge.kernel.org/pub/linux/kernel/v4.x/linux-4.20.17.tar.xz"
+license = "GPL-2.0"
+
+[[files]]
+name = "rustc/kernel/linux-5.19.17.tar.xz"
+sha256 = "c93bb384a97ad1f0a4f18e442ce0291242722f78023eca658b22344541f09489"
+source = "https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.19.17.tar.xz"
+license = "GPL-2.0"
