@@ -134,3 +134,15 @@ name = "rustc/LLVM-20.1.3-woa64.exe"
 source = "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.3/LLVM-20.1.3-woa64.exe"
 sha256 = "cadc1d94e170d37300b077c0d071f39ef6b02a8415322be0891031da00a2ea29"
 license = "Apache License v2.0 with LLVM Exceptions"
+
+[[files]]
+name = "rustc/LLVM-22.1.8-win64.exe"
+source = "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.8/LLVM-22.1.8-win64.exe"
+sha256 = "16e5709785fef73c854646241c4a92c5cd574318d1b33c63330dd7721903e55c"
+license = "Apache License v2.0 with LLVM Exceptions"
+
+[[files]]
+name = "rustc/LLVM-22.1.8-woa64.exe"
+source = "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.8/LLVM-22.1.8-woa64.exe"
+sha256 = "76f44ef1ba6eeb5a65904e9500f042f588fade49952778ce48f0374daa934396"
+license = "Apache License v2.0 with LLVM Exceptions"
