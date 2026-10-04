@@ -64,3 +64,19 @@ need to do so, please ask the infra team on Zulip.
 >
 > Storage space in ci-mirrors is not a concern. If you need to upload a new
 > version of a file, add it separately without deleting the old one.
+
+## Naming conventions
+
+### Artifacts used by `rust-lang/rust` CI
+
+For artifacts used by `rust-lang/rust` CI, they should adopt the following
+naming convention:
+
+* If the artifact is used by `crosstools-ng` ("CT-NG"), then CT-NG's mirror
+  artifact search logic requires the artifact to be directly available under
+  `rustc/`.
+  * Example: `rustc/linux-3.2.101.tar.gz` (the archive is used by CT-NG).
+* If the artifact is used "ordinarily" and not by CT-NG, then the artifact
+  should be made available at preferably a "namespaced" path such as
+  `rustc/busybox/`.
+  * Example: `rustc/busybox/busybox-1.2.3.tar.bz2`.
