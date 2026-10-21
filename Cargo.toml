@@ -6,8 +6,8 @@ license = "MIT OR Apache-2.0"
 
 [dependencies]
 anyhow = "1.0.97"
-aws-config = { version = "1.6.1", features = ["behavior-version-latest"] }
-aws-sdk-s3 = "1.82.0"
+aws-config = { version = "1.6.1", default-features = false, features = ["behavior-version-latest", "rt-tokio", "default-https-client"] }
+aws-sdk-s3 = { version = "1.82.0", default-features = false, features = ["behavior-version-latest", "sigv4a", "rt-tokio", "default-https-client"] }
 clap = { version = "4.5.35", default-features = false, features = ["std", "derive", "help"] }
 futures = "0.3.31"
 reqwest = { version = "0.12.15", features = ["stream"] }
