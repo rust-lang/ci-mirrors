@@ -69,3 +69,9 @@ name = "rustc/gcc/binutils-2.47.tar.xz"
 sha256 = "154ab23b60070e8f27013c22977f1129425d67d1e8acd6e13010e617811e4cff"
 source = "https://ftp.gnu.org/gnu/binutils/binutils-2.47.tar.xz"
 license = "GNU General Public License"
+
+[[files]]
+name = "rustc/gcc/binutils-2.38.tar.xz"
+sha256 = "e316477a914f567eccc34d5d29785b8b0f5a10208d36bbacedcc39048ecfe024"
+source = "https://ftp.gnu.org/gnu/binutils/binutils-2.38.tar.xz"
+license = "GNU General Public License"
