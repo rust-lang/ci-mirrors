@@ -31,3 +31,9 @@ name = "llvm/llvm-22.1.4-x86_64.tar.gz"
 sha256 = "23a0f35f08c7ff87307769ef13a211db0ac4c657b43f8c55e51ba6aa6bf566c4"
 source = "https://mirrors.edge.kernel.org/pub/tools/llvm/files/llvm-22.1.4-x86_64.tar.gz"
 license = "Apache License v2.0 with LLVM Exceptions"
+
+[[files]]
+name = "llvm/llvm-23.1.6-x86_64.tar.gz"
+sha256 = "472b0c17e707b60704e2d09a9b489038c7c1a0296e2eb6981cbe1498481dfb25"
+source = "https://mirrors.edge.kernel.org/pub/tools/llvm/files/llvm-23.1.6-x86_64.tar.gz"
+license = "Apache License v2.0 with LLVM Exceptions"
